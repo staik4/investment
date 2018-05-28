@@ -36,7 +36,15 @@
     <section id="banner">
       <div class="container">
         <div class="row">
-          <div class="slider visible-part" data-slider="0">
+          <div class="slider visible-part d-flex align-items-center" data-slider="0">
+            <div class="form-request">
+              <form class="form-request-form form-control" action="">
+                <input placeholder="Введите Ваше ФИО" class="form-control" type="text" name="name" value="">
+                <input placeholder="Введите Ваш email" class="form-control" type="email" name="email" value="">
+                <input placeholder="Введите Ваш телефон" class="form-control" type="tel" name="tel" value="">
+                <input class="btn btn-primary" type="submit" name="" value="УСПЕЙТЕ ВЗЯТЬ ТАЛОН" disabled="true">
+              </form>
+            </div>
             <div class="wrapper d-flex">
               <div class="slide-item d-flex align-items-center" data-slide="0">
                 <div class="fadeIn slogan"><span>Слоган_0</span></div>
@@ -58,7 +66,25 @@
 
     <section id="projects">
       <div class="container">
-        <div class="row d-flex">
+        <div class="row d-flex justify-content-center">
+          <div class="description-project" data-prnum="1">
+            <span>1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+
+            <button>Close</button>
+          </div>
+          <div class="description-project" data-prnum="2">
+            <span>2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore laborum ea cum eligendi nam eveniet officiis maxime voluptatibus, minus alias!</span>
+            <button>Close</button>
+          </div>
+          <div class="description-project" data-prnum="3">
+            <span>3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam voluptate quia nostrum iure laboriosam ipsa, nulla dignissimos consectetur illo magni!</span>
+            <button>Close</button>
+          </div>
+          <div class="description-project" data-prnum="4">
+            <span>4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati minima, inventore pariatur error aspernatur officia asperiores esse. Vero, perferendis, suscipit!</span>
+            <button>Close</button>
+          </div>
+
           <div class="col-xl-6 projects-item" data-project="1">
             <div class="title-projects">
               <span>ДОМ ОТДЫХА</span>
@@ -75,7 +101,7 @@
             </div>
           </div>
           <div class="col-xl-6 projects-item" data-project="4">
-            <div class="title-projects">
+            <div class="title-projects" >
               <span>ТРОИЦА</span>
             </div>
           </div>
@@ -87,31 +113,31 @@
       <div class="container">
         <div class="row">
           <div class="menu-payback d-flex justify-content-between" style="width:100%">
-            <div class="d-flex justify-content-center align-items-center memu-payback-item col-xl-3">
+            <div data-menupayback="holidayhome" class="d-flex justify-content-center align-items-center memu-payback-item col-xl-3 active-memu-payback-item">
               <span>ДОМ ОТДЫХА</span>
             </div>
-            <div class="d-flex justify-content-center align-items-center memu-payback-item col-xl-3">
+            <div data-menupayback="levashovo" class="d-flex justify-content-center align-items-center memu-payback-item col-xl-3">
               <span>ЛЕВАШОВО</span>
             </div>
-            <div class="d-flex justify-content-center align-items-center memu-payback-item col-xl-3">
+            <div data-menupayback="island" class="d-flex justify-content-center align-items-center memu-payback-item col-xl-3">
               <span>ОСТРОВ</span>
             </div>
-            <div class="d-flex justify-content-center align-items-center memu-payback-item col-xl-3">
+            <div data-menupayback="troiza" class="d-flex justify-content-center align-items-center memu-payback-item col-xl-3">
               <span>ТРОИЦА</span>
             </div>
           </div>
-          <div class="proj-payback">
-            <div class="projects-payback-item" data-prpayback="holidayhome">
-
+          <div class="proj-payback d-flex justify-content-center align-items-center">
+            <div class="projects-payback-item active-projects-payback-item" data-prpayback="holidayhome">
+              <span>HOLIDAYHOME</span>
             </div>
             <div class="projects-payback-item" data-prpayback="levashovo">
-
+              <span>LEVASHOVO</span>
             </div>
             <div class="projects-payback-item" data-prpayback="island">
-
+              <span>ISLAND</span>
             </div>
             <div class="projects-payback-item" data-prpayback="troiza">
-
+              <span>TROIZA</span>
             </div>
           </div>
         </div>
@@ -136,33 +162,46 @@
     <section id="contacts">
       <div class="container">
         <div class="row">
-          <div class="maps">
-            <div class="location">
-
-            </div>
+          <div class="maps" style="width: 100%">
             <div class="contacts">
-
+              <div class="layout-contacts"></div>
+              <div class="content-contacts">
+                <span class="content-contacts-item Adress">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, labore!</span>
+                <span class="content-contacts-item name-organization">ЛУЧШЕЕ МЕСТО</span>
+                <span class="content-contacts-item email">info@bestmesto.ru</span>
+                <span class="content-contacts-item lel-phone">+7(495)-999-5533</span>
+              </div>
             </div>
+            <div class="location" style="height: 460px;">
+              <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab2367ca38be169733757e4326500fcd1702a20e0c7696aff48c2f5ad8963bdeb&amp;source=constructor" width="100%" height="460" frameborder="0"></iframe>
           </div>
         </div>
       </div>
     </section>
 
-    <footer>
+    <footer class="footer">
       <div class="container">
         <div class="row">
           <div class="soc-media">
             <div class="facebook">
-              <div class="icon-soc-media"></div>
+              <div class="icon-soc-media">
+                <img src="img/icon/facebook.png" alt="">
+              </div>
             </div>
             <div class="telegram">
-              <div class="icon-soc-media"></div>
+              <div class="icon-soc-media">
+                <img src="img/icon/telegram.jpg" alt="">
+              </div>
             </div>
             <div class="vk">
-              <div class="icon-soc-media"></div>
+              <div class="icon-soc-media">
+                <img src="img/icon/vk.jpg" alt="">
+              </div>
             </div>
             <div class="ok">
-              <div class="icon-soc-media"></div>
+              <div class="icon-soc-media">
+                <img src="img/icon/vk.jpg" alt="">
+              </div>
             </div>
           </div>
         </div>
