@@ -1,0 +1,170 @@
+*,html,body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+}
+
+.navigation-header {
+  padding: 25px 0 25px 0;
+}
+
+.ul-nav .li-nav a {
+  text-decoration: none;
+  color: #05426d;
+  font-size: 18px;
+}
+
+.ul-nav .li-nav {
+  list-style-type: none;
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.head-contacts .tel span {
+  font-size: 18px;
+  color: #05426d;
+}
+
+.head-contacts .tel {
+  text-align: center;
+}
+
+
+/*=====================banner===================== */
+.slider {
+  width: 100%;
+}
+
+.slide-item {
+  width: 100%;
+  height: 500px;
+}
+
+.visible-part {
+  overflow: hidden;
+}
+
+.slogan {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  border: 1px dashed  #05426d;
+  align-items: center;
+  justify-content: center;
+  /* opacity: 0; */
+  margin-left: 50px;
+  opacity: 0;
+}
+
+
+/*=====================projects===================== */
+
+.projects-item {
+  border: 1px dashed #05426d;
+  height: 350px;
+  cursor: pointer;
+  color: #05426d;
+}
+
+/*=====================payback===================== */
+
+#projects-payback {
+  margin-top: 100px;
+}
+
+/*=====================feedback===================== */
+
+#feedback {
+  margin-top: 100px;
+}
+
+.feedback-item {
+  margin-top: 25px;
+  padding: 12px;
+  font-size: 16px;
+  width: 350px;
+  height: 40px;
+}
+
+.feedback-item:last-child {
+  height: 100%;
+  font-size: 14px;
+}
+
+.proj-payback {
+  border: 2px dashed #05426d;
+  height: 400px;
+  width: 100%;
+}
+
+
+.menu-payback {
+  padding: 25px 0 25px 0;
+}
+/*=====================animate===================== */
+
+@-webkit-keyframes fadeInSlogan {
+  0%
+  {
+    opacity: 0;
+    left: -100px;
+  }
+  100%
+  {
+    opacity: 1;
+    left: 50px;
+  }
+
+}
+@-moz-keyframes fadeInSlogan {
+  0%
+  {
+    opacity: 0;
+    left: -100px;
+  }
+  100%
+  {
+    opacity: 1;
+    left: 50px;
+  }
+}
+@-o-keyframes fadeInSlogan {
+  0%
+  {
+    opacity: 0;
+    left: -100px;
+  }
+  100%
+  {
+    opacity: 1;
+    left: 50px;
+  }
+}
+@keyframes fadeInSlogan {
+  0%
+  {
+    opacity: 0;
+    margin-left: -100px;
+  }
+  100%
+  {
+    opacity: 1;
+    margin-left: 50px;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeInSlogan;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-delay: 1.5s;
+}
