@@ -20,8 +20,8 @@
               <ul class="ul-nav d-flex justify-content-between">
                 <li class="li-nav active-li"><a href="#">Главная</a></li>
                 <li class="li-nav"><a href="#">Проекты</a></li>
-                <li class="li-nav"><a href="#">Окупаемость проектов</a></li>
-                <li class="li-nav"><a href="#">Связаться с нами</a></li>
+                <li class="li-nav"><a href="#">Доходность</a></li>
+                <!-- <li class="li-nav"><a href="#">Связаться с нами</a></li> -->
                 <li class="li-nav"><a href="#">Контакты</a></li>
               </ul>
             </div>
@@ -39,7 +39,7 @@
           <div class="slider visible-part d-flex align-items-center" data-slider="0">
             <div class="form-request">
               <form class="form-request-form form-control" action="">
-                <input placeholder="Введите Ваше ФИО" class="form-control" type="text" name="name" value="">
+                <input placeholder="Введите Ваше имя" class="form-control" type="text" name="name" value="">
                 <input placeholder="Введите Ваш email" class="form-control" type="email" name="email" value="">
                 <input placeholder="Введите Ваш телефон" class="form-control" type="tel" name="tel" value="">
                 <input class="btn btn-primary" type="submit" name="" value="УСПЕЙТЕ ВЗЯТЬ ТАЛОН" disabled="true">
@@ -141,6 +141,14 @@
             </div>
           </div>
         </div>
+
+        <div class="row">
+          <div class="calculator">
+            <div class="start-button">
+              <button type="button" name="button">Калькулятор</button>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -149,7 +157,7 @@
         <div class="row d-flex justify-content-center align-items-center">
           <div class="form">
             <form class="form-control d-flex flex-column" action="">
-              <input placeholder="Введите Ваше ФИО" class="form-control feedback-item" type="text" name="name" value="">
+              <input placeholder="Введите Ваше имя" class="form-control feedback-item" type="text" name="name" value="">
               <input placeholder="Введите Ваш email" class="form-control feedback-item" type="email" name="email" value="">
               <input placeholder="Введите Ваш телефон" class="form-control feedback-item" type="tel" name="tel" value="">
               <input class="btn btn-primary feedback-item" type="submit" name="submit" value="ОТПРАВИТЬ ЗАЯВКУ" disabled="true">

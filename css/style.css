@@ -1,8 +1,20 @@
+@font-face {
+    font-family: 'GilroyLight';
+    src: url('fonts/GilroyLight.eot');
+    src: url('fonts/GilroyLight.eot') format('embedded-opentype'),
+         url('fonts/GilroyLight.woff2') format('woff2'),
+         url('fonts/GilroyLight.woff') format('woff'),
+         url('fonts/GilroyLight.ttf') format('truetype'),
+         url('fonts/GilroyLight.svg#GilroyLight') format('svg');
+}
+
+
 *,html,body {
   margin: 0;
   padding: 0;
   font-size: 14px;
   line-height: 1.2;
+  font-family: GilroyLight;
 }
 
 #header {
@@ -19,6 +31,7 @@
   text-decoration: none;
   color: #05426d;
   font-size: 18px;
+  font-weight: bold;
 }
 
 .ul-nav .li-nav {
@@ -39,6 +52,10 @@
   text-align: center;
 }
 
+.ul-nav {
+  margin-bottom: 0 !important;
+}
+
 
 /*=====================banner===================== */
 .slider {
@@ -56,8 +73,8 @@
 
 .slogan {
   display: flex;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 350px;
   border: 1px dashed  #05426d;
   align-items: center;
   justify-content: center;
@@ -68,10 +85,10 @@
 
 .form-request {
   position: absolute;
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   border: 1px dashed #05426d;
-  right: 400px;
+  right: 12%;
   z-index: 1000;
 }
 
@@ -86,7 +103,7 @@
 
 .form-request-form input{
   height: 34px;
-  width: 250px;
+  width: 200px;
 }
 
 /*=====================projects===================== */
@@ -169,6 +186,38 @@
   height: 90px;
 }
 
+/*=====================calculator===================== */
+
+.calculator {
+  width: 100%;
+
+}
+
+.start-button {
+  width: 100%;
+  height: 50px;
+
+}
+.start-button button {
+  width: 100%;
+  height: 50px;
+  border: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #05426d;
+  cursor: pointer;
+  outline: none;
+}
+
+.start-button button:hover {
+  background-color: #d9efff;
+  color: #05426d;
+}
+
+.start-button button:active {
+  opacity: 0.7;
+}
 /*=====================feedback===================== */
 
 #feedback {
@@ -201,7 +250,7 @@
   width: 30%;
   height: 460px;
   position: absolute;
-  right: 370px;
+  right: 7%;
 
 }
 
