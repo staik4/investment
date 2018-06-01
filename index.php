@@ -5,18 +5,31 @@
     <title>INSVESTMENT</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript">
+      // var el = document.body;
+
+    </script>
   </head>
   <body>
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="logo" style="padding: 20px 0 20px 0">
+          <img src="img/luchshee-mesto-logo.svg" alt="Лучшее место" style="width: 500px;">
+        </div>
+      </div>
+    </div>
     <section id="header">
       <div class="container">
+
         <div class="row">
           <div class="nav navigation-header d-flex align-items-center" style="width: 100%">
-            <div class="logo col-xl-2">
+            <!-- <div class="logo col-xl-2">
               <div class="logo-img">
                 <img src="img/luchshee-mesto-logo.svg" alt="Лучшее место">
               </div>
-            </div>
-            <div class="col-xl-7">
+            </div> -->
+            <div class="col-xl-8">
               <ul class="ul-nav d-flex justify-content-between">
                 <li class="li-nav active-li"><a href="#">Главная</a></li>
                 <li class="li-nav"><a href="#">Проекты</a></li>
@@ -25,7 +38,7 @@
                 <li class="li-nav"><a href="#">Контакты</a></li>
               </ul>
             </div>
-            <div class="col-xl-3 head-contacts">
+            <div class="col-xl-4 head-contacts">
               <div class="tel"><span>+7(495)-369-3235</span></div>
             </div>
           </div>
@@ -46,17 +59,29 @@
               </form>
             </div>
             <div class="wrapper d-flex">
-              <div class="slide-item d-flex align-items-center" data-slide="0">
-                <div class="fadeIn slogan"><span>Слоган_0</span></div>
+              <div class="slogan_0 slide-item d-flex align-items-center" data-slide="0">
+                <div class="fadeIn slogan bestmesto-slogan">
+                  <div class="layout-slogan"></div>
+                  <span>ЛУЧШЕЕ МЕСТО <br>ДЛЯ ВАШИХ ИНВЕСТИЦИЙ</span>
+                </div>
               </div>
-              <div class="slide-item d-flex align-items-center" data-slide="1">
-                <div class="slogan"><span>Слоган_1</span></div>
+              <div class="slogan_1 slide-item d-flex align-items-center" data-slide="1">
+                <div class="slogan">
+                  <div class="layout-slogan"></div>
+                  <span>Слоган_1</span>
+                </div>
               </div>
-              <div class="slide-item d-flex align-items-center" data-slide="2">
-                <div class="slogan"><span>Слоган_2</span></div>
+              <div class="slogan_2 slide-item d-flex align-items-center" data-slide="2">
+                <div class="slogan">
+                  <div class="layout-slogan"></div>
+                  <span>Слоган_2</span>
+                </div>
               </div>
-              <div class="slide-item d-flex align-items-center" data-slide="3">
-                <div class="slogan"><span>Слоган_3</span></div>
+              <div class="slogan_3 slide-item d-flex align-items-center" data-slide="3">
+                <div class="slogan">
+                  <div class="layout-slogan"></div>
+                  <span>Слоган_3</span>
+                </div>
               </div>
             </div>
           </div>

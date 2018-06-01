@@ -14,12 +14,15 @@
   width: 100%;
   z-index: 11000; }
 
+#header .container {
+  background-color: #007282; }
+
 .navigation-header {
   padding: 25px 0 25px 0; }
 
 .ul-nav .li-nav a {
   text-decoration: none;
-  color: #05426d;
+  color: white;
   font-size: 18px;
   font-weight: bold; }
 
@@ -33,7 +36,7 @@
 
 .head-contacts .tel span {
   font-size: 18px;
-  color: #05426d; }
+  color: white; }
 
 .head-contacts .tel {
   text-align: center; }
@@ -53,22 +56,23 @@
   overflow: hidden; }
 
 .slogan {
+  position: absolute;
   display: flex;
   width: 400px;
   height: 350px;
-  border: 1px dashed #05426d;
   align-items: center;
   justify-content: center;
   /* opacity: 0; */
   margin-left: 50px;
-  opacity: 0; }
+  opacity: 0;
+  z-index: 1012;
+  box-shadow: 0px 0px 5px white; }
 
 .form-request {
   position: absolute;
   width: 250px;
   height: 250px;
-  border: 1px dashed #05426d;
-  right: 12%;
+  right: 22%;
   z-index: 1000; }
 
 .form-request-form {
@@ -83,7 +87,45 @@
   height: 34px;
   width: 200px; }
 
+.bestmesto-slogan span {
+  color: #05426d;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center; }
+
+.slogan_0 {
+  background-image: url(../img/new-home.jpg);
+  background-size: 100%; }
+
+.slogan_1 {
+  background-image: url(../img/office.jpg);
+  background-size: 100%; }
+
+.slogan_2 {
+  background-image: url(../img/money.jpg);
+  background-size: 100%; }
+
+.slogan_3 {
+  background-image: url(../img/cash.jpg);
+  background-size: 100%; }
+
+.layout-slogan {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.8;
+  z-index: 100; }
+
+.slogan span {
+  display: block;
+  position: absolute;
+  z-index: 1000; }
+
 /*=====================projects===================== */
+#projects {
+  margin-top: 100px; }
+
 .projects-item {
   border: 1px dashed #05426d;
   height: 350px;
