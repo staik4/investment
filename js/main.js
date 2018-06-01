@@ -96,3 +96,25 @@ $(document).ready(function(){
     });
   });
 });
+console.log(window);
+window.addEventListener('wheel', onWheel);
+
+function onWheel(e) {
+  e = e || window.event;
+  var delta = e.deltaY || e.detail || e.wheelDelta;
+  console.log(window.pageYOffset);
+  let header = document.querySelector('#header');
+  let ComputedStyle = getComputedStyle(header).top;
+  console.log(ComputedStyle);
+  header.style.top -= 1;
+  console.log(header.style.top);
+  // setInterval(function(){
+  //   while (ComputedStyle != 0){
+  //     header.style.top -= 5;
+  //     ComputedStyle -= 5;
+  //
+  //   }
+  // },200);
+
+
+}

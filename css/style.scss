@@ -1,0 +1,434 @@
+@font-face {
+    font-family: 'GilroyLight';
+    src: url('fonts/GilroyLight.eot');
+    src: url('fonts/GilroyLight.eot') format('embedded-opentype'),
+         url('fonts/GilroyLight.woff2') format('woff2'),
+         url('fonts/GilroyLight.woff') format('woff'),
+         url('fonts/GilroyLight.ttf') format('truetype'),
+         url('fonts/GilroyLight.svg#GilroyLight') format('svg');
+}
+
+$font-primary : GilroyLight;
+$primary-color: #05426d;;
+$fontSizeSlogan: 28px;
+
+*,html,body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.2;
+  font-family: $font-primary;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 11000;
+}
+
+#header .container {
+  background-color: #007282;
+}
+
+.navigation-header {
+  padding: 25px 0 25px 0;
+}
+
+.ul-nav .li-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ul-nav .li-nav {
+  list-style-type: none;
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.head-contacts .tel span {
+  font-size: 18px;
+  // color: $primary-color;
+  color: white;
+}
+
+.head-contacts .tel {
+  text-align: center;
+}
+
+.ul-nav {
+  margin-bottom: 0 !important;
+}
+
+
+/*=====================banner===================== */
+.slider {
+  width: 100%;
+}
+
+.slide-item {
+  width: 100%;
+  height: 500px;
+}
+
+.visible-part {
+  overflow: hidden;
+}
+
+.slogan {
+  position: absolute;
+  display: flex;
+  width: 400px;
+  height: 350px;
+  // border: 1px dashed $primary-color;
+  align-items: center;
+  justify-content: center;
+  /* opacity: 0; */
+  margin-left: 50px;
+  opacity: 0;
+  z-index: 1012;
+  box-shadow: 0px 0px 5px white;
+}
+
+.form-request {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  //border: 1px dashed $primary-color;
+  right: 22%;
+  z-index: 1000;
+}
+
+.form-request-form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form-request-form input{
+  height: 34px;
+  width: 200px;
+}
+
+.bestmesto-slogan span {
+  color: $primary-color;
+  font-size: $fontSizeSlogan;
+  font-weight: bold;
+  text-align: center;
+}
+
+.slogan_0 {
+  background-image: url(../img/new-home.jpg);
+  background-size: 100%;
+
+}
+
+.slogan_1 {
+  background-image: url(../img/office.jpg);
+  background-size: 100%;
+
+}
+
+.slogan_2 {
+  background-image: url(../img/money.jpg);
+  background-size: 100%;
+
+}
+
+.slogan_3 {
+  background-image: url(../img/cash.jpg);
+  background-size: 100%;
+
+}
+
+.layout-slogan {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.8;
+  z-index: 100;
+}
+
+.slogan {
+  span {
+    display: block;
+    position: absolute;
+    z-index: 1000;
+  }
+}
+/*=====================projects===================== */
+
+#projects {
+  margin-top: 100px;
+}
+
+.projects-item {
+  border: 1px dashed $primary-color;
+  height: 350px;
+  cursor: pointer;
+  color: $primary-color;
+}
+
+.description-project {
+  display: none;
+  z-index: 1000;
+  /* opacity: 0.4; */
+}
+
+.description-project button {
+  right: 0;
+  position: absolute;
+  margin: 10px;
+
+}
+
+.description-project span {
+  display: none;
+}
+
+/*=====================payback===================== */
+
+#projects-payback {
+  margin-top: 100px;
+}
+
+.active-projects-payback-item {
+  display: flex !important;
+}
+
+.projects-payback-item {
+  display: none;
+}
+
+.projects-payback-item span {
+  font-size: 34px;
+  color: $primary-color;
+}
+
+.memu-payback-item {
+  cursor: pointer;
+  background-color: #d9efff;
+  height: 100%;
+
+}
+
+.active-memu-payback-item {
+  background-color: #2174b1;
+  color: white;
+  height: 71px;
+  margin-top: -3px;
+}
+
+.memu-payback-item:hover {
+  background-color: #2174b1;
+  color: white;
+}
+
+.memu-payback-item:active {
+  opacity: 0.7;
+}
+
+.proj-payback {
+  border: 2px dashed $primary-color;
+  height: 400px;
+  width: 100%;
+}
+
+
+.menu-payback {
+  padding: 25px 0 0 0;
+  height: 90px;
+}
+
+/*=====================calculator===================== */
+
+.calculator {
+  width: 100%;
+
+}
+
+.start-button {
+  width: 100%;
+  height: 50px;
+
+}
+.start-button button {
+  width: 100%;
+  height: 50px;
+  border: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: $primary-color;
+  cursor: pointer;
+  outline: none;
+}
+
+.start-button button:hover {
+  background-color: #d9efff;
+  color: $primary-color;
+}
+
+.start-button button:active {
+  opacity: 0.7;
+}
+/*=====================feedback===================== */
+
+#feedback {
+  margin-top: 100px;
+}
+
+.feedback-item {
+  margin-top: 25px;
+  padding: 12px;
+  font-size: 16px;
+  width: 350px;
+  height: 40px;
+}
+
+.feedback-item:last-child {
+  height: 100%;
+  font-size: 14px;
+}
+
+/*=====================contacts===================== */
+
+#contacts {
+  margin-top: 100px;
+}
+
+.contacts {
+  /* position: absolute; */
+  /*width: 30%;
+  height: 100%;
+  z-index: 102; */
+  width: 30%;
+  height: 460px;
+  position: absolute;
+  right: 7%;
+
+}
+
+.layout-contacts {
+  position: absolute;
+  background-color: white;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.content-contacts {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 102;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 70px;
+}
+
+.content-contacts-item {
+  margin-top: 35px;
+  font-size: 18px;
+  color: $primary-color;
+}
+
+
+/*=====================footer===================== */
+
+.footer {
+  height: 80px;
+  width: 100%;
+  background-color: $primary-color;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.soc-media {
+  height: 80px;
+  width: 100%;
+  background-color: $primary-color;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon-soc-media {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-soc-media img {
+  width: 40px;
+  height: 40px;
+}
+/*=====================animate===================== */
+
+@-webkit-keyframes fadeInSlogan {
+  0%
+  {
+    opacity: 0;
+    left: -100px;
+  }
+  100%
+  {
+    opacity: 1;
+    left: 50px;
+  }
+
+}
+@-moz-keyframes fadeInSlogan {
+  0%
+  {
+    opacity: 0;
+    left: -100px;
+  }
+  100%
+  {
+    opacity: 1;
+    left: 50px;
+  }
+}
+@-o-keyframes fadeInSlogan {
+  0%
+  {
+    opacity: 0;
+    left: -100px;
+  }
+  100%
+  {
+    opacity: 1;
+    left: 50px;
+  }
+}
+@keyframes fadeInSlogan {
+  0%
+  {
+    opacity: 0;
+    margin-left: -100px;
+  }
+  100%
+  {
+    opacity: 1;
+    margin-left: 50px;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeInSlogan;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-delay: 1.5s;
+}
