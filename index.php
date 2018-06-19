@@ -12,10 +12,13 @@
     </script>
   </head>
   <body>
-    <div class="container">
+    <div class="body-layout"></div>
+    <div class="container" id="logo">
       <div class="row d-flex justify-content-center">
-        <div class="logo" style="padding: 20px 0 20px 0">
+        <div class="logo d-flex flex-column" style="padding: 20px 0 20px 0">
           <img src="img/luchshee-mesto-logo.svg" alt="Лучшее место" style="width: 500px;">
+          <span style="color:#06426c; font-size: 30px; text-align:center; font-style: italic; display:block; margin-top: 10px;">ИНВЕСТИЦИИ С <span style="font-style: oblique; font-weight: bold;font-size: 30px; text-align:center; font-style: italic">2011</span></span>
+          <!-- <span style="color:#06426c; font-size: 24px;">С 2011</span> -->
         </div>
       </div>
     </div>
@@ -23,19 +26,19 @@
       <div class="container">
 
         <div class="row">
-          <div class="nav navigation-header d-flex align-items-center" style="width: 100%">
-            <!-- <div class="logo col-xl-2">
+          <div class="nav navigation-header d-flex align-items-center justify-conten-around" style="width: 100%">
+            <div class="logo">
               <div class="logo-img">
-                <img src="img/luchshee-mesto-logo.svg" alt="Лучшее место">
+                <img src="img/logotip-white.svg" alt="Лучшее место">
               </div>
-            </div> -->
-            <div class="col-xl-8">
+            </div>
+            <div class="navv col-xl-8">
               <ul class="ul-nav d-flex justify-content-between">
                 <li class="li-nav active-li"><a href="#">Главная</a></li>
-                <li class="li-nav"><a href="#">Проекты</a></li>
-                <li class="li-nav"><a href="#">Доходность</a></li>
+                <li class="li-nav"><a href="#projects">Проекты</a></li>
+                <li class="li-nav"><a href="#projects-payback">Доходность</a></li>
                 <!-- <li class="li-nav"><a href="#">Связаться с нами</a></li> -->
-                <li class="li-nav"><a href="#">Контакты</a></li>
+                <li class="li-nav"><a href="#feedback">Контакты</a></li>
               </ul>
             </div>
             <div class="col-xl-4 head-contacts">
@@ -51,11 +54,11 @@
         <div class="row">
           <div class="slider visible-part d-flex align-items-center" data-slider="0">
             <div class="form-request">
-              <form class="form-request-form form-control" action="">
-                <input placeholder="Введите Ваше имя" class="form-control" type="text" name="name" value="">
-                <input placeholder="Введите Ваш email" class="form-control" type="email" name="email" value="">
-                <input placeholder="Введите Ваш телефон" class="form-control" type="tel" name="tel" value="">
-                <input class="btn btn-primary" type="submit" name="" value="УСПЕЙТЕ ВЗЯТЬ ТАЛОН" disabled="true">
+              <form class="form-request-form" action="">
+                <input placeholder="Введите Ваше имя" class="" type="text" name="name" value="">
+                <input placeholder="Введите Ваш email" class="" type="email" name="email" value="">
+                <input placeholder="Введите Ваш телефон" class="" type="tel" name="tel" value="">
+                <input class="btn-first-form" type="submit" name="" value="ПОСМОТРЕТЬ ПЕРЕЗЕНТАЦИЮ" disabled="true">
               </form>
             </div>
             <div class="wrapper d-flex">
@@ -89,25 +92,56 @@
       </div>
     </section>
 
+    <section id="unique-offer">
+      <div class="container">
+        <div class="row">
+          <div class="unique-offer d-flex flex-column">
+            <div class="unique-title">
+              <span>УСЛОВИЯ ИНВЕСТИРОВАНИЯ</span>
+            </div>
+            <div class="investment-conditions">
+              1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita debitis illo facilis nobis, cupiditate saepe, corporis numquam dolores. Soluta autem consequuntur, adipisci, sunt odit vel voluptate nostrum id temporibus tempora!<br>
+              2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita debitis illo facilis nobis, cupiditate saepe, corporis numquam dolores. Soluta autem consequuntur, adipisci, sunt odit vel voluptate nostrum id temporibus tempora!<br>
+              3. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita debitis illo facilis nobis, cupiditate saepe, corporis numquam dolores. Soluta autem consequuntur, adipisci, sunt odit vel voluptate nostrum id temporibus tempora!<br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="projects">
       <div class="container">
-        <div class="row d-flex justify-content-center">
-          <div class="description-project" data-prnum="1">
-            <span>1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+        <div class="row d-flex justify-content-center" style="position:relative">
+          <div class="description-project d-flex flex-column" data-prnum="1">
+            <div class="item-desc-projects desc-prijects-description">
+              <div class="title-desc">
+                <span>ОПИСАНИЕ</span>
+              </div>
+            </div>
+            <div class="item-desc-projects advan">
+                <div class="title-desc">
+                  <span>ПРЕИМУЩЕСТВА ПРОЕКТА</span>
+                </div>
+            </div>
+            <div class="item-desc-projects gen-plan">
+              <div class="title-desc">
+                <span>ГЕНЕРАЛЬНЫЙ ПЛАН</span>
+              </div>
+            </div>
+            <button class="btn-close-desc">Close</button>
 
-            <button>Close</button>
+            <button class="btn-presentation" type="button" name="button">ПОСМОТРЕТЬ ПРЕЗЕНТАЦИЮ</button>
           </div>
           <div class="description-project" data-prnum="2">
             <span>2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore laborum ea cum eligendi nam eveniet officiis maxime voluptatibus, minus alias!</span>
-            <button>Close</button>
+            <button class="btn-close-desc">Close</button>
           </div>
           <div class="description-project" data-prnum="3">
             <span>3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam voluptate quia nostrum iure laboriosam ipsa, nulla dignissimos consectetur illo magni!</span>
-            <button>Close</button>
+            <button class="btn-close-desc">Close</button>
           </div>
           <div class="description-project" data-prnum="4">
             <span>4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati minima, inventore pariatur error aspernatur officia asperiores esse. Vero, perferendis, suscipit!</span>
-            <button>Close</button>
+            <button class="btn-close-desc">Close</button>
           </div>
 
           <div class="col-xl-6 projects-item" data-project="1">
@@ -134,7 +168,7 @@
       </div>
     </section>
 
-    <section id="projects-payback">
+    <!-- <section id="projects-payback">
       <div class="container">
         <div class="row">
           <div class="menu-payback d-flex justify-content-between" style="width:100%">
@@ -175,7 +209,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section id="feedback">
       <div class="container">
