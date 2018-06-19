@@ -8,6 +8,10 @@
          url('fonts/GilroyLight.svg#GilroyLight') format('svg');
 }
 
+.hide {
+  display: none !important;
+}
+
 $font-primary : GilroyLight;
 $primary-color: #05426d;;
 $fontSizeSlogan: 28px;
@@ -18,20 +22,47 @@ $fontSizeSlogan: 28px;
   font-size: 14px;
   line-height: 1.2;
   font-family: $font-primary;
+  z-index: 111;
+}
+
+.body-layout {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/layout/white-striped-cloth.png);
+  opacity: 0.85;
+  z-index: 100;
+}
+
+.logo-img {
+  display: none;
+  margin-left: 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
 }
 
 #header {
   position: fixed;
   width: 100%;
   z-index: 11000;
+
 }
 
 #header .container {
   background-color: #007282;
+
+  //background-image :url(../img/yellow-fabric.jpg);
 }
 
 .navigation-header {
   padding: 25px 0 25px 0;
+}
+
+.nav {
+  box-shadow: 0 0 2px gray;
 }
 
 .ul-nav .li-nav a {
@@ -77,6 +108,8 @@ $fontSizeSlogan: 28px;
 
 .visible-part {
   overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 2px gray;
 }
 
 .slogan {
@@ -96,10 +129,10 @@ $fontSizeSlogan: 28px;
 
 .form-request {
   position: absolute;
-  width: 250px;
+  width: 300px;
   height: 250px;
   //border: 1px dashed $primary-color;
-  right: 22%;
+  right: 5%;
   z-index: 1000;
 }
 
@@ -110,11 +143,31 @@ $fontSizeSlogan: 28px;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  background-color: #72b2bb;
+  border: 1.5px solid #5bb5b1;
+  box-shadow: 0 0 10px gray;
+  border-radius: 5px;
+  padding: 20px 0 20px 0;
 }
 
-.form-request-form input{
+.btn-first-form {
+  //background-color: $primary-color;
+  color: white !important;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: white;
+  width: 240px !important;
+  height: 40px !important;
+}
+
+.form-request-form input {
   height: 34px;
-  width: 200px;
+  width: 240px;
+  color: $primary-color !important;
+  border: 1px solid #5bb5b1;
+  border-radius: 5px;
+  box-shadow: 0 0 3px gray;
+  padding: 4px;
 }
 
 .bestmesto-slogan span {
@@ -164,6 +217,36 @@ $fontSizeSlogan: 28px;
     z-index: 1000;
   }
 }
+
+
+.unique-offer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.unique-title {
+  display: flex;
+  justify-content: center;
+}
+
+.unique-title span{
+  font-size: 36px;
+  color: $primary-color;
+  font-weight: bold;
+  display: block;
+}
+
+.investment-conditions {
+  font-size: 22px;
+  color: $primary-color;
+  line-height: 1.5;
+}
+
+.item-desc-projects {
+  height: 100%;
+}
 /*=====================projects===================== */
 
 #projects {
@@ -180,18 +263,38 @@ $fontSizeSlogan: 28px;
 .description-project {
   display: none;
   z-index: 1000;
+  border-radius: 7px;
   /* opacity: 0.4; */
 }
 
-.description-project button {
-  right: 0;
-  position: absolute;
-  margin: 10px;
-
+.description-project {
+  .btn-close-desc {
+    right: 0;
+    position: absolute;
+    margin: -20px 10px 0 0;
+    display: none;
+  }
+  span {
+    display: none;
+  }
+  .btn-presentation {
+    display: none;
+    height: 80px;
+  }
 }
 
-.description-project span {
-  display: none;
+.title-desc {
+  display: flex;
+  justify-content: center;
+}
+
+.title-desc {
+  span {
+    font-size: 22px !important;
+    color: $primary-color;
+    font-weight: bold;
+    // display: block;
+  }
 }
 
 /*=====================payback===================== */
@@ -305,15 +408,19 @@ $fontSizeSlogan: 28px;
   margin-top: 100px;
 }
 
+.maps {
+  position: relative;
+}
+
 .contacts {
   /* position: absolute; */
   /*width: 30%;
   height: 100%;
   z-index: 102; */
-  width: 30%;
+  width: 40%;
   height: 460px;
   position: absolute;
-  right: 7%;
+  right: 0%;
 
 }
 

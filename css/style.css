@@ -2,12 +2,32 @@
   font-family: 'GilroyLight';
   src: url("fonts/GilroyLight.eot");
   src: url("fonts/GilroyLight.eot") format("embedded-opentype"), url("fonts/GilroyLight.woff2") format("woff2"), url("fonts/GilroyLight.woff") format("woff"), url("fonts/GilroyLight.ttf") format("truetype"), url("fonts/GilroyLight.svg#GilroyLight") format("svg"); }
+.hide {
+  display: none !important; }
+
 *, html, body {
   margin: 0;
   padding: 0;
   font-size: 14px;
   line-height: 1.2;
-  font-family: GilroyLight; }
+  font-family: GilroyLight;
+  z-index: 111; }
+
+.body-layout {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/layout/white-striped-cloth.png);
+  opacity: 0.85;
+  z-index: 100; }
+
+.logo-img {
+  display: none;
+  margin-left: 20px; }
+
+.logo {
+  display: flex;
+  justify-content: center; }
 
 #header {
   position: fixed;
@@ -19,6 +39,9 @@
 
 .navigation-header {
   padding: 25px 0 25px 0; }
+
+.nav {
+  box-shadow: 0 0 2px gray; }
 
 .ul-nav .li-nav a {
   text-decoration: none;
@@ -53,7 +76,9 @@
   height: 500px; }
 
 .visible-part {
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 2px gray; }
 
 .slogan {
   position: absolute;
@@ -70,9 +95,9 @@
 
 .form-request {
   position: absolute;
-  width: 250px;
+  width: 300px;
   height: 250px;
-  right: 22%;
+  right: 5%;
   z-index: 1000; }
 
 .form-request-form {
@@ -81,11 +106,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around; }
+  justify-content: space-around;
+  background-color: #72b2bb;
+  border: 1.5px solid #5bb5b1;
+  box-shadow: 0 0 10px gray;
+  border-radius: 5px;
+  padding: 20px 0 20px 0; }
+
+.btn-first-form {
+  color: white !important;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: white;
+  width: 240px !important;
+  height: 40px !important; }
 
 .form-request-form input {
   height: 34px;
-  width: 200px; }
+  width: 240px;
+  color: #05426d !important;
+  border: 1px solid #5bb5b1;
+  border-radius: 5px;
+  box-shadow: 0 0 3px gray;
+  padding: 4px; }
 
 .bestmesto-slogan span {
   color: #05426d;
@@ -122,6 +165,30 @@
   position: absolute;
   z-index: 1000; }
 
+.unique-offer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px; }
+
+.unique-title {
+  display: flex;
+  justify-content: center; }
+
+.unique-title span {
+  font-size: 36px;
+  color: #05426d;
+  font-weight: bold;
+  display: block; }
+
+.investment-conditions {
+  font-size: 22px;
+  color: #05426d;
+  line-height: 1.5; }
+
+.item-desc-projects {
+  height: 100%; }
+
 /*=====================projects===================== */
 #projects {
   margin-top: 100px; }
@@ -135,15 +202,28 @@
 .description-project {
   display: none;
   z-index: 1000;
+  border-radius: 7px;
   /* opacity: 0.4; */ }
 
-.description-project button {
+.description-project .btn-close-desc {
   right: 0;
   position: absolute;
-  margin: 10px; }
-
+  margin: -20px 10px 0 0;
+  display: none; }
 .description-project span {
   display: none; }
+.description-project .btn-presentation {
+  display: none;
+  height: 80px; }
+
+.title-desc {
+  display: flex;
+  justify-content: center; }
+
+.title-desc span {
+  font-size: 22px !important;
+  color: #05426d;
+  font-weight: bold; }
 
 /*=====================payback===================== */
 #projects-payback {
@@ -231,15 +311,18 @@
 #contacts {
   margin-top: 100px; }
 
+.maps {
+  position: relative; }
+
 .contacts {
   /* position: absolute; */
   /*width: 30%;
   height: 100%;
   z-index: 102; */
-  width: 30%;
+  width: 40%;
   height: 460px;
   position: absolute;
-  right: 7%; }
+  right: 0%; }
 
 .layout-contacts {
   position: absolute;
