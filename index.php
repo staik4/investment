@@ -27,7 +27,7 @@
 
         <div class="row">
           <div class="nav navigation-header d-flex align-items-center justify-conten-around" style="width: 100%">
-            <div class="logo">
+            <div class="logo-tip">
               <div class="logo-img">
                 <img src="img/logotip-white.svg" alt="Лучшее место">
               </div>
@@ -55,6 +55,7 @@
           <div class="slider visible-part d-flex align-items-center" data-slider="0">
             <div class="form-request">
               <form class="form-request-form" action="">
+                <span> Отравить заявку</span>
                 <input placeholder="Введите Ваше имя" class="" type="text" name="name" value="">
                 <input placeholder="Введите Ваш email" class="" type="email" name="email" value="">
                 <input placeholder="Введите Ваш телефон" class="" type="tel" name="tel" value="">
@@ -210,16 +211,99 @@
         </div>
       </div>
     </section> -->
+    <section id="projects-payback">
+      <div class="container">
+        <div class="row">
+          <div class="calculator col-xl-4">
+            <div class="calc-design d-flex flex-column justify-content-around align-items-center">
+              <input type="text" name="" class="amount" placeholder="Введите сумму инвестиций">
+              <select class="" name="">
+                <option disabled>Выберите проект</option>
+                <option value="">ДОМ ОТДЫХА</option>
+                <option value="">ЛЕВАШОВО</option>
+                <option value="">ОСТРОВ</option>
+                <option value="">ТРОИЦА</option>
+              </select>
+              <select class="" name="">
+                <option disabled>Выберите срок для расчета</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">7</option>
+                <option value="">10</option>
+                <option value="">15</option>
+              </select>
+              <button type="button" name="button">Расчитать доход</button>
+            </div>
+          </div>
+          <div class="calculator-graph col-xl-8">
+            <div class="graph">
 
+            </div>
+          </div>
+          <div class="table-calc col-xl-12">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">First</th>
+                  <th scope="col">Second</th>
+                  <th scope="col">Second</th>
+                  <th scope="col">Second</th>
+                  <th scope="col">Second</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>1</th>
+                  <th>2</th>
+                  <th>3</th>
+                  <th>4</th>
+                  <th>5</th>
+                  <th>6</th>
+                </tr>
+                <tr>
+                  <th>1</th>
+                  <th>2</th>
+                  <th>3</th>
+                  <th>4</th>
+                  <th>5</th>
+                  <th>6</th>
+                </tr>
+                <tr>
+                  <th>1</th>
+                  <th>2</th>
+                  <th>3</th>
+                  <th>4</th>
+                  <th>5</th>
+                  <th>6</th>
+                </tr>
+                <tr>
+                  <th>1</th>
+                  <th>2</th>
+                  <th>3</th>
+                  <th>4</th>
+                  <th>5</th>
+                  <th>6</th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="feedback">
       <div class="container">
         <div class="row d-flex justify-content-center align-items-center">
           <div class="form">
-            <form class="form-control d-flex flex-column" action="">
-              <input placeholder="Введите Ваше имя" class="form-control feedback-item" type="text" name="name" value="">
-              <input placeholder="Введите Ваш email" class="form-control feedback-item" type="email" name="email" value="">
-              <input placeholder="Введите Ваш телефон" class="form-control feedback-item" type="tel" name="tel" value="">
-              <input class="btn btn-primary feedback-item" type="submit" name="submit" value="ОТПРАВИТЬ ЗАЯВКУ" disabled="true">
+            <form class="d-flex flex-column feedback-form" action="">
+              <span>Отправьте заявку, чтобы счтать участником программы</span>
+              <input placeholder="Введите Ваше имя" class="feedback-item" type="text" name="name" value="">
+              <input placeholder="Введите Ваш email" class="feedback-item" type="email" name="email" value="">
+              <input placeholder="Введите Ваш телефон" class="feedback-item" type="tel" name="tel" value="">
+              <button class="feedback-item" type="submit" name="submit" value="" disabled="true">ОТПРАВИТЬ ЗАЯВКУ</button>
             </form>
           </div>
         </div>

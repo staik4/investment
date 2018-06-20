@@ -1,4 +1,21 @@
-$(document).ready(function(){
+$(document).ready(function() {
+
+  console.log("pageYOffset", window.pageYOffset);
+
+  if (window.pageYOffset >= 100) {
+    let header = $('#header');
+    let logo = $('#logo');
+    let logotip = $('.logo-img');
+
+    header.css({'top':'0'});
+    logotip.css({"display":"block","width":"50px","height":"50px"});
+    $('.navigation-header').css({"padding":"15px 0 15px 0"});
+    $('.logo-tip').addClass('col-xl-1');
+    $('.navv').removeClass('col-xl-8');
+    $('.navv').addClass('col-xl-7');
+    // console.log('kus');
+  }
+
   let height = $('.navigation-header').height();
   //console.log(height);
   $('#banner').css({"padding-top":height+50});
@@ -115,7 +132,7 @@ $(document).ready(function(){
         header.css({'top':'0'});
         logotip.css({"display":"block","width":"50px","height":"50px"});
         $('.navigation-header').css({"padding":"15px 0 15px 0"});
-        $('.logo').addClass('col-xl-1');
+        $('.logo-tip').addClass('col-xl-1');
         $('.navv').removeClass('col-xl-8');
         $('.navv').addClass('col-xl-7');
 				// console.log('kus');
@@ -141,10 +158,14 @@ function onWheel(e) {
     header.style.top = '';
     logotip.style.display = 'none';
     document.querySelector('.navigation-header').style.padding = '25px 0 25px 0';
-    document.querySelector('.logo').classList.remove('col-xl-1');
-    document.querySelector('.navv').classList.remove('col-xl-8');
+    document.querySelector('.logo-tip').classList.remove('col-xl-1');
+    document.querySelector('.navv').classList.remove('col-xl-7');
     document.querySelector('.navv').classList.add('col-xl-8');
     // console.log('ne rabotaet');
+
+    let height = document.querySelector('.navigation-header').clientHeight;
+    //console.log(height);
+    document.querySelector('#banner').style.padding = height + "px";
 
   }else if(delta > 0){
     // console.log('rabotaet');
@@ -155,7 +176,7 @@ function onWheel(e) {
     logotip.style.width = '50px';
     logotip.style.height = '50px';
     document.querySelector('.navigation-header').style.padding = '15px 0 15px 0';
-    document.querySelector('.logo').classList.add('col-xl-1');
+    document.querySelector('.logo-tip').classList.add('col-xl-1');
     document.querySelector('.navv').classList.remove('col-xl-8');
     document.querySelector('.navv').classList.add('col-xl-7');
     //console.log(start);

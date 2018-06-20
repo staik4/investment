@@ -113,14 +113,13 @@
   border-radius: 5px;
   padding: 20px 0 20px 0; }
 
-.btn-first-form {
-  color: white !important;
+.form-request-form span {
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 18px;
   font-weight: bold;
-  border-radius: 5px;
-  background-color: white;
-  width: 240px !important;
-  height: 40px !important; }
-
+  margin-top: -10px; }
 .form-request-form input {
   height: 34px;
   width: 240px;
@@ -129,6 +128,14 @@
   border-radius: 5px;
   box-shadow: 0 0 3px gray;
   padding: 4px; }
+
+.btn-first-form {
+  color: white !important;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: white;
+  width: 240px !important;
+  height: 40px !important; }
 
 .bestmesto-slogan span {
   color: #05426d;
@@ -292,20 +299,63 @@
 .start-button button:active {
   opacity: 0.7; }
 
+.calc-design {
+  height: 250px; }
+
+.calc-design input {
+  width: 250px;
+  height: 34px; }
+.calc-design select {
+  width: 250px;
+  height: 34px; }
+.calc-design button {
+  width: 250px;
+  height: 34px; }
+
 /*=====================feedback===================== */
 #feedback {
   margin-top: 100px; }
 
-.feedback-item {
-  margin-top: 25px;
+.feedback-form {
+  height: 100%;
+  width: 440px;
+  background-color: #72b2bb;
+  border: 1.5px solid #5bb5b1;
+  box-shadow: 0 0 10px grey;
+  border-radius: 5px;
+  padding: 40px 0 30px 0;
+  display: flex;
+  align-items: center; }
+
+.feedback-form input {
+  margin-bottom: 25px;
   padding: 12px;
   font-size: 16px;
   width: 350px;
-  height: 40px; }
-
-.feedback-item:last-child {
-  height: 100%;
-  font-size: 14px; }
+  height: 40px;
+  color: #05426d !important;
+  border: 1px solid #5bb5b1;
+  border-radius: 5px;
+  box-shadow: 0 0 3px grey;
+  padding: 4px; }
+.feedback-form button {
+  width: 350px;
+  font-size: 14px;
+  height: 40px;
+  color: #05426d !important;
+  border: 1px solid #5bb5b1;
+  border-radius: 5px;
+  box-shadow: 0 0 3px grey;
+  padding: 4px;
+  background-color: white;
+  font-weight: bold; }
+.feedback-form span {
+  display: block;
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-align: center; }
 
 /*=====================contacts===================== */
 #contacts {
@@ -352,7 +402,6 @@
 .footer {
   height: 80px;
   width: 100%;
-  background-color: #05426d;
   display: flex;
   justify-content: space-around;
   align-items: center; }
