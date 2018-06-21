@@ -150,6 +150,26 @@ $fontSizeSlogan: 28px;
   padding: 20px 0 20px 0;
 }
 
+.form-request-form {
+  span {
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -10px;
+  }
+  input {
+    height: 34px;
+    width: 240px;
+    color: $primary-color !important;
+    border: 1px solid #5bb5b1;
+    border-radius: 5px;
+    box-shadow: 0 0 3px gray;
+    padding: 4px;
+  }
+}
+
 .btn-first-form {
   //background-color: $primary-color;
   color: white !important;
@@ -160,16 +180,6 @@ $fontSizeSlogan: 28px;
   height: 40px !important;
 }
 
-.form-request-form input {
-  height: 34px;
-  width: 240px;
-  color: $primary-color !important;
-  border: 1px solid #5bb5b1;
-  border-radius: 5px;
-  box-shadow: 0 0 3px gray;
-  padding: 4px;
-}
-
 .bestmesto-slogan span {
   color: $primary-color;
   font-size: $fontSizeSlogan;
@@ -178,7 +188,7 @@ $fontSizeSlogan: 28px;
 }
 
 .slogan_0 {
-  background-image: url(../img/new-home.jpg);
+  background-image: url(../img/house.jpg);
   background-size: 100%;
 
 }
@@ -383,25 +393,138 @@ $fontSizeSlogan: 28px;
 .start-button button:active {
   opacity: 0.7;
 }
+
+.calc-design {
+  height: 270px;
+  padding: 25px 0 25px 0 ;
+  background-color: #72b2bb;
+  border-radius: 5px;
+  border: 2px solid #5bb5b1;
+
+}
+
+.calc-design {
+  input {
+    width: 250px;
+    height: 34px;
+    color: $primary-color !important;
+    border: 1px solid #5bb5b1;
+    border-radius: 5px;
+    box-shadow: 0 0 3px gray;
+    padding: 4px;
+  }
+
+  select {
+    width: 250px;
+    height: 34px;
+    color: $primary-color !important;
+    border: 1px solid #5bb5b1;
+    border-radius: 5px;
+    box-shadow: 0 0 3px gray;
+    padding: 4px;
+  }
+
+  button {
+    width: 250px;
+    height: 34px;
+    color: #05426d !important;
+    border: 1px solid #5bb5b1;
+    border-radius: 5px;
+    box-shadow: 0 0 3px grey;
+    padding: 4px;
+    background-color: white;
+    font-weight: bold;
+  }
+
+  span {
+    display: block;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+}
+
+.table-calc {
+  // border: 1px solid $primary-color !important;
+  margin-top: 40px;
+}
+
+.table-calc {
+  thead {
+    border: 2px solid #5bb5b1 !important;
+    border-radius: 2px;
+    box-shadow: 0 0 5px
+  }
+
+  th {
+    border: 2px solid #5bb5b1 !important;
+    border-radius: 2px;
+    box-shadow: 0 0 5px
+  }
+
+  tr {
+    border: 2px solid #5bb5b1 !important;
+    border-radius: 2px;
+    box-shadow: 0 0 1px $primary-color;
+  }
+}
 /*=====================feedback===================== */
 
 #feedback {
   margin-top: 100px;
 }
 
-.feedback-item {
-  margin-top: 25px;
-  padding: 12px;
-  font-size: 16px;
-  width: 350px;
-  height: 40px;
-}
-
-.feedback-item:last-child {
+.feedback-form {
   height: 100%;
-  font-size: 14px;
+  width: 440px;
+  background-color: #72b2bb;
+  border: 1.5px solid #5bb5b1;
+  box-shadow: 0 0 10px grey;
+  border-radius: 5px;
+  padding: 40px 0 30px 0;
+  display: flex;
+  align-items: center;
 }
 
+.feedback-form {
+  input {
+    margin-bottom: 25px;
+    padding: 12px;
+    font-size: 16px;
+    width: 350px;
+    height: 40px;
+    color: #05426d !important;
+    border: 1px solid #5bb5b1;
+    border-radius: 5px;
+    box-shadow: 0 0 3px grey;
+    padding: 4px;
+  }
+
+  button {
+    // margin-top: 25px;
+    width: 350px;
+    font-size: 14px;
+    height: 40px;
+    color: #05426d !important;
+    border: 1px solid #5bb5b1;
+    border-radius: 5px;
+    box-shadow: 0 0 3px grey;
+    padding: 4px;
+    background-color: white;
+    font-weight: bold;
+  }
+
+  span {
+    display: block;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+}
 /*=====================contacts===================== */
 
 #contacts {
@@ -457,7 +580,7 @@ $fontSizeSlogan: 28px;
 .footer {
   height: 80px;
   width: 100%;
-  background-color: $primary-color;
+  // background-color: $primary-color;
   display: flex;
   justify-content: space-around;
   align-items: center;
