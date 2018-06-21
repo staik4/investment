@@ -42,7 +42,7 @@
               </ul>
             </div>
             <div class="col-xl-4 head-contacts">
-              <div class="tel"><span>+7(495)-369-3235</span></div>
+              <div class="tel d-flex justify-content-center"><img src="img/telephone.svg" alt="" style="width: 22px; height: 22px; margin: 0 10px 0 0; cursor: pointer"><span style="font-size: 22px; font-weight: bold">+7(495)-369-3235</span></div>
             </div>
           </div>
         </div>
@@ -216,6 +216,7 @@
         <div class="row">
           <div class="calculator col-xl-4">
             <div class="calc-design d-flex flex-column justify-content-around align-items-center">
+              <span>КАЛЬКУЛЯТОР ДОХОДНОСТИ</span>
               <input type="text" name="" class="amount" placeholder="Введите сумму инвестиций">
               <select class="" name="">
                 <option disabled>Выберите проект</option>
@@ -238,9 +239,14 @@
               <button type="button" name="button">Расчитать доход</button>
             </div>
           </div>
-          <div class="calculator-graph col-xl-8">
+          <div class="arrow col-xl-1 d-flex align-items-center">
+            <div class="img-arrow " style="width:100%;">
+              <img src="img/arrow-button.svg" alt="" style="width:100%;">
+            </div>
+          </div>
+          <div class="calculator-graph col-xl-7 d-flex justify-content-center">
             <div class="graph">
-
+              <img src="img/charts.png" alt="" style="height: 270px;">
             </div>
           </div>
           <div class="table-calc col-xl-12">
