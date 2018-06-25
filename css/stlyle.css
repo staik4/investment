@@ -1,37 +1,19 @@
 @font-face {
-    font-family: 'GilroyLight';
-    src: url('fonts/GilroyLight.eot');
-    src: url('fonts/GilroyLight.eot') format('embedded-opentype'),
-         url('fonts/GilroyLight.woff2') format('woff2'),
-         url('fonts/GilroyLight.woff') format('woff'),
-         url('fonts/GilroyLight.ttf') format('truetype'),
-         url('fonts/GilroyLight.svg#GilroyLight') format('svg');
+  font-family: "GilroyLight";
+  src: url("fonts/GilroyLight.eot");
+  src: url("fonts/GilroyLight.eot") format("embedded-opentype"), url("fonts/GilroyLight.woff2") format("woff2"), url("fonts/GilroyLight.woff") format("woff"), url("fonts/GilroyLight.ttf") format("truetype"), url("fonts/GilroyLight.svg#GilroyLight") format("svg");
 }
-
-.arrow-top {
-  position: fixed;
-  left: 20px;
-  width: 60px;
-  bottom: 100px;
-  cursor: pointer;
-  display: block !important;
-}
-
 .hide {
   display: none !important;
 }
 
-$font-primary : GilroyLight;
-$primary-color: #05426d;;
-$fontSizeSlogan: 28px;
-
-*,html,body {
+*, html, body {
   margin: 0;
   padding: 0;
   font-size: 14px;
   line-height: 1.2;
-  font-family: $font-primary;
-  z-index: 113  ;
+  font-family: GilroyLight;
+  z-index: 111;
 }
 
 .body-layout {
@@ -57,13 +39,10 @@ $fontSizeSlogan: 28px;
   position: fixed;
   width: 100%;
   z-index: 11000;
-
 }
 
 #header .container {
   background-color: #007282;
-
-  //background-image :url(../img/yellow-fabric.jpg);
 }
 
 .navigation-header {
@@ -92,7 +71,6 @@ $fontSizeSlogan: 28px;
 
 .head-contacts .tel span {
   font-size: 18px;
-  // color: $primary-color;
   color: white;
 }
 
@@ -103,7 +81,6 @@ $fontSizeSlogan: 28px;
 .ul-nav {
   margin-bottom: 0 !important;
 }
-
 
 /*=====================banner===================== */
 .slider {
@@ -126,7 +103,6 @@ $fontSizeSlogan: 28px;
   display: flex;
   width: 400px;
   height: 350px;
-  // border: 1px dashed $primary-color;
   align-items: center;
   justify-content: center;
   /* opacity: 0; */
@@ -140,7 +116,6 @@ $fontSizeSlogan: 28px;
   position: absolute;
   width: 300px;
   height: 250px;
-  //border: 1px dashed $primary-color;
   right: 5%;
   z-index: 1000;
 }
@@ -159,28 +134,25 @@ $fontSizeSlogan: 28px;
   padding: 20px 0 20px 0;
 }
 
-.form-request-form {
-  span {
-    color: white;
-    display: block;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: -10px;
-  }
-  input {
-    height: 34px;
-    width: 240px;
-    color: $primary-color !important;
-    border: 1px solid #5bb5b1;
-    border-radius: 5px;
-    box-shadow: 0 0 3px gray;
-    padding: 4px;
-  }
+.form-request-form span {
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: -10px;
+}
+.form-request-form input {
+  height: 34px;
+  width: 240px;
+  color: #05426d !important;
+  border: 1px solid #5bb5b1;
+  border-radius: 5px;
+  box-shadow: 0 0 3px gray;
+  padding: 4px;
 }
 
 .btn-first-form {
-  //background-color: $primary-color;
   color: white !important;
   font-weight: bold;
   border-radius: 5px;
@@ -190,8 +162,8 @@ $fontSizeSlogan: 28px;
 }
 
 .bestmesto-slogan span {
-  color: $primary-color;
-  font-size: $fontSizeSlogan;
+  color: #05426d;
+  font-size: 28px;
   font-weight: bold;
   text-align: center;
 }
@@ -199,25 +171,21 @@ $fontSizeSlogan: 28px;
 .slogan_0 {
   background-image: url(../img/house.jpg);
   background-size: 100%;
-
 }
 
 .slogan_1 {
   background-image: url(../img/office.jpg);
   background-size: 100%;
-
 }
 
 .slogan_2 {
   background-image: url(../img/money.jpg);
   background-size: 100%;
-
 }
 
 .slogan_3 {
   background-image: url(../img/cash.jpg);
   background-size: 100%;
-
 }
 
 .layout-slogan {
@@ -229,14 +197,11 @@ $fontSizeSlogan: 28px;
   z-index: 100;
 }
 
-.slogan {
-  span {
-    display: block;
-    position: absolute;
-    z-index: 1000;
-  }
+.slogan span {
+  display: block;
+  position: absolute;
+  z-index: 1000;
 }
-
 
 .unique-offer {
   width: 100%;
@@ -250,33 +215,33 @@ $fontSizeSlogan: 28px;
   justify-content: center;
 }
 
-.unique-title span{
+.unique-title span {
   font-size: 36px;
-  color: $primary-color;
+  color: #05426d;
   font-weight: bold;
   display: block;
 }
 
 .investment-conditions {
   font-size: 22px;
-  color: $primary-color;
+  color: #05426d;
   line-height: 1.5;
 }
 
 .item-desc-projects {
   height: 100%;
 }
-/*=====================projects===================== */
 
+/*=====================projects===================== */
 #projects {
   margin-top: 100px;
 }
 
 .projects-item {
-  border: 1px dashed $primary-color;
+  border: 1px dashed #05426d;
   height: 350px;
   cursor: pointer;
-  color: $primary-color;
+  color: #05426d;
 }
 
 .description-project {
@@ -286,20 +251,18 @@ $fontSizeSlogan: 28px;
   /* opacity: 0.4; */
 }
 
-.description-project {
-  .btn-close-desc {
-    right: 0;
-    position: absolute;
-    margin: -20px 10px 0 0;
-    display: none;
-  }
-  span {
-    display: none;
-  }
-  .btn-presentation {
-    display: none;
-    height: 80px;
-  }
+.description-project .btn-close-desc {
+  right: 0;
+  position: absolute;
+  margin: -20px 10px 0 0;
+  display: none;
+}
+.description-project span {
+  display: none;
+}
+.description-project .btn-presentation {
+  display: none;
+  height: 80px;
 }
 
 .title-desc {
@@ -307,17 +270,13 @@ $fontSizeSlogan: 28px;
   justify-content: center;
 }
 
-.title-desc {
-  span {
-    font-size: 22px !important;
-    color: $primary-color;
-    font-weight: bold;
-    // display: block;
-  }
+.title-desc span {
+  font-size: 22px !important;
+  color: #05426d;
+  font-weight: bold;
 }
 
 /*=====================payback===================== */
-
 #projects-payback {
   margin-top: 100px;
 }
@@ -332,14 +291,13 @@ $fontSizeSlogan: 28px;
 
 .projects-payback-item span {
   font-size: 34px;
-  color: $primary-color;
+  color: #05426d;
 }
 
 .memu-payback-item {
   cursor: pointer;
   background-color: #d9efff;
   height: 100%;
-
 }
 
 .active-memu-payback-item {
@@ -359,11 +317,10 @@ $fontSizeSlogan: 28px;
 }
 
 .proj-payback {
-  border: 2px dashed $primary-color;
+  border: 2px dashed #05426d;
   height: 400px;
   width: 100%;
 }
-
 
 .menu-payback {
   padding: 25px 0 0 0;
@@ -371,17 +328,15 @@ $fontSizeSlogan: 28px;
 }
 
 /*=====================calculator===================== */
-
 .calculator {
   width: 100%;
-
 }
 
 .start-button {
   width: 100%;
   height: 50px;
-
 }
+
 .start-button button {
   width: 100%;
   height: 50px;
@@ -389,14 +344,14 @@ $fontSizeSlogan: 28px;
   font-size: 20px;
   font-weight: bold;
   color: white;
-  background-color: $primary-color;
+  background-color: #05426d;
   cursor: pointer;
   outline: none;
 }
 
 .start-button button:hover {
   background-color: #d9efff;
-  color: $primary-color;
+  color: #05426d;
 }
 
 .start-button button:active {
@@ -405,82 +360,71 @@ $fontSizeSlogan: 28px;
 
 .calc-design {
   height: 270px;
-  padding: 25px 0 25px 0 ;
+  padding: 25px 0 25px 0;
   background-color: #72b2bb;
   border-radius: 5px;
   border: 2px solid #5bb5b1;
-
 }
 
-.calc-design {
-  input {
-    width: 250px;
-    height: 34px;
-    color: $primary-color !important;
-    border: 1px solid #5bb5b1;
-    border-radius: 5px;
-    box-shadow: 0 0 3px gray;
-    padding: 4px;
-  }
-
-  select {
-    width: 250px;
-    height: 34px;
-    color: $primary-color !important;
-    border: 1px solid #5bb5b1;
-    border-radius: 5px;
-    box-shadow: 0 0 3px gray;
-    padding: 4px;
-  }
-
-  button {
-    width: 250px;
-    height: 34px;
-    color: #05426d !important;
-    border: 1px solid #5bb5b1;
-    border-radius: 5px;
-    box-shadow: 0 0 3px grey;
-    padding: 4px;
-    background-color: white;
-    font-weight: bold;
-  }
-
-  span {
-    display: block;
-    font-size: 18px;
-    color: white;
-    font-weight: bold;
-    margin-bottom: 5px;
-    text-align: center;
-  }
+.calc-design input {
+  width: 250px;
+  height: 34px;
+  color: #05426d !important;
+  border: 1px solid #5bb5b1;
+  border-radius: 5px;
+  box-shadow: 0 0 3px gray;
+  padding: 4px;
+}
+.calc-design select {
+  width: 250px;
+  height: 34px;
+  color: #05426d !important;
+  border: 1px solid #5bb5b1;
+  border-radius: 5px;
+  box-shadow: 0 0 3px gray;
+  padding: 4px;
+}
+.calc-design button {
+  width: 250px;
+  height: 34px;
+  color: #05426d !important;
+  border: 1px solid #5bb5b1;
+  border-radius: 5px;
+  box-shadow: 0 0 3px grey;
+  padding: 4px;
+  background-color: white;
+  font-weight: bold;
+}
+.calc-design span {
+  display: block;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
 }
 
 .table-calc {
-  // border: 1px solid $primary-color !important;
   margin-top: 40px;
 }
 
-.table-calc {
-  thead {
-    border: 2px solid #5bb5b1 !important;
-    border-radius: 2px;
-    box-shadow: 0 0 5px
-  }
-
-  th {
-    border: 2px solid #5bb5b1 !important;
-    border-radius: 2px;
-    box-shadow: 0 0 5px
-  }
-
-  tr {
-    border: 2px solid #5bb5b1 !important;
-    border-radius: 2px;
-    box-shadow: 0 0 1px $primary-color;
-  }
+.table-calc thead {
+  border: 2px solid #5bb5b1 !important;
+  border-radius: 2px;
+  box-shadow: 0 0 5px;
 }
-/*=====================feedback===================== */
+.table-calc th {
+  border: 2px solid #5bb5b1 !important;
+  border-radius: 2px;
+  box-shadow: 0 0 5px;
+}
+.table-calc tr {
+  border: 2px solid #5bb5b1 !important;
+  border-radius: 2px;
+  box-shadow: 0 0 1px #05426d;
+}
 
+/*=====================feedback===================== */
 #feedback {
   margin-top: 100px;
 }
@@ -497,52 +441,46 @@ $fontSizeSlogan: 28px;
   align-items: center;
 }
 
-.feedback-form {
-  input {
-    margin-bottom: 25px;
-    padding: 12px;
-    font-size: 16px;
-    width: 350px;
-    height: 40px;
-    color: #05426d !important;
-    border: 1px solid #5bb5b1;
-    border-radius: 5px;
-    box-shadow: 0 0 3px grey;
-    padding: 4px;
-  }
-
-  button {
-    // margin-top: 25px;
-    width: 350px;
-    font-size: 14px;
-    height: 40px;
-    color: #05426d !important;
-    border: 1px solid #5bb5b1;
-    border-radius: 5px;
-    box-shadow: 0 0 3px grey;
-    padding: 4px;
-    background-color: white;
-    font-weight: bold;
-  }
-
-  span {
-    display: block;
-    font-size: 22px;
-    color: white;
-    font-weight: bold;
-    margin-bottom: 25px;
-    text-align: center;
-  }
+.feedback-form input {
+  margin-bottom: 25px;
+  padding: 12px;
+  font-size: 16px;
+  width: 350px;
+  height: 40px;
+  color: #05426d !important;
+  border: 1px solid #5bb5b1;
+  border-radius: 5px;
+  box-shadow: 0 0 3px grey;
+  padding: 4px;
 }
-/*=====================contacts===================== */
+.feedback-form button {
+  width: 350px;
+  font-size: 14px;
+  height: 40px;
+  color: #05426d !important;
+  border: 1px solid #5bb5b1;
+  border-radius: 5px;
+  box-shadow: 0 0 3px grey;
+  padding: 4px;
+  background-color: white;
+  font-weight: bold;
+}
+.feedback-form span {
+  display: block;
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-align: center;
+}
 
+/*=====================contacts===================== */
 #contacts {
   margin-top: 100px;
 }
 
 .maps {
   position: relative;
-  box-shadow: 0 0 20px $primary-color;
 }
 
 .contacts {
@@ -554,7 +492,6 @@ $fontSizeSlogan: 28px;
   height: 460px;
   position: absolute;
   right: 0%;
-
 }
 
 .layout-contacts {
@@ -581,16 +518,13 @@ $fontSizeSlogan: 28px;
 .content-contacts-item {
   margin-top: 35px;
   font-size: 18px;
-  color: $primary-color;
+  color: #05426d;
 }
 
-
 /*=====================footer===================== */
-
 .footer {
   height: 80px;
   width: 100%;
-  // background-color: $primary-color;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -599,7 +533,7 @@ $fontSizeSlogan: 28px;
 .soc-media {
   height: 80px;
   width: 100%;
-  background-color: $primary-color;
+  background-color: #05426d;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -614,61 +548,53 @@ $fontSizeSlogan: 28px;
   width: 40px;
   height: 40px;
 }
-/*=====================animate===================== */
 
+/*=====================animate===================== */
 @-webkit-keyframes fadeInSlogan {
-  0%
-  {
+  0% {
     opacity: 0;
     left: -100px;
   }
-  100%
-  {
+  100% {
     opacity: 1;
     left: 50px;
   }
-
 }
 @-moz-keyframes fadeInSlogan {
-  0%
-  {
+  0% {
     opacity: 0;
     left: -100px;
   }
-  100%
-  {
+  100% {
     opacity: 1;
     left: 50px;
   }
 }
 @-o-keyframes fadeInSlogan {
-  0%
-  {
+  0% {
     opacity: 0;
     left: -100px;
   }
-  100%
-  {
+  100% {
     opacity: 1;
     left: 50px;
   }
 }
 @keyframes fadeInSlogan {
-  0%
-  {
+  0% {
     opacity: 0;
     margin-left: -100px;
   }
-  100%
-  {
+  100% {
     opacity: 1;
     margin-left: 50px;
   }
 }
-
 .fadeIn {
   animation-name: fadeInSlogan;
   animation-duration: 2s;
   animation-timing-function: ease-out;
   animation-delay: 1.5s;
 }
+
+/*# sourceMappingURL=stlyle.css.map */
