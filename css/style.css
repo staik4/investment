@@ -406,7 +406,8 @@
   margin-top: 100px; }
 
 .maps {
-  position: relative; }
+  position: relative;
+  box-shadow: 0 0 20px #05426d; }
 
 .contacts {
   /* position: absolute; */
