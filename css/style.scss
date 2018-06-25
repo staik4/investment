@@ -8,6 +8,15 @@
          url('fonts/GilroyLight.svg#GilroyLight') format('svg');
 }
 
+.arrow-top {
+  position: fixed;
+  left: 20px;
+  width: 60px;
+  bottom: 100px;
+  cursor: pointer;
+  display: block !important;
+}
+
 .hide {
   display: none !important;
 }
@@ -22,7 +31,7 @@ $fontSizeSlogan: 28px;
   font-size: 14px;
   line-height: 1.2;
   font-family: $font-primary;
-  z-index: 111;
+  z-index: 113  ;
 }
 
 .body-layout {
