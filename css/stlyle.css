@@ -3,15 +3,6 @@
   src: url("fonts/GilroyLight.eot");
   src: url("fonts/GilroyLight.eot") format("embedded-opentype"), url("fonts/GilroyLight.woff2") format("woff2"), url("fonts/GilroyLight.woff") format("woff"), url("fonts/GilroyLight.ttf") format("truetype"), url("fonts/GilroyLight.svg#GilroyLight") format("svg");
 }
-.arrow-top {
-  position: fixed;
-  left: 20px;
-  width: 60px;
-  bottom: 100px;
-  cursor: pointer;
-  display: block !important;
-}
-
 .hide {
   display: none !important;
 }
@@ -22,7 +13,7 @@
   font-size: 14px;
   line-height: 1.2;
   font-family: GilroyLight;
-  z-index: 113;
+  z-index: 111;
 }
 
 .body-layout {
@@ -606,4 +597,4 @@
   animation-delay: 1.5s;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=stlyle.css.map */

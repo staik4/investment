@@ -12,6 +12,7 @@
     </script>
   </head>
   <body>
+    <div class="arrow-top hide"><img src="img/arrow-up.svg" alt=""></div>
     <div class="body-layout"></div>
     <div class="container" id="logo">
       <div class="row d-flex justify-content-center">
@@ -34,7 +35,8 @@
             </div>
             <div class="navv col-xl-8">
               <ul class="ul-nav d-flex justify-content-between">
-                <li class="li-nav active-li"><a href="#">Главная</a></li>
+                <!-- <li class="li-nav active-li"><a href="#">Главная</a></li> -->
+                <li class="li-nav active-li"><a href="#">Условия инвестирования</a></li>
                 <li class="li-nav"><a href="#projects">Проекты</a></li>
                 <li class="li-nav"><a href="#projects-payback">Доходность</a></li>
                 <!-- <li class="li-nav"><a href="#">Связаться с нами</a></li> -->

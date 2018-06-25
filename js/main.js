@@ -2,6 +2,20 @@ $(document).ready(function() {
 
   console.log("pageYOffset", window.pageYOffset);
 
+  function header(){
+    let header = $('#header');
+    let logo = $('#logo');
+    let logotip = $('.logo-img');
+
+    header.css({'top':''});
+    logotip.css({"display":"none","width":"50px","height":"50px"});
+    $('.navigation-header').css({"padding":"25px 0 25px 0"});
+    $('.logo-tip').removeClass('col-xl-1');
+    $('.navv').addClass('col-xl-8');
+    $('.navv').removeClass('col-xl-7');
+    $("#logo").css({"display":"block"});
+  };
+
   if (window.pageYOffset >= 100) {
     let header = $('#header');
     let logo = $('#logo');
@@ -15,6 +29,27 @@ $(document).ready(function() {
     $('.navv').addClass('col-xl-7');
     // console.log('kus');
   }
+  function animateArrow(){
+    $(".arrow-top").animate({width: "70px"}, 1500, function(){
+        $(".arrow-top").animate({width: "60px"}, 1500, function(){
+          animateArrow();
+          console.log('ani');
+        });
+
+    });
+  }
+    $(".arrow-top").mouseover(function(){
+      console.log('kuku');
+      animateArrow();
+    });
+
+    $(".arrow-top").click(function(){
+      $('html, body').stop().animate({scrollTop:"0"},1500, function(){
+        header()
+        $(".arrow-top").addClass('hide');
+      });
+
+    });
 
   let height = $('.navigation-header').height();
   //console.log(height);
@@ -161,6 +196,7 @@ function onWheel(e) {
     document.querySelector('.logo-tip').classList.remove('col-xl-1');
     document.querySelector('.navv').classList.remove('col-xl-7');
     document.querySelector('.navv').classList.add('col-xl-8');
+    document.querySelector('.arrow-top').classList.add('hide');
     // console.log('ne rabotaet');
 
     let height = document.querySelector('.navigation-header').clientHeight;
@@ -179,6 +215,7 @@ function onWheel(e) {
     document.querySelector('.logo-tip').classList.add('col-xl-1');
     document.querySelector('.navv').classList.remove('col-xl-8');
     document.querySelector('.navv').classList.add('col-xl-7');
+    document.querySelector('.arrow-top').classList.remove('hide');
     //console.log(start);
     // let timer = setInterval(function() {
     //   // вычислить сколько времени прошло с начала анимации
