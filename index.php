@@ -18,7 +18,8 @@
       <div class="row d-flex justify-content-center">
         <div class="logo d-flex flex-column" style="padding: 20px 0 20px 0">
           <img src="img/luchshee-mesto-logo.svg" alt="Лучшее место" style="width: 500px;">
-          <span style="color:#06426c; font-size: 30px; text-align:center; font-style: italic; display:block; margin-top: 10px;">ИНВЕСТИЦИИ С <span style="font-style: oblique; font-weight: bold;font-size: 30px; text-align:center; font-style: italic">2011</span></span>
+          <span style="color:#06426c; font-weight: bold; font-size: 14px; text-align:center; margin-left: 24px;">С 2011<br></span>
+          <span style="font-weight: bold; color:#06426c; font-size: 30px; text-align:center;display:block; margin-top: 10px;">ИНВЕСТИЦИИ </span>
           <!-- <span style="color:#06426c; font-size: 24px;">С 2011</span> -->
         </div>
       </div>
@@ -57,11 +58,11 @@
           <div class="slider visible-part d-flex align-items-center" data-slider="0">
             <div class="form-request">
               <form class="form-request-form" action="">
-                <span> Отравить заявку</span>
+                <span>ПОЛУЧИТЬ ПРЕЗЕНТАЦИЮ</span>
                 <input placeholder="Введите Ваше имя" class="" type="text" name="name" value="">
                 <input placeholder="Введите Ваш email" class="" type="email" name="email" value="">
                 <input placeholder="Введите Ваш телефон" class="" type="tel" name="tel" value="">
-                <input class="btn-first-form" type="submit" name="" value="ПОСМОТРЕТЬ ПЕРЕЗЕНТАЦИЮ" disabled="true">
+                <input class="btn-first-form" type="submit" name="" value="ОТПРАВИТЬ" disabled="true">
               </form>
             </div>
             <div class="wrapper d-flex">
