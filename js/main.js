@@ -210,7 +210,7 @@ function onWheel(e) {
     //console.log(height);
     document.querySelector('#banner').style.padding = height + "px";
 
-  }else if(delta > 0){
+  }else if(delta > 0 && window.pageYOffset > 0){
     // console.log('rabotaet');
     header.style.top = '0';
     logo.style.display = 'none';
@@ -234,7 +234,7 @@ function scroll() {
   let logotip = document.querySelector('.logo-img');
 
   // console.log(delta, window.pageYOffset);
-  if (scrollTop <= 100) {
+  if (scrollTop < 100) {
     logo.style.display = 'block';
     header.style.top = '';
     logotip.style.display = 'none';

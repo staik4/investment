@@ -220,26 +220,34 @@
           <div class="calculator col-xl-4">
             <div class="calc-design d-flex flex-column justify-content-around align-items-center">
               <span>КАЛЬКУЛЯТОР ДОХОДНОСТИ</span>
-              <input type="text" name="" class="amount" placeholder="Введите сумму инвестиций">
-              <select class="" name="">
-                <option disabled>Выберите проект</option>
-                <option value="">ДОМ ОТДЫХА</option>
-                <option value="">ЛЕВАШОВО</option>
-                <option value="">ОСТРОВ</option>
-                <option value="">ТРОИЦА</option>
+              <!-- <input type="text" name="" class="amount" placeholder="Введите сумму инвестиций"> -->
+              <select class="volume-of-invest" name="">
+                <option value = "">Выберите сумму инвестиций</option>
+                <option value="3000000">3 000 000</option>
+                <option value="6000000">6 000 000</option>
+                <option value="9000000">9 000 000</option>
+                <option value="12000000">12 000 000</option>
               </select>
-              <select class="" name="">
-                <option disabled>Выберите срок для расчета</option>
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-                <option value="">4</option>
-                <option value="">5</option>
-                <option value="">7</option>
-                <option value="">10</option>
-                <option value="">15</option>
+              <select class="select-projects" name="">
+                <option value = "">Выберите проект</option>
+                <option value="ДОМ ОТДЫХА">ДОМ ОТДЫХА</option>
+                <option value="ЛЕВАШОВО">ЛЕВАШОВО</option>
+                <option value="ОСТРОВ">ОСТРОВ</option>
+                <option value="ТРОИЦА">ТРОИЦА</option>
               </select>
-              <button type="button" name="button">Расчитать доход</button>
+              <select class="per-year-invest" name="">
+                <option value = "">Выберите срок для расчета</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+              </select>
+              <button id="calculate" type="button" name="button">Расчитать доход</button>
+              <button type="button" name="button">Очистить расчеты</button>
             </div>
           </div>
           <div class="arrow col-xl-1 d-flex align-items-center">
@@ -253,7 +261,7 @@
             </div>
           </div>
           <div class="table-calc col-xl-12">
-            <table class="table">
+            <table class="table" style="display:none">
               <thead>
                 <tr>
                   <th scope="col">#</th>
@@ -265,7 +273,7 @@
                 </tr>
               </thead>
               <tbody>
-                <tr>
+                <!-- <tr>
                   <th>1</th>
                   <th>2</th>
                   <th>3</th>
@@ -296,7 +304,7 @@
                   <th>4</th>
                   <th>5</th>
                   <th>6</th>
-                </tr>
+                </tr> -->
               </tbody>
             </table>
           </div>
@@ -369,5 +377,6 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/calculator.js"></script>
   </body>
 </html>
