@@ -78,33 +78,31 @@ $(document).ready(function() {
         numSlide = 0;
         $('.visible-part').data('slider', numSlide);
         nSlide = $('.visible-part').data('slider');
-        wrapper.animate({"margin-left":'0'}, 2500);
-        clearTimeout();
-        setTimeout(runSlide, 6000);
-
         $(".slide-item[data-slide='"+"3"+"'] .slogan").css({'opacity':0});
         $(".slide-item[data-slide='"+'3'+"'] .slogan").removeClass('fadeIn');
         $(".slide-item[data-slide='"+nSlide+"'] .slogan").addClass('fadeIn');
         setTimeout(function(){
           $(".slide-item[data-slide='"+nSlide+"'] .slogan").css({'opacity':1});
         },3500);
-
+        wrapper.animate({"margin-left":'0'}, 1500);
+        clearTimeout();
+        setTimeout(runSlide, 6000);
         // console.log('nSlide',nSlide);
       },6000);
     } else {
-      wrapper.animate({"margin-left":'-='+slideWidth}, 2500);
+      wrapper.animate({"margin-left":'-='+slideWidth}, 1500);
       numSlide +=1;
       $('.visible-part').data('slider', numSlide);
       nSlide = $('.visible-part').data('slider');
       prevSlide = $('.visible-part').data('slider') - 1;
-      setTimeout(runSlide, 6000);
       $(".slide-item[data-slide='"+prevSlide+"'] .slogan").css({'opacity':0});
       $(".slide-item[data-slide='"+prevSlide+"'] .slogan").removeClass('fadeIn');
       $(".slide-item[data-slide='"+nSlide+"'] .slogan").addClass('fadeIn');
       setTimeout(function(){
         $(".slide-item[data-slide='"+nSlide+"'] .slogan").css({'opacity':1});
       },3500);
-      console.log('nSlide', nSlide);
+      setTimeout(runSlide, 6000);
+      // console.log('nSlide', nSlide);
     }
   },6000);
 
@@ -166,17 +164,6 @@ $(document).ready(function() {
   $("a[href^='#']").click(function(){
 		let top = $(this).attr('href');
         $('html, body').stop().animate({scrollTop: $(top).offset().top}, 1000);
-        let header = $('#header');
-        let logo = $('#logo');
-        let logotip = $('.logo-img');
-
-        header.css({'top':'0'});
-        logotip.css({"display":"block","width":"50px","height":"50px"});
-        $('.navigation-header').css({"padding":"15px 0 15px 0"});
-        $('.logo-tip').addClass('col-xl-1');
-        $('.navv').removeClass('col-xl-8');
-        $('.navv').addClass('col-xl-7');
-				// console.log('kus');
 	});
 });
 //console.log(window);
@@ -263,5 +250,5 @@ function scroll() {
     document.querySelector('.navv').classList.add('col-xl-7');
     document.querySelector('.arrow-top').classList.remove('hide');
   }
-  console.log(scrollTop);
+  //console.log(scrollTop);
 }
