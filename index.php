@@ -291,6 +291,7 @@
               <div class="year col-xl-1">10</div>
               <div class="year col-xl-1">15</div>
             </div>
+            
             <div class="row-table-cop d-flex flex-row justify-content-around" style="width: 100%; border-top: 0px; opacity: 1;">
               <div style="border-top: 0; font-size: 14px;" class="table-head col-xl-4">ДОМ ОТДЫХА</div>
               <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">1635948</div>
