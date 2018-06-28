@@ -34,6 +34,10 @@ $fontSizeSlogan: 28px;
   z-index: 113  ;
 }
 
+.wrapper {
+  will-change: transform;
+}
+
 .body-layout {
   position: absolute;
   width: 100%;
@@ -199,24 +203,28 @@ $fontSizeSlogan: 28px;
 .slogan_0 {
   background-image: url(../img/house.jpg);
   background-size: 100%;
+  // background-color: red;
 
 }
 
 .slogan_1 {
-  background-image: url(../img/office.jpg);
+  background-image: url(../img/levashovo-min.JPG);
   background-size: 100%;
+  // background-color: green;
 
 }
 
 .slogan_2 {
-  background-image: url(../img/money.jpg);
+  background-image: url(../img/earth-min.JPG);
   background-size: 100%;
+  // background-color: orange;
 
 }
 
 .slogan_3 {
-  background-image: url(../img/cash.jpg);
+  background-image: url(../img/earth-2-min.JPG);
   background-size: 100%;
+  // background-color: brown;
 
 }
 
@@ -439,7 +447,32 @@ $fontSizeSlogan: 28px;
     color: #05426d !important;
     border: 1px solid #5bb5b1;
     border-radius: 5px;
-    box-shadow: 0 0 3px grey;
+    box-shadow: 0 0 3px #05426d;
+    padding: 4px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  button:hover {
+    width: 250px;
+    height: 34px;
+    color: white !important;
+    border: 1px solid #5bb5b1;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #05426d;
+    padding: 4px;
+    background-color: #05426d;
+    font-weight: bold;
+  }
+
+  button:active {
+    width: 250px;
+    height: 34px;
+    color: #05426d !important;
+    border: 1px solid #5bb5b1;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #05426d;
     padding: 4px;
     background-color: white;
     font-weight: bold;
@@ -479,6 +512,170 @@ $fontSizeSlogan: 28px;
     box-shadow: 0 0 1px $primary-color;
   }
 }
+
+.row-table-main {
+  height: 35px;
+  box-shadow: 0 0 3px #5bb5b1;
+  // border: 2px solid $primary-color;
+  border-left: 0;
+  color: $primary-color;
+  font-size: 16px;
+  font-weight: bold;
+  // display: none;
+  display: flex;
+  opacity: 0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-table-main {
+  div {
+    height: 35px;
+    box-shadow: 0 0 3px #5bb5b1;
+    border: 2px solid $primary-color;
+    border-left: 0;
+    color: $primary-color;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  div:first-child {
+    border-left: 2px solid $primary-color;
+  }
+  .table-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .year {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.row-table {
+  opacity: 0;
+}
+
+.row-table-main-cop {
+  div {
+    height: 35px;
+    box-shadow: 0 0 3px #5bb5b1;
+    border: 2px solid $primary-color;
+    border-left: 0;
+    color: $primary-color;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  div:first-child {
+    border-left: 2px solid $primary-color;
+  }
+  .table-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .year {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.row-table-cop {
+  div {
+    height: 35px;
+    box-shadow: 0 0 3px #5bb5b1;
+    border: 2px solid $primary-color;
+    border-left: 0;
+    color: $primary-color;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  div:first-child {
+    border-left: 2px solid $primary-color;
+  }
+  .table-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .year {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.row-table {
+  div {
+    height: 35px;
+    box-shadow: 0 0 3px #5bb5b1;
+    border: 2px solid $primary-color;
+    border-left: 0;
+    color: $primary-color;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  div:first-child {
+    border-left: 2px solid $primary-color;
+  }
+
+  .table-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .year {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.up,
+.second {
+  position: absolute;
+  border: 1px solid #999;
+  color: #0a0;
+}
+
+.table-cop-layout {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: $primary-color;
+  font-size: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  z-index: 1000;
+}
+
+.table-cop-layout {
+  span {
+    color: $primary-color;
+    font-size: 90px;
+    display: block;
+    transform: rotate(15deg);
+  }
+}
+
 /*=====================feedback===================== */
 
 #feedback {

@@ -222,21 +222,21 @@
               <span>КАЛЬКУЛЯТОР ДОХОДНОСТИ</span>
               <!-- <input type="text" name="" class="amount" placeholder="Введите сумму инвестиций"> -->
               <select class="volume-of-invest" name="">
-                <option value = "">Выберите сумму инвестиций</option>
+                <option value = "clear">Выберите сумму инвестиций</option>
                 <option value="3000000">3 000 000</option>
                 <option value="6000000">6 000 000</option>
                 <option value="9000000">9 000 000</option>
                 <option value="12000000">12 000 000</option>
               </select>
               <select class="select-projects" name="">
-                <option value = "">Выберите проект</option>
+                <option value = "clear">Выберите проект</option>
                 <option value="ДОМ ОТДЫХА">ДОМ ОТДЫХА</option>
                 <option value="ЛЕВАШОВО">ЛЕВАШОВО</option>
                 <option value="ОСТРОВ">ОСТРОВ</option>
                 <option value="ТРОИЦА">ТРОИЦА</option>
               </select>
               <select class="per-year-invest" name="">
-                <option value = "">Выберите срок для расчета</option>
+                <option value ="clear">Выберите срок для расчета</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
                 <option value="4">4</option>
@@ -247,7 +247,7 @@
                 <option value="15">15</option>
               </select>
               <button id="calculate" type="button" name="button">Расчитать доход</button>
-              <button type="button" name="button">Очистить расчеты</button>
+              <button id="clear-form" type="button" name="button">Очистить расчеты</button>
             </div>
           </div>
           <div class="arrow col-xl-1 d-flex align-items-center">
@@ -261,55 +261,84 @@
             </div>
           </div>
           <div class="table-calc col-xl-12">
-            <table class="table" style="display:none">
-              <thead>
-                <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">First</th>
-                  <th scope="col">Second</th>
-                  <th scope="col">Second</th>
-                  <th scope="col">Second</th>
-                  <th scope="col">Second</th>
-                </tr>
-              </thead>
-              <tbody>
-                <!-- <tr>
-                  <th>1</th>
-                  <th>2</th>
-                  <th>3</th>
-                  <th>4</th>
-                  <th>5</th>
-                  <th>6</th>
-                </tr>
-                <tr>
-                  <th>1</th>
-                  <th>2</th>
-                  <th>3</th>
-                  <th>4</th>
-                  <th>5</th>
-                  <th>6</th>
-                </tr>
-                <tr>
-                  <th>1</th>
-                  <th>2</th>
-                  <th>3</th>
-                  <th>4</th>
-                  <th>5</th>
-                  <th>6</th>
-                </tr>
-                <tr>
-                  <th>1</th>
-                  <th>2</th>
-                  <th>3</th>
-                  <th>4</th>
-                  <th>5</th>
-                  <th>6</th>
-                </tr> -->
-              </tbody>
-            </table>
+            <div class="row-table-main" style="width: 100%">
+              <div class="table-head col-xl-4">
+                <!-- <div class="up"></div>
+                <div class="bot"></div> -->
+                ПРОЕКТ/ПЕРИОД
+              </div>
+              <div class="year col-xl-1">2</div>
+              <div class="year col-xl-1">3</div>
+              <div class="year col-xl-1">4</div>
+              <div class="year col-xl-1">5</div>
+              <div class="year col-xl-1">6</div>
+              <div class="year col-xl-1">7</div>
+              <div class="year col-xl-1">10</div>
+              <div class="year col-xl-1">15</div>
+            </div>
+          </div>
+        <div class="cop-table" style="width: 100%; position:relative;">
+          <div class="table-calc-cop">
+            <div class="table-cop-layout col-xl-12"><span>ПРИМЕР</span></div>
+            <div class="row-table-main-cop" style="width: 100%; opacity: 1; display: flex;">
+              <div class="table-head col-xl-4">ПРОЕКТ/ПЕРИОД</div>
+              <div class="year col-xl-1">2</div>
+              <div class="year col-xl-1">3</div>
+              <div class="year col-xl-1">4</div>
+              <div class="year col-xl-1">5</div>
+              <div class="year col-xl-1">6</div>
+              <div class="year col-xl-1">7</div>
+              <div class="year col-xl-1">10</div>
+              <div class="year col-xl-1">15</div>
+            </div>
+            <div class="row-table-cop d-flex flex-row justify-content-around" style="width: 100%; border-top: 0px; opacity: 1;">
+              <div style="border-top: 0; font-size: 14px;" class="table-head col-xl-4">ДОМ ОТДЫХА</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">1635948</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">2453922</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+            </div>
+            <div class="row-table-cop d-flex flex-row justify-content-around" style="width: 100%; border-top: 0px; opacity: 1;">
+              <div style="border-top: 0; font-size: 14px;" class="table-head col-xl-4">ДОМ ОТДЫХА</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">1635948</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">2453922</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">3271896</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+            </div>
+            <div class="row-table-cop d-flex flex-row justify-content-around" style="width: 100%; border-top: 0px; opacity: 1;">
+              <div style="border-top: 0; font-size: 14px;" class="table-head col-xl-4">ДОМ ОТДЫХА</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">1635948</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">2453922</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">3271896</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">4089870</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">4907844</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">5725818</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+            </div>
+            <div class="row-table-cop d-flex flex-row justify-content-around" style="width: 100%; border-top: 0px; opacity: 1;">
+              <div style="border-top: 0; font-size: 14px;" class="table-head col-xl-4">ОСТРОВ</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">4907844</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">7361766</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">9815688</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">12269610</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">14723532</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">17177454</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">24539220</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">36808830</div>
+            </div>
           </div>
         </div>
       </div>
+    </div>
     </section>
     <section id="feedback">
       <div class="container">
