@@ -5,31 +5,28 @@
     <title>INSVESTMENT</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-
-    <script type="text/javascript">
-      // var el = document.body;
-
-    </script>
+    <link rel="stylesheet" href="js/chartist/dist/chartist.min.css">
+    <script type="text/javascript"></script>
   </head>
   <body>
-    <div class="arrow-top hide"><img src="img/arrow-up.svg" alt=""></div>
+    <!-- <div class="arrow-top hide"><img src="img/arrow-up.svg" alt=""></div> -->
     <div class="body-layout"></div>
+
     <div class="container" id="logo">
       <div class="row d-flex justify-content-center">
         <div class="logo d-flex flex-column" style="padding: 20px 0 20px 0">
           <img src="img/luchshee-mesto-logo.svg" alt="Лучшее место" style="width: 500px;">
           <span style="color:#06426c; font-weight: bold; font-size: 14px; text-align:center; margin-left: 24px;">С 2011<br></span>
           <span style="font-weight: bold; color:#06426c; font-size: 30px; text-align:center;display:block; margin-top: 10px;">ИНВЕСТИЦИИ </span>
-          <!-- <span style="color:#06426c; font-size: 24px;">С 2011</span> -->
         </div>
       </div>
     </div>
+
     <section id="header">
       <div class="container">
-
         <div class="row">
           <div class="nav navigation-header d-flex align-items-center justify-conten-around" style="width: 100%">
-            <div class="logo-tip">
+            <div class="logo-tip col-xl-1 hide">
               <div class="logo-img">
                 <img src="img/logotip-white.svg" alt="Лучшее место">
               </div>
@@ -37,7 +34,8 @@
             <div class="navv col-xl-8">
               <ul class="ul-nav d-flex justify-content-between">
                 <!-- <li class="li-nav active-li"><a href="#">Главная</a></li> -->
-                <li class="li-nav active-li" style="margin-left: 30px;"><a href="#">Условия инвестирования</a></li>
+                <li class="li-nav active-li" style="margin-left: 30px;"><a href="#unique-offer">Условия инвестирования</a></li>
+                <!-- unique-offer -->
                 <li class="li-nav"><a href="#projects">Проекты</a></li>
                 <li class="li-nav"><a href="#projects-payback">Доходность</a></li>
                 <!-- <li class="li-nav"><a href="#">Связаться с нами</a></li> -->
@@ -65,7 +63,7 @@
                 <input class="btn-first-form" type="submit" name="" value="ОТПРАВИТЬ" disabled="true">
               </form>
             </div>
-            <div class="wrapper d-flex">
+            <div class="slider-annimation wrapper d-flex">
               <div class="slogan_0 slide-item d-flex align-items-center" data-slide="0">
                 <div class="fadeIn slogan bestmesto-slogan">
                   <div class="layout-slogan"></div>
@@ -114,6 +112,11 @@
     </section>
     <section id="projects">
       <div class="container">
+        <div class="row">
+          <div class="projecs-title col-xl-12">
+            <span>ПРОЕКТЫ ЛУЧШЕГО МЕСТА</span>
+          </div>
+        </div>
         <div class="row d-flex justify-content-center" style="position:relative">
           <div class="description-project d-flex flex-column" data-prnum="1">
             <div class="item-desc-projects desc-prijects-description">
@@ -148,22 +151,22 @@
             <button class="btn-close-desc">Close</button>
           </div>
 
-          <div class="col-xl-6 projects-item" data-project="1">
+          <div id="holiday-house" class="col-xl-6 projects-item" data-project="1">
             <div class="title-projects">
               <span>ДОМ ОТДЫХА</span>
             </div>
           </div>
-          <div class="col-xl-6 projects-item" data-project="2">
+          <div id="levashovo" class="col-xl-6 projects-item" data-project="2">
             <div class="title-projects">
               <span>ЛЕВАШОВО</span>
             </div>
           </div>
-          <div class="col-xl-6 projects-item" data-project="3">
+          <div id="island" class="col-xl-6 projects-item" data-project="3">
             <div class="title-projects">
               <span>ОСТРОВ</span>
             </div>
           </div>
-          <div class="col-xl-6 projects-item" data-project="4">
+          <div id="troiza" class="col-xl-6 projects-item" data-project="4">
             <div class="title-projects" >
               <span>ТРОИЦА</span>
             </div>
@@ -217,6 +220,11 @@
     <section id="projects-payback">
       <div class="container">
         <div class="row">
+          <div class="projecs-title col-xl-12">
+            <span>РАССЧИТАЙТЕ СВОЮ ПРИБЫЛЬ!</span>
+          </div>
+        </div>
+        <div class="row">
           <div class="calculator col-xl-4">
             <div class="calc-design d-flex flex-column justify-content-around align-items-center">
               <span>КАЛЬКУЛЯТОР ДОХОДНОСТИ</span>
@@ -257,7 +265,8 @@
           </div>
           <div class="calculator-graph col-xl-7 d-flex justify-content-center">
             <div class="graph">
-              <img src="img/charts.png" alt="" style="height: 270px;">
+              <!-- <img src="img/charts.png" alt="" style="height: 270px;"> -->
+              <div class="chartist"></div>
             </div>
           </div>
           <div class="table-calc col-xl-12">
@@ -336,6 +345,50 @@
               <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">24539220</div>
               <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">36808830</div>
             </div>
+            <div class="row-table-cop d-flex flex-row justify-content-around" style="width: 100%; border-top: 0px; opacity: 1;">
+              <div style="border-top: 0; font-size: 14px;" class="table-head col-xl-4">ОСТРОВ</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">4907844</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">7361766</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">9815688</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">12269610</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+            </div>
+            <div class="row-table-cop d-flex flex-row justify-content-around" style="width: 100%; border-top: 0px; opacity: 1;">
+              <div style="border-top: 0; font-size: 14px;" class="table-head col-xl-4">ДОМ ОТДЫХА</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">4907844</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">7361766</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">9815688</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">12269610</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">14723532</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">17177454</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+            </div>
+            <div class="row-table-cop d-flex flex-row justify-content-around" style="width: 100%; border-top: 0px; opacity: 1;">
+              <div style="border-top: 0; font-size: 14px;" class="table-head col-xl-4">ЛЕВАШОВО</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">4907844</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">7361766</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+            </div>
+            <div class="row-table-cop d-flex flex-row justify-content-around" style="width: 100%; border-top: 0px; opacity: 1;">
+              <div style="border-top: 0; font-size: 14px;" class="table-head col-xl-4">ТРОИЦА</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">4907844</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">7361766</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">9815688</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">12269610</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">14723532</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">17177454</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+              <div style="border-top: 0; font-size: 14px;" class="year col-xl-1">—</div>
+            </div>
           </div>
         </div>
       </div>
@@ -405,8 +458,12 @@
         </div>
       </div>
     </footer>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/calculator.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/chartist/dist/chartist.min.js"></script>
   </body>
 </html>
