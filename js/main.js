@@ -250,5 +250,5 @@ function scroll() {
     document.querySelector('.navv').classList.add('col-xl-7');
     document.querySelector('.arrow-top').classList.remove('hide');
   }
-  //console.log(scrollTop);
+  console.log(scrollTop);
 }
