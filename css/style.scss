@@ -8,19 +8,6 @@
          url('fonts/GilroyLight.svg#GilroyLight') format('svg');
 }
 
-.arrow-top {
-  position: fixed;
-  right : 50px;
-  width: 45px;
-  bottom: 100px;
-  cursor: pointer;
-  display: block !important;
-}
-
-.hide {
-  display: none !important;
-}
-
 $font-primary : GilroyLight;
 $primary-color: #05426d;;
 $fontSizeSlogan: 28px;
@@ -34,8 +21,14 @@ $fontSizeSlogan: 28px;
   z-index: 113  ;
 }
 
+/*=====================header===================== */
 .wrapper {
   will-change: transform;
+  // width: (100%*4);
+}
+
+.hide {
+  display: none !important;
 }
 
 .body-layout {
@@ -48,7 +41,6 @@ $fontSizeSlogan: 28px;
 }
 
 .logo-img {
-  display: none;
   margin-left: 20px;
 }
 
@@ -58,58 +50,76 @@ $fontSizeSlogan: 28px;
 }
 
 #header {
-  position: fixed;
+  position: absolute;
   width: 100%;
   z-index: 11000;
 
 }
 
-#header .container {
-  background-color: #007282;
-
-  //background-image :url(../img/yellow-fabric.jpg);
+#header {
+  .container {
+    background-color: #007282;
+  }
 }
 
 .navigation-header {
-  padding: 25px 0 25px 0;
+  padding: 15px 0 15px 0;
 }
 
 .nav {
   box-shadow: 0 0 2px gray;
 }
 
-.ul-nav .li-nav a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-  font-weight: bold;
+.ul-nav {
+  margin: 0;
+
+  .li-nav {
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
 }
 
-.ul-nav .li-nav {
-  list-style-type: none;
-  width: 140px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+.ul-nav {
+  .li-nav {
+    list-style-type: none;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
-.head-contacts .tel span {
-  font-size: 18px;
-  // color: $primary-color;
-  color: white;
+.head-contacts {
+  .tel {
+    span {
+      font-size: 18px;
+      // color: $primary-color;
+      color: white;
+    }
+  }
 }
 
-.head-contacts .tel {
-  text-align: center;
+.head-contacts{
+  .tel {
+    text-align: center;
+  }
 }
 
 .ul-nav {
   margin-bottom: 0 !important;
 }
 
-
 /*=====================banner===================== */
+
+#banner {
+  margin-top: 50px;
+}
+
 .slider {
   width: 100%;
 }
@@ -259,7 +269,7 @@ $fontSizeSlogan: 28px;
 }
 
 .unique-title span{
-  font-size: 36px;
+  font-size: 54px;
   color: $primary-color;
   font-weight: bold;
   display: block;
@@ -281,16 +291,25 @@ $fontSizeSlogan: 28px;
 }
 
 .projects-item {
-  border: 1px dashed $primary-color;
+  // border: 1px dashed $primary-color;
   height: 350px;
   cursor: pointer;
   color: $primary-color;
+  position: relative;
+  padding: 0 !important;
+}
+
+.projects-item:hover {
+  box-shadow: 0 0 20px $primary-color;
 }
 
 .description-project {
   display: none;
   z-index: 1000;
   border-radius: 7px;
+  // background-color: white;
+  box-shadow: 0 0 4px $primary-color;
+  background-image: url(../img/wavegrid_@2X.png);
   /* opacity: 0.4; */
 }
 
@@ -324,6 +343,66 @@ $fontSizeSlogan: 28px;
   }
 }
 
+#holiday-house {
+  background-image: url(../img/architecture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#levashovo {
+  background-image: url(../img/levashovo-min.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#island {
+  background-image: url(../img/earth-2-min.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#troiza {
+  background-image: url(../img/sergovo.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title-projects {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  span {
+    display: flex;
+    opacity: 0;
+    color: $primary-color;
+    font-size: 64px;
+    font-weight: bold;
+    background-color: rgba(91,181,177, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.projecs-title {
+  width: 100%;
+  height: 100px;
+  span {
+    display: flex;
+    color: $primary-color;
+    font-size: 54px;
+    font-weight: bold;
+    // background-color: rgba(91,181,177, 0.5);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: start;
+    // margin: 100px 0 100px 0;
+  }
+}
+
 /*=====================payback===================== */
 
 #projects-payback {
@@ -338,16 +417,17 @@ $fontSizeSlogan: 28px;
   display: none;
 }
 
-.projects-payback-item span {
-  font-size: 34px;
-  color: $primary-color;
+.projects-payback-item {
+  span {
+    font-size: 34px;
+    color: $primary-color;
+  }
 }
 
 .memu-payback-item {
   cursor: pointer;
   background-color: #d9efff;
   height: 100%;
-
 }
 
 .active-memu-payback-item {
@@ -385,30 +465,28 @@ $fontSizeSlogan: 28px;
 
 }
 
-.start-button {
+.start-button{
   width: 100%;
   height: 50px;
 
-}
-.start-button button {
-  width: 100%;
-  height: 50px;
-  border: 0px;
-  font-size: 20px;
-  font-weight: bold;
-  color: white;
-  background-color: $primary-color;
-  cursor: pointer;
-  outline: none;
-}
-
-.start-button button:hover {
-  background-color: #d9efff;
-  color: $primary-color;
-}
-
-.start-button button:active {
-  opacity: 0.7;
+  button {
+    width: 100%;
+    height: 50px;
+    border: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: $primary-color;
+    cursor: pointer;
+    outline: none;
+  }
+  button:hover {
+    background-color: #d9efff;
+    color: $primary-color;
+  }
+  button:active {
+    opacity: 0.7;
+  }
 }
 
 .calc-design {
@@ -676,6 +754,27 @@ $fontSizeSlogan: 28px;
   }
 }
 
+.graph {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chartist {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ct-series-a .ct-bar, .ct-series-a .ct-line, .ct-series-a .ct-point, .ct-series-a .ct-slice-donut {
+  stroke: $primary-color !important;
+}
+
+.stroke-width{ width: 40px !important;} 
 /*=====================feedback===================== */
 
 #feedback {
@@ -868,3 +967,41 @@ $fontSizeSlogan: 28px;
   animation-timing-function: ease-out;
   animation-delay: 1.5s;
 }
+
+// @keyframes slider {
+//   0%
+//   {
+//     transform: translateX(0);
+//   }
+//
+//   20%
+//   {
+//     transform: translateX(calc(-100%/4));
+//   }
+//
+//   40%
+//   {
+//     transform: translateX(calc(-100%/2));
+//   }
+//
+//   60%
+//   {
+//     transform: translateX(calc(-(100%/2 + 100%/4)));
+//   }
+//
+//   80%
+//   {
+//     transform: translateX(-75%);
+//   }
+//
+//   100%
+//   {
+//     transform: translateX(0px);
+//   }
+// }
+//
+// .slider-annimation {
+//   -webkit-animation: slider 30s infinite;
+//   animation: slider 30s infinite;
+//   animation-delay: 4s;
+// }
