@@ -6,13 +6,11 @@ $(document).ready(function(){
     let that = $(this);
     $(that).mouseover(function(){
       $(that).children().children().animate({"opacity": "1"},1500);
-      console.log($(that).children().children());
+      // console.log($(that).children().children());
     });
     $(that).mouseout(function(){
-      console.log("out");
+      // console.log("out");
       $(that).children().children().animate({"opacity": "0"},1500);
-
-
     });
 
     $(that).on('click', function(){
@@ -37,5 +35,23 @@ $(document).ready(function(){
       });
     });
   });//projects
+
+  $('.memu-payback-item').each(function(){
+    $(this).on('click', function(){
+      $(this).parent().children().removeClass('active-memu-payback-item');
+      $(this).addClass('active-memu-payback-item');
+      let pr = $('.active-memu-payback-item').data('menupayback');
+
+      $('.active-projects-payback-item').fadeOut("slow", function(){
+        $(this).parent().children().removeClass('active-projects-payback-item');
+        $(".projects-payback-item[data-prpayback='"+pr+"']").addClass('active-projects-payback-item');
+
+        $(".projects-payback-item[data-prpayback='"+pr+"']").fadeIn( "slow",function(){
+        });
+        console.log(pr);
+      });
+
+    });
+  });
 
 });

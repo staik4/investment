@@ -16,8 +16,8 @@
       <div class="row d-flex justify-content-center">
         <div class="logo d-flex flex-column" style="padding: 20px 0 20px 0">
           <img src="img/luchshee-mesto-logo.svg" alt="Лучшее место" style="width: 500px;">
-          <span style="color:#06426c; font-weight: bold; font-size: 14px; text-align:center; margin-left: 24px;">С 2011<br></span>
-          <span style="font-weight: bold; color:#06426c; font-size: 30px; text-align:center;display:block; margin-top: 10px;">ИНВЕСТИЦИИ </span>
+          <span style="color:#06426c; font-weight: bold; font-size: 14px; text-align:center; margin-left: 35px;">c 2011 года<br></span>
+          <span style="margin-left:30px; font-weight: bold; color:#06426c; font-size: 48px; text-align:center;display:block; margin-top: 10px; font-family: BebasNeueRegular">ИНВЕСТИЦИИ </span>
         </div>
       </div>
     </div>
@@ -33,17 +33,14 @@
             </div>
             <div class="navv col-xl-8">
               <ul class="ul-nav d-flex justify-content-between">
-                <!-- <li class="li-nav active-li"><a href="#">Главная</a></li> -->
-                <li class="li-nav active-li" style="margin-left: 30px;"><a href="#unique-offer">Условия инвестирования</a></li>
-                <!-- unique-offer -->
+                <li class="li-nav" style="margin-left: 30px;"><a href="#unique-offer">Условия инвестирования</a></li>
                 <li class="li-nav"><a href="#projects">Проекты</a></li>
                 <li class="li-nav"><a href="#projects-payback">Доходность</a></li>
-                <!-- <li class="li-nav"><a href="#">Связаться с нами</a></li> -->
                 <li class="li-nav"><a href="#feedback">Контакты</a></li>
               </ul>
             </div>
             <div class="col-xl-4 head-contacts">
-              <div class="tel d-flex justify-content-center"><img src="img/telephone.svg" alt="" style="width: 22px; height: 22px; margin: 0 10px 0 0; cursor: pointer"><span style="font-size: 22px; font-weight: bold">+7(495)-369-3235</span></div>
+              <div class="tel d-flex justify-content-center"><img src="img/telephone.svg" alt="phone" style="width: 22px; height: 22px; margin: 0 10px 0 0; cursor: pointer"><span style="font-size: 22px; font-weight: bold; font-family:BebasNeueRegular; letter-spacing: 2px;">+7(495)-369-3235</span></div>
             </div>
           </div>
         </div>
@@ -175,7 +172,7 @@
       </div>
     </section>
 
-    <!-- <section id="projects-payback">
+    <section id="projects-payback">
       <div class="container">
         <div class="row">
           <div class="menu-payback d-flex justify-content-between" style="width:100%">
@@ -208,16 +205,16 @@
           </div>
         </div>
 
-        <div class="row">
+        <!-- <div class="row">
           <div class="calculator">
             <div class="start-button">
               <button type="button" name="button">Калькулятор</button>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
-    </section> -->
-    <section id="projects-payback">
+    </section>
+    <!-- <section id="projects-payback">
       <div class="container">
         <div class="row">
           <div class="projecs-title col-xl-12">
@@ -228,7 +225,6 @@
           <div class="calculator col-xl-4">
             <div class="calc-design d-flex flex-column justify-content-around align-items-center">
               <span>КАЛЬКУЛЯТОР ДОХОДНОСТИ</span>
-              <!-- <input type="text" name="" class="amount" placeholder="Введите сумму инвестиций"> -->
               <select class="volume-of-invest" name="">
                 <option value = "clear">Выберите сумму инвестиций</option>
                 <option value="3000000">3 000 000</option>
@@ -265,15 +261,12 @@
           </div>
           <div class="calculator-graph col-xl-7 d-flex justify-content-center">
             <div class="graph">
-              <!-- <img src="img/charts.png" alt="" style="height: 270px;"> -->
               <div class="chartist"></div>
             </div>
           </div>
           <div class="table-calc col-xl-12">
             <div class="row-table-main" style="width: 100%">
               <div class="table-head col-xl-4">
-                <!-- <div class="up"></div>
-                <div class="bot"></div> -->
                 ПРОЕКТ/ПЕРИОД
               </div>
               <div class="year col-xl-1">2</div>
@@ -393,7 +386,7 @@
         </div>
       </div>
     </div>
-    </section>
+    </section> -->
     <section id="feedback">
       <div class="container">
         <div class="row d-flex justify-content-center align-items-center">
