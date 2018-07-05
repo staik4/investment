@@ -10,9 +10,11 @@ $(document).ready(function(){
     "15":"8 ",
   };
   let series = [[
-  ]];
+  ],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]];
   let valueOfInsvest =3000000;
   let valuePerYear = 817974;
+  let numberOfcharts = $('#calculate').data('charts');
+  // console.log(numberOfcharts);
 
   $('#calculate').click(function(){
     let manyOfInvest = $('.volume-of-invest :selected').val();
@@ -21,6 +23,8 @@ $(document).ready(function(){
     $(".volume-of-invest option[value='clear']").removeAttr("selected");
     $(".select-projects option[value='clear']").removeAttr("selected");
     $(".per-year-invest option[value='clear']").removeAttr("selected");
+    console.log("numberOfcharts", numberOfcharts);
+    $('#calculate').attr('data-charts', numberOfcharts);
     let mon;
     if(manyOfInvest.length > 7){
       mon = parseInt(manyOfInvest.slice(0, 2))/3;
@@ -51,7 +55,7 @@ $(document).ready(function(){
           console.log('num',sumPerYear.length, num, num/10);
         }
         div = div + "<div style='border-top: 0' class='year col-xl-1'>"+sumPerYear+"</div>";
-        series[0].push({x:key, y: num});
+        series[numberOfcharts].push({x:key, y: num});
         // labels.push(key);
         console.log(series, num);
       }else {
@@ -93,7 +97,7 @@ $(document).ready(function(){
         onlyInteger: true
       }
     });
-
+    numberOfcharts +=1;
     // new Chartist.Line('.chartist',data, options);
     $('.table-calc').append(mainResult + div + '</div>');
     setTimeout(function(){

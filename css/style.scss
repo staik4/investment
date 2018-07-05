@@ -8,9 +8,31 @@
          url('fonts/GilroyLight.svg#GilroyLight') format('svg');
 }
 
-$font-primary : GilroyLight;
-$primary-color: #05426d;;
+@font-face {
+    font-family: 'SFUITextRegular';
+    src: url('fonts/SFUITextRegular.eot');
+    src: url('fonts/SFUITextRegular.eot') format('embedded-opentype'),
+         url('fonts/SFUITextRegular.woff2') format('woff2'),
+         url('fonts/SFUITextRegular.woff') format('woff'),
+         url('fonts/SFUITextRegular.ttf') format('truetype'),
+         url('fonts/SFUITextRegular.svg#SFUITextRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeueRegular.eot');
+    src: url('fonts/BebasNeueRegular.eot') format('embedded-opentype'),
+         url('fonts/BebasNeueRegular.woff2') format('woff2'),
+         url('fonts/BebasNeueRegular.woff') format('woff'),
+         url('fonts/BebasNeueRegular.ttf') format('truetype'),
+         url('fonts/BebasNeueRegular.svg#BebasNeueRegular') format('svg');
+}
+
+
+$font-primary : SFUITextRegular;
+$primary-color: #05426d;
 $fontSizeSlogan: 28px;
+$title-font: BebasNeueRegular;
 
 *,html,body {
   margin: 0;
@@ -18,7 +40,8 @@ $fontSizeSlogan: 28px;
   font-size: 14px;
   line-height: 1.2;
   font-family: $font-primary;
-  z-index: 113  ;
+  z-index: 113;
+
 }
 
 /*=====================header===================== */
@@ -70,15 +93,28 @@ $fontSizeSlogan: 28px;
   box-shadow: 0 0 2px gray;
 }
 
+.active-li {
+  text-shadow: 0 0 20px white;
+}
+
 .ul-nav {
   margin: 0;
 
   .li-nav {
+    &:hover {
+      text-shadow: 0 0 20px white;
+    }
+
     a {
       text-decoration: none;
       color: white;
-      font-size: 18px;
+      font-size: 22px;
       font-weight: bold;
+      font-family: $title-font;
+      letter-spacing: 1.5px;
+      &:hover {
+
+      }
     }
   }
 }
@@ -86,11 +122,14 @@ $fontSizeSlogan: 28px;
 .ul-nav {
   .li-nav {
     list-style-type: none;
-    width: 140px;
+    // width: 140px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-family: $title-font;
+    letter-spacing: 1.5px;
+    // font-size: 14px;
   }
 }
 
@@ -182,6 +221,7 @@ $fontSizeSlogan: 28px;
     font-weight: bold;
     margin-top: -10px;
   }
+
   input {
     height: 34px;
     width: 240px;
@@ -266,13 +306,18 @@ $fontSizeSlogan: 28px;
 .unique-title {
   display: flex;
   justify-content: center;
+  padding: 30px 0 30px 0;
 }
 
-.unique-title span{
-  font-size: 54px;
-  color: $primary-color;
-  font-weight: bold;
-  display: block;
+.unique-title {
+  span{
+    font-size: 54px;
+    color: $primary-color;
+    font-weight: bold;
+    display: block;
+    font-family: $title-font;
+    letter-spacing: 1.5px;
+  }
 }
 
 .investment-conditions {
@@ -339,12 +384,14 @@ $fontSizeSlogan: 28px;
     font-size: 22px !important;
     color: $primary-color;
     font-weight: bold;
+    font-family: $title-font;
+    letter-spacing: 1.5px;
     // display: block;
   }
 }
 
 #holiday-house {
-  background-image: url(../img/architecture.jpg);
+  background-image: url(../img/sergovo.JPG);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -362,7 +409,7 @@ $fontSizeSlogan: 28px;
 }
 
 #troiza {
-  background-image: url(../img/sergovo.JPG);
+  background-image: url(../img/tr.JPG);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -383,6 +430,8 @@ $fontSizeSlogan: 28px;
     height: 100%;
     justify-content: center;
     align-items: center;
+    font-family: $title-font;
+    letter-spacing: 1.5px;
   }
 }
 
@@ -399,6 +448,8 @@ $fontSizeSlogan: 28px;
     height: 100%;
     justify-content: center;
     align-items: start;
+    font-family: $title-font;
+    letter-spacing: 1.5px;
     // margin: 100px 0 100px 0;
   }
 }
@@ -421,6 +472,8 @@ $fontSizeSlogan: 28px;
   span {
     font-size: 34px;
     color: $primary-color;
+    font-weight: bold;
+
   }
 }
 
@@ -428,28 +481,46 @@ $fontSizeSlogan: 28px;
   cursor: pointer;
   background-color: #d9efff;
   height: 100%;
+
+  span {
+    font-size: 28px;
+    font-weight: bold;
+    color: $primary-color;
+    font-family: $title-font;
+    letter-spacing: 1.5px;
+  }
 }
 
 .active-memu-payback-item {
-  background-color: #2174b1;
-  color: white;
+  background-color: #007282;
+  color: white !important;
   height: 71px;
   margin-top: -3px;
+  span {
+    background-color: #007282;
+    color: white !important;
+  }
 }
 
-.memu-payback-item:hover {
-  background-color: #2174b1;
-  color: white;
-}
-
-.memu-payback-item:active {
-  opacity: 0.7;
+.memu-payback-item{
+  box-shadow: 0 0 3px $primary-color;
+  &:hover {
+    background-color: #007282;
+    color: white;
+    span {
+      color: white !important;
+    }
+  }
+  &:active {
+    opacity: 0.7;
+  }
 }
 
 .proj-payback {
-  border: 2px dashed $primary-color;
+  // border: 2px dashed $primary-color;
   height: 400px;
   width: 100%;
+  box-shadow: 0 0 3px $primary-color;
 }
 
 
@@ -774,7 +845,7 @@ $fontSizeSlogan: 28px;
   stroke: $primary-color !important;
 }
 
-.stroke-width{ width: 40px !important;} 
+.stroke-width{ width: 40px !important;}
 /*=====================feedback===================== */
 
 #feedback {

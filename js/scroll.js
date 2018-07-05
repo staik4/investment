@@ -9,12 +9,14 @@ $(document).ready(function(){
     e.preventDefault();
 		let top = $(this).attr('href');
     $('html, body').stop().animate({scrollTop: $(top).offset().top-130}, 1400);
+    $("li").parent().children().removeClass('active-li');
+    $(this).parent().addClass('active-li');
 		// console.log('kus');
 	});
 
   $(window).scroll(function(){
     let scrollTopp = $(document).scrollTop();
-    console.log(scrollTopp, headerOffset);
+    // console.log(scrollTopp, headerOffset);
     if (scrollTopp >= headerOffset) {
       // console.log('kuku');
       if (binScroll == false){
