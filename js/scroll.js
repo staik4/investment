@@ -14,6 +14,7 @@ $(document).ready(function(){
 		// console.log('kus');
 	});
 
+
   $(window).scroll(function(){
     let scrollTopp = $(document).scrollTop();
     // console.log(scrollTopp, headerOffset);
