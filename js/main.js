@@ -8,6 +8,7 @@ $(document).ready(function(){
       $(that).children().children().animate({"opacity": "1"},1500);
       // console.log($(that).children().children());
     });
+    
     $(that).mouseout(function(){
       // console.log("out");
       $(that).children().children().animate({"opacity": "0"},1500);
