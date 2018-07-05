@@ -12,6 +12,7 @@
     <!-- <div class="arrow-top hide"><img src="img/arrow-up.svg" alt=""></div> -->
     <div class="body-layout"></div>
 
+
     <div class="container" id="logo">
       <div class="row d-flex justify-content-center">
         <div class="logo d-flex flex-column" style="padding: 20px 0 20px 0">
