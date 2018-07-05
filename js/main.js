@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 $(document).ready(function(){
   let heightBackGround = $('.body-layout');
   heightBackGround.css({"height":$(document).height()});
@@ -56,7 +55,6 @@ $(document).ready(function(){
   });
 
 });
-=======
 $(document).ready(function(){
   let heightBackGround = $('.body-layout');
   heightBackGround.css({"height":$(document).height()});
@@ -98,4 +96,3 @@ $(document).ready(function(){
   });//projects
 
 });
->>>>>>> 2f500fdc03651bf362aa7475892cfb0607d3d1a7
