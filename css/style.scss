@@ -327,7 +327,7 @@ $title-font: BebasNeueRegular;
 }
 
 .item-desc-projects {
-  height: 100%;
+  // height: 100%;
 }
 /*=====================projects===================== */
 
@@ -355,6 +355,7 @@ $title-font: BebasNeueRegular;
   // background-color: white;
   box-shadow: 0 0 4px $primary-color;
   background-image: url(../img/wavegrid_@2X.png);
+  overflow-x: auto;
   /* opacity: 0.4; */
 }
 
@@ -369,7 +370,7 @@ $title-font: BebasNeueRegular;
     display: none;
   }
   .btn-presentation {
-    display: none;
+    // display: none;
     height: 80px;
   }
 }
@@ -377,39 +378,39 @@ $title-font: BebasNeueRegular;
 .title-desc {
   display: flex;
   justify-content: center;
-}
 
-.title-desc {
   span {
-    font-size: 22px !important;
+    font-size: 32px !important;
     color: $primary-color;
     font-weight: bold;
     font-family: $title-font;
     letter-spacing: 1.5px;
     // display: block;
+    margin: 0px 0 25px 0;
+    // display: block;
   }
 }
 
 #holiday-house {
-  background-image: url(../img/sergovo.JPG);
+  background-image: url(../img/desc/houseHiliday.JPG);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #levashovo {
-  background-image: url(../img/levashovo-min.JPG);
+  background-image: url(../img/desc/lev.JPG);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #island {
-  background-image: url(../img/earth-2-min.JPG);
+  background-image: url(../img/desc/island.JPG);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #troiza {
-  background-image: url(../img/tr.JPG);
+  background-image: url(../img/desc/serg.JPG);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -432,12 +433,29 @@ $title-font: BebasNeueRegular;
     align-items: center;
     font-family: $title-font;
     letter-spacing: 1.5px;
+    text-align: center;
+  }
+
+  .proz {
+    display: flex;
+    color: $primary-color;
+    font-size: 64px;
+    font-weight: bold;
+    // background-color: rgba(91,181,177, 0.5);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: start;
+    font-family: $title-font;
+    letter-spacing: 1.5px;
+    opacity: 0;
   }
 }
 
 .projecs-title {
   width: 100%;
   height: 100px;
+
   span {
     display: flex;
     color: $primary-color;
@@ -452,8 +470,129 @@ $title-font: BebasNeueRegular;
     letter-spacing: 1.5px;
     // margin: 100px 0 100px 0;
   }
+
+
 }
 
+#desc-holhouse {
+  .content-desc-pr {
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      text-indent: 32px;
+
+      strong {
+        font-size: 18px;
+        i {
+          font-size: 18px;
+        }
+      }
+    }
+
+    ul {
+      margin-top: -15px !important;
+      li {
+        list-style-type: circle;
+        font-size:18px;
+        margin-left: 40px;
+        line-height: 1.6;
+      }
+    }
+  }
+}
+
+#text-advan-houholi {
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-indent: 32px;
+  }
+  ul {
+    li {
+      list-style-type: circle;
+      font-size:18px;
+      margin-left: 40px;
+      line-height: 1.6;
+      font-weight: bold;
+    }
+  }
+}
+
+.img-desc-houholi {
+  display: flex;
+  justify-content: center;
+
+  // div {
+  //     height: 300px;
+  //
+  //     img {
+  //       height: 300px;
+  //     }
+  // }
+}
+
+.btn-presentation {
+  height: 60px !important;
+  width: 350px;
+  font-size: 18px;
+  color: #05426d !important;
+  border: 1px solid #5bb5b1;
+  border-radius: 5px;
+  box-shadow: 0 0 3px grey;
+  padding: 4px;
+  background-color: white;
+  font-weight: bold;
+  margin: 40px 0 40px 0;
+
+}
+
+
+.content-desc-pr {
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-indent: 32px;
+  }
+  span {
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      text-indent: 32px;
+    }
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-indent: 32px;
+  }
+  ul {
+    li {
+      list-style-type: circle;
+      font-size:18px;
+      margin-left: 40px;
+      line-height: 1.6;
+      font-weight: bold;
+    }
+  }
+}
+
+.desc-lev-part2 {
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-indent: 32px;
+  }
+
+  ul {
+    li {
+      list-style-type: circle;
+      font-size:18px;
+      margin-left: 40px;
+      line-height: 1.6;
+      font-weight: bold;
+    }
+  }
+}
 /*=====================payback===================== */
 
 #projects-payback {
@@ -521,13 +660,17 @@ $title-font: BebasNeueRegular;
   height: 400px;
   width: 100%;
   box-shadow: 0 0 3px $primary-color;
+  z-index: 102;
 }
 
 
 .menu-payback {
   padding: 25px 0 0 0;
   height: 90px;
+  z-index: 102;
 }
+
+
 
 /*=====================calculator===================== */
 
@@ -1019,6 +1162,7 @@ $title-font: BebasNeueRegular;
     left: 50px;
   }
 }
+
 @keyframes fadeInSlogan {
   0%
   {

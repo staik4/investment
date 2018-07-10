@@ -108,6 +108,7 @@
         </div>
       </div>
     </section>
+
     <section id="projects">
       <div class="container">
         <div class="row">
@@ -121,53 +122,306 @@
               <div class="title-desc">
                 <span>ОПИСАНИЕ</span>
               </div>
+              <div id="desc-holhouse" class="text-desc">
+                <div id="" class="content-desc-pr">
+                  <p class="text-justify">Загородный комплекс <strong>«Платов»</strong> — это 33 гектара земли. Одно из самых чистых мест Подмосковья находится всего в полутора часах от МКАД.</p>
+                  <p class="text-justify">Прозрачный воздух, нетронутая природа, охраняемые места миграции диких животных, прекрасная экология, чистейшее Можайское водохранилище <strong><i>(40 километров длиной!)</i></strong>
+                      - вот далеко не полный перечень достоинств месторасположения комплекса «Платов». Место, где рождалась славная история России - Бородинское поле, монастыри Можайска
+                      - само окружение комплекса уже делает это место уникальным!</p>
+                  <div class="d-flex justify-content-between">
+                    <div class="img-desc-houholi col-xl-6">
+                      <div>
+                        <img src="img/desc/houholi.jpg" alt="" class="img-thumbnail">
+                      </div>
+                    </div>
+                    <div class="col-xl-6">
+                      <p class="text-justify"><strong>«Платов»</strong> - лучшее место и для спокойного семейного отдыха с детьми, и для активного отдыха, а также для проведения корпоративных мероприятий.
+                        Сосновый бор, чистейший воздух, развитая инфраструктура и высочайший уровень сервиса - сюда непременно захочется вернуться!</p>
+                        <p style="line-height: 1.6; font-size: 18px">Создаваемая инфраструктура:
+                          <ul class="">
+                            <li class="">внешнее ограждение по периметру;</li>
+                            <li class="">дороги с твердым покрытием (щебень);</li>
+                            <li class="">детские площадки;</li>
+                            <li class="">КПП на въезде;</li>
+                            <li class="">площадка для стоянки гостевых автомобилей;</li>
+                          </ul>
+                    </div>
+                  </div>
+
+                  <p class="text-justify" style="font-weight: bold">Загородный комплекс «Платов» на берегу Можайского моря — это идеальное место для семейного отдыха вдали от города с его ежедневными проблемами, пробками, шумом и пылью. Другая среда на доступном расстоянии от Москвы.
+                  Комплекс «Платов» — это высочайший уровень сервиса для отдыхающих.</p>
+                </div>
+              </div>
             </div>
             <div class="item-desc-projects advan">
-                <div class="title-desc">
-                  <span>ПРЕИМУЩЕСТВА ПРОЕКТА</span>
-                </div>
+              <div class="title-desc">
+                <span>ПРЕИМУЩЕСТВА ПРОЕКТА</span>
+              </div>
+              <div id="text-advan-houholi" class="content-desc-pr">
+                  <p class="text-justify">В раздел «Преимущества» Дом отдыха:</p>
+                  <ul>
+                    <li>великолепная природа;</li>
+                    <li>экологическая чистота;</li>
+                    <li>отличная транспортная доступность;</li>
+                    <li>развитая инфраструктура;</li>
+                    <li>берег Можайского водохранилища;</li>
+                    <li>возможность круглогодичного проживания;</li>
+                    <li>интерактивные развлечения для проживающих;</li>
+                    <li>система «все включено»;</li>
+                    <li>круглосуточная охрана территории комплекса;</li>
+                    <li>1,5 часа езды от МКАД;</li>
+                    <li>магистральный газ;</li>
+                    <li>демократичные цены.</li>
+                  </ul>
+
+                  <p class="text-justify">Инвестировать в комплекс на начальном этапе со скидкой 50% — значит совершить выгодное вложение в недвижимость и инфраструктуру отдыха,
+                                          что через три-четыре года принесет вам достойную прибыль!</p>
+              </div>
             </div>
             <div class="item-desc-projects gen-plan">
               <div class="title-desc">
                 <span>ГЕНЕРАЛЬНЫЙ ПЛАН</span>
               </div>
+              <div class="hide img-gen-plan d-flex justify-content-center">
+                <div style="width: 50%">
+                  <img src="img/gen-plan/houHolGenPlan.jpg" class="img-thumbnail" alt="" style="width: 100%">
+                </div>
+              </div>
+            </div>
+            <div class="hide d-flex justify-content-center"><button class="btn-presentation" type="button" name="button">ПОСМОТРЕТЬ ПРЕЗЕНТАЦИЮ</button></div>
+            <button class="btn-close-desc">Close</button>
+            <!-- <button class="hide" type="button" name="button">ПОСМОТРЕТЬ ПРЕЗЕНТАЦИЮ</button> -->
+          </div><!--description-project-one-->
+
+          <div class="description-project d-flex flex-column" data-prnum="2">
+            <div id="desc-levashovo" class="content-desc-pr">
+              <div class="title-desc">
+                <span>ОПИСАНИЕ</span>
+              </div>
+              <span><p>Дачный посёлок Левашово — это 29,2 гектара земли, на которой начинается строительство загородных домов.
+                153 участка в одном из уникальных уголков Московской области — в Можайском районе, в 400 метрах от Можайского моря.
+                В Левашово на Можайском водохранилище вы сможете дышать чистейшим воздухом - здесь удалось сохранить девственную природу, чистый водоем и прекрасную экологию.
+                Сам поселок отделен от береговой линии искусственным лесопарком, в котором можно гулять в любое время года.</p></span>
+              <div class="d-flex flex-wrap">
+                <div class="col-xl-6">
+                  <img src="img/desc/levash-desc.jpg" alt="" class="img-thumbnail">
+                </div>
+                <div class="col-xl-6 desc-lev-part2 d-flex align-items-center">
+                  <div>
+                    <p>Создаваемая инфраструктура:</p>
+                    <ul>
+                      <li>внешнее ограждение по периметру;</li>
+                      <li>дороги с твердым покрытием (щебень);</li>
+                      <li>детские площадки;</li>
+                      <li>КПП на въезде;</li>
+                      <li>площадка для стоянки гостевых автомобилей </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <br><br>
+              <p>Дачный поселок вблизи Можайского моря — это идеальное место для тихого семейного отдыха, вдали от шумного мегаполиса с его ежедневной сутолокой, пробками, шумом и пылью.
+                 Левашово — это доступное и качественное загородное жилье в одном из лучших мест Подмосковья.</p>
+            </div>
+            <div id="adv-levashovo" class="content-desc-pr">
+              <div class="title-desc">
+                <span>ПРЕИМУЩЕСТВА ПРОЕКТА</span>
+              </div>
+              <ul>
+                <li>великолепная природа;</li>
+                <li>экологическая чистота;</li>
+                <li>отличная транспортная доступность;</li>
+                <li>развитая инфраструктура;</li>
+                <li>близость водоема;</li>
+                <li>возможность круглогодичного проживания;</li>
+                <li>круглосуточная охрана территории поселка;</li>
+                <li>1,5 часа езды от МКАД;</li>
+                <li>оптимальное расположение дачи для жителей западного административного округа Москвы;</li>
+                <li>демократичные цены.</li>
+              </ul>
+              <p>Инвестировать в  Левашово на начальном этапе со скидкой 50% — значит совершить выгодное вложение в недвижимость,
+                 которая со временем будет только расти в цене, ведь Можайское направление является одним из самых популярных и быстро развивающихся в Подмосковье.</p>
+            </div>
+            <div class="item-desc-projects gen-plan">
+              <div class="title-desc">
+                <span>ГЕНЕРАЛЬНЫЙ ПЛАН</span>
+              </div>
+              <div class="hide img-gen-plan d-flex justify-content-center">
+                <div style="width: 50%">
+                  <img src="img/gen-plan/levashGenPlan.jpg" class="img-thumbnail" alt="" style="width: 100%">
+                </div>
+              </div>
             </div>
             <button class="btn-close-desc">Close</button>
+            <div class="hide d-flex justify-content-center"><button class="btn-presentation" type="button" name="button">ПОСМОТРЕТЬ ПРЕЗЕНТАЦИЮ</button></div>
+          </div><!--description-project-two-->
 
-            <button class="btn-presentation" type="button" name="button">ПОСМОТРЕТЬ ПРЕЗЕНТАЦИЮ</button>
-          </div>
-          <div class="description-project" data-prnum="2">
-            <span>2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore laborum ea cum eligendi nam eveniet officiis maxime voluptatibus, minus alias!</span>
+
+
+          <div class="description-project  d-flex flex-column" data-prnum="3">
+            <div id="desc-island" class="content-desc-pr">
+              <div class="title-desc">
+                <span>ОПИСАНИЕ</span>
+              </div>
+              <span>
+                <p>Проект «Остров» — это на самом деле остров на Волге!
+                  Многие первым делом подумают, что это очень далеко, а это всего в 130 км от МКАД! В получасе езды от г.Дубна Москвской области. Кстати, в городе, в районе Особой экономической зоны «Дубна», строится новый мостовой переход, что сделает ваш Остров еще ближе.
+                  42 гектара земли, береговая линия длиной 5500м (да-да, Пять с половиной километров периметр Острова!), ширина Волги 600 метров, белоснежные круизные теплоходы… Класс!
+                </p>
+              </span>
+              <div class="d-flex flex-wrap">
+                <div class="col-xl-6">
+                  <img src="img/desc/island-desc.jpg" alt="" class="img-thumbnail">
+                </div>
+                <div class="col-xl-6 desc-lev-part2 d-flex align-items-center">
+                  <div>
+                    <p>Создаваемая инфраструктура:</p>
+                    <ul>
+                      <li>внешнее ограждение по периметру - ах, да, этого не нужно - Остров же!;</li>
+                      <li>дороги с твердым покрытием (щебень);</li>
+                      <li>детские площадки;</li>
+                      <li>КПП на въезде;</li>
+                      <li>площадка для стоянки гостевых автомобилей </li>
+                      <li>причальная инфраструктура;</li>
+                      <li>прогулочная зона на протяжении всего берега;</li>
+                      <li>рекреационные зоны на территории с площадками для барбекю;</li>
+                      <li>пляжи.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <br><br>
+              <p>  Всего 100 участков на 22-х гектарах земли, остальное - природа, общественные зоны, пляжи, причалы.
+                В 8-ми километрах - город Кимры, районный центр с развитой городской инфраструкторой.
+                Идеальный подъезд по Дмитровскому шоссе.</p>
+            </div>
+            <div id="adv-island" class="content-desc-pr">
+              <div class="title-desc">
+                <span>ПРЕИМУЩЕСТВА ПРОЕКТА</span>
+              </div>
+              <ul>
+                <li>великолепная природа;</li>
+                <li>экологическая чистота;</li>
+                <li>отличная транспортная доступность;</li>
+                <li>развитая инфраструктура;</li>
+                <li>близость водоема;</li>
+                <li>возможность круглогодичного проживания;</li>
+                <li>круглосуточная охрана территории поселка;</li>
+                <li>2 часа езды от МКАД;</li>
+                <li>со всех сторон - Волга!</li>
+                <li>Большая Волга!</li>
+              </ul>
+              <p>Инвестировать в  Остров на начальном этапе — значит совершить выгодное вложение в недвижимость,
+                 которая со временем будет только расти в цене, ведь все больше людей хотят найти свое место для уединения. Что может быть лучше чем остров, вокруг которго течет река Волга?!!!</p>
+            </div>
+            <div class="item-desc-projects gen-plan">
+              <div class="title-desc">
+                <span>ГЕНЕРАЛЬНЫЙ ПЛАН</span>
+              </div>
+              <div class="hide img-gen-plan d-flex justify-content-center">
+                <div style="width: 50%">
+                  <img src="img/gen-plan/islandGenPlan-1.jpg" class="img-thumbnail" alt="" style="width: 100%">
+                </div>
+              </div>
+            </div>
             <button class="btn-close-desc">Close</button>
-          </div>
-          <div class="description-project" data-prnum="3">
-            <span>3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam voluptate quia nostrum iure laboriosam ipsa, nulla dignissimos consectetur illo magni!</span>
+            <div class="hide d-flex justify-content-center"><button class="btn-presentation" type="button" name="button">ПОСМОТРЕТЬ ПРЕЗЕНТАЦИЮ</button></div>
+          </div><!--description-project-three-->
+
+
+          <div class="description-project d-flex flex-column" data-prnum="4">
+            <div id="desc-island" class="content-desc-pr">
+              <div class="title-desc">
+                <span>ОПИСАНИЕ</span>
+              </div>
+              <span>
+                <p>Устроить сплав по извилистой реке, насладиться великолепными пейзажами во время лесной прогулки, отправиться на тихую охоту или охоту на уток, удить рыбу на утренней зорьке, собирать ягоды, купаться и загорать на обустроенном пляже всей семьей. Санаторий, курорт, думаете вы. Настоящий отдых ближе, чем вам кажется. Ярким и насыщенным каждый ваш день сделает коттеджный поселок Сергово.
+                  В 100 километрах от МКАД, на берегу чистейшей реки Искона, в окружении густого и красивого леса, вдали от городской суеты раскинулся строящийся КП «Сергово».Это поистине идеальный уголок Подмосковья для комфортной и легкой загородной жизни.
+                </p>
+              </span>
+              <div class="d-flex flex-wrap">
+                <div class="col-xl-6">
+                  <img src="img/desc/serg-desc.jpg" alt="" class="img-thumbnail">
+                </div>
+                <div class="col-xl-6 desc-lev-part2 d-flex align-items-center">
+                  <div>
+                    <p>Создаваемая инфраструктура:</p>
+                    <ul>
+                      <li>внешнее ограждение по периметру;</li>
+                      <li>дороги с твердым покрытием;</li>
+                      <li>детские площадки;</li>
+                      <li>КПП на въезде;</li>
+                      <li>площадка для стоянки гостевых автомобилей </li>
+                      <li>причальная инфраструктура;</li>
+                      <li>газоснабжение поселка;</li>
+                      <li>уличное освещение.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <br><br>
+              <p>Земельные участки и загородные дома на берегу реки Искона станут тихим и уютным местом отдыха для всей семьи.
+                 140 участков в излучине красивейшей реки - уникальное предложение!</p>
+            </div>
+            <div id="adv-island" class="content-desc-pr">
+              <div class="title-desc">
+                <span>ПРЕИМУЩЕСТВА ПРОЕКТА</span>
+              </div>
+              <ul>
+                <li>магистральное газоснабжение;</li>
+                <li>электроснабжение 15 КВт;</li>
+                <li>внутрипоселковые дороги с твердым покрытием на территории поселка;</li>
+                <li>круглосуточная охрана территории;</li>
+                <li>круглосуточная охрана территории;</li>
+                <li>рекреационная зона на берегу Исконы;</li>
+                <li>круглосуточная охрана территории поселка;</li>
+                <li>транспортная доступность;</li>
+                <li>не более двух часов езды от Москвы.</li>
+              </ul>
+              <p>Инвестировать в  Остров на начальном этапе — значит совершить выгодное вложение в недвижимость,
+                 которая со временем будет только расти в цене, ведь все больше людей хотят найти свое место для уединения. Что может быть лучше чем остров, вокруг которго течет река Волга?!!!</p>
+            </div>
+            <div class="item-desc-projects gen-plan">
+              <div class="title-desc">
+                <span>ГЕНЕРАЛЬНЫЙ ПЛАН</span>
+              </div>
+              <div class="hide img-gen-plan d-flex justify-content-center">
+                <div style="width: 50%">
+                  <img src="img/gen-plan/houHolGenPlan.jpg" class="img-thumbnail" alt="" style="width: 100%">
+                </div>
+              </div>
+            </div>
             <button class="btn-close-desc">Close</button>
-          </div>
-          <div class="description-project" data-prnum="4">
-            <span>4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati minima, inventore pariatur error aspernatur officia asperiores esse. Vero, perferendis, suscipit!</span>
-            <button class="btn-close-desc">Close</button>
-          </div>
+            <div class="hide d-flex justify-content-center"><button class="btn-presentation" type="button" name="button">ПОСМОТРЕТЬ ПРЕЗЕНТАЦИЮ</button></div>
+          </div><!--description-project-four-->
 
           <div id="holiday-house" class="col-xl-6 projects-item" data-project="1">
             <div class="title-projects">
-              <span>ДОМ ОТДЫХА</span>
+              <span class="title-mane-projects">ДОМ ОТДЫХА<br>28%</span><br>
+              <!-- <span class="proz">18%</span> -->
             </div>
+
           </div>
           <div id="levashovo" class="col-xl-6 projects-item" data-project="2">
             <div class="title-projects">
-              <span>ЛЕВАШОВО</span>
+              <span class="title-mane-projects">ЛЕВАШОВО<br>18%</span><br>
+              <!-- <span class="proz">24%</span> -->
             </div>
+
           </div>
           <div id="island" class="col-xl-6 projects-item" data-project="3">
             <div class="title-projects">
-              <span>ОСТРОВ</span>
+              <span class="title-mane-projects">ОСТРОВ<br>32%</span><br>
+              <!-- <span class="proz">20%</span> -->
             </div>
+
           </div>
           <div id="troiza" class="col-xl-6 projects-item" data-project="4">
             <div class="title-projects" >
-              <span>ТРОИЦА</span>
+              <span class="title-mane-projects">СЕРГОВО<br>38%</span><br>
+              <!-- <span class="proz">28%</span> -->
             </div>
+
           </div>
         </div>
       </div>

@@ -220,9 +220,6 @@
   color: #05426d;
   line-height: 1.5; }
 
-.item-desc-projects {
-  height: 100%; }
-
 /*=====================projects===================== */
 #projects {
   margin-top: 100px; }
@@ -243,6 +240,7 @@
   border-radius: 7px;
   box-shadow: 0 0 4px #05426d;
   background-image: url(../img/wavegrid_@2X.png);
+  overflow-x: auto;
   /* opacity: 0.4; */ }
 
 .description-project .btn-close-desc {
@@ -253,37 +251,36 @@
 .description-project span {
   display: none; }
 .description-project .btn-presentation {
-  display: none;
   height: 80px; }
 
 .title-desc {
   display: flex;
   justify-content: center; }
-
-.title-desc span {
-  font-size: 22px !important;
-  color: #05426d;
-  font-weight: bold;
-  font-family: BebasNeueRegular;
-  letter-spacing: 1.5px; }
+  .title-desc span {
+    font-size: 32px !important;
+    color: #05426d;
+    font-weight: bold;
+    font-family: BebasNeueRegular;
+    letter-spacing: 1.5px;
+    margin: 0px 0 25px 0; }
 
 #holiday-house {
-  background-image: url(../img/sergovo.JPG);
+  background-image: url(../img/desc/houseHiliday.JPG);
   background-size: cover;
   background-repeat: no-repeat; }
 
 #levashovo {
-  background-image: url(../img/levashovo-min.JPG);
+  background-image: url(../img/desc/lev.JPG);
   background-size: cover;
   background-repeat: no-repeat; }
 
 #island {
-  background-image: url(../img/earth-2-min.JPG);
+  background-image: url(../img/desc/island.JPG);
   background-size: cover;
   background-repeat: no-repeat; }
 
 #troiza {
-  background-image: url(../img/tr.JPG);
+  background-image: url(../img/desc/serg.JPG);
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -304,7 +301,20 @@
     justify-content: center;
     align-items: center;
     font-family: BebasNeueRegular;
-    letter-spacing: 1.5px; }
+    letter-spacing: 1.5px;
+    text-align: center; }
+  .title-projects .proz {
+    display: flex;
+    color: #05426d;
+    font-size: 64px;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: start;
+    font-family: BebasNeueRegular;
+    letter-spacing: 1.5px;
+    opacity: 0; }
 
 .projecs-title {
   width: 100%;
@@ -320,6 +330,80 @@
     align-items: start;
     font-family: BebasNeueRegular;
     letter-spacing: 1.5px; }
+
+#desc-holhouse .content-desc-pr p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-indent: 32px; }
+  #desc-holhouse .content-desc-pr p strong {
+    font-size: 18px; }
+    #desc-holhouse .content-desc-pr p strong i {
+      font-size: 18px; }
+#desc-holhouse .content-desc-pr ul {
+  margin-top: -15px !important; }
+  #desc-holhouse .content-desc-pr ul li {
+    list-style-type: circle;
+    font-size: 18px;
+    margin-left: 40px;
+    line-height: 1.6; }
+
+#text-advan-houholi p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-indent: 32px; }
+#text-advan-houholi ul li {
+  list-style-type: circle;
+  font-size: 18px;
+  margin-left: 40px;
+  line-height: 1.6;
+  font-weight: bold; }
+
+.img-desc-houholi {
+  display: flex;
+  justify-content: center; }
+
+.btn-presentation {
+  height: 60px !important;
+  width: 350px;
+  font-size: 18px;
+  color: #05426d !important;
+  border: 1px solid #5bb5b1;
+  border-radius: 5px;
+  box-shadow: 0 0 3px grey;
+  padding: 4px;
+  background-color: white;
+  font-weight: bold;
+  margin: 40px 0 40px 0; }
+
+.content-desc-pr p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-indent: 32px; }
+.content-desc-pr span p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-indent: 32px; }
+.content-desc-pr p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-indent: 32px; }
+.content-desc-pr ul li {
+  list-style-type: circle;
+  font-size: 18px;
+  margin-left: 40px;
+  line-height: 1.6;
+  font-weight: bold; }
+
+.desc-lev-part2 p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-indent: 32px; }
+.desc-lev-part2 ul li {
+  list-style-type: circle;
+  font-size: 18px;
+  margin-left: 40px;
+  line-height: 1.6;
+  font-weight: bold; }
 
 /*=====================payback===================== */
 #projects-payback {
@@ -369,11 +453,13 @@
 .proj-payback {
   height: 400px;
   width: 100%;
-  box-shadow: 0 0 3px #05426d; }
+  box-shadow: 0 0 3px #05426d;
+  z-index: 102; }
 
 .menu-payback {
   padding: 25px 0 0 0;
-  height: 90px; }
+  height: 90px;
+  z-index: 102; }
 
 /*=====================calculator===================== */
 .calculator {

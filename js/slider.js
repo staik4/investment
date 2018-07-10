@@ -76,7 +76,7 @@ $(document).ready(function(){
           $('.visible-part').data('slider', nSlider);
           nextSlide = $('.visible-part').data('slider');
           prevSlide = $('.visible-part').data('slider')-1;
-          console.log("nSlider",nSlider,'prevSlide',prevSlide,"nextSlide", nextSlide);
+          console.log("numSlide",numSlide,"nSlider",nSlider,'prevSlide',prevSlide,"nextSlide", nextSlide);
           if (prevSlide == -1){
             $(".slide-item[data-slide='3'] .slogan").css({'opacity':0});
             $(".slide-item[data-slide='3'] .slogan").removeClass('fadeIn');
