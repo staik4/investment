@@ -108,13 +108,9 @@
               <p class="text-justify"><strong>Мы предлагаем два способа инвестирования:</strong></p>
               <ul>
                 <li>1. Участие в инвестиционном пуле.</li>
-                <p class="text-justify">Инвестиционный пул - группа участков, каждый из которых выкупается одним инвестором; инвестор может прибрести как один, так и несколько участков в пуле. Местоположение участков - фиксированное, утверждается нашей компанией и изменению не подлежит.
-                При данном способе с инвестором заключается договор купли-продажи земельного участка по цене со скидкой в размере 50% от его рыночной цены.<p>
-                <li>2.Синдицированное инвестирование.</li>
-                <p class="text-justify">Предложение для инвесторов, желающих вложить средства в покупку части (доли) в инвестиционной стоимости участка.
-                  При данном способе с инвестором заключается договор купли-продажи доли в праве общей собственности на земельный участок по цене доли со скидкой в размере 50% от её рыночной цены.
-                  С инвесторами заключается договор купли-продажи доли в общей собственности на земельный участок с определением минимальной стоимости продажи доли в будущем. В случае досрочного выхода инвестора из общей собственности
-                  наша компания предлагает помощь в поиске контрагента для переуступки права инвестора.</p>
+                <p class="text-justify">Инвестиционный пул - группа участков, каждая из которых выкупается одним инвестором; инвестор приобретает все участки в пуле. Местоположение участков - фиксированное, утверждается нашей компанией и изменению не подлежит.
+                                        При данном способе с инвестором заключается договор купли-продажи земельных участков по цене со скидкой в размере 50% от их рыночной цены.</li>
+                <p class="text-justify">Предложение для инвесторов, желающих вложить средства в покупку не целого инвестиционного пула, а его части. Желающие участвовать в синдицированном инвестировании оставляют заявку с указанием суммы инвестиций, мы подбираем партнеров для формирования из них инвестиционного пула. После формирования пула с со-инвесторами заключается договор купли-продажи доли в праве общей собственности на пул земельных участков по цене доли со скидкой в размере 50% от её рыночной цены. В договоре купли-продажи доли в общей собственности определяется минимальная стоимости продажи доли каждого со-инвестора в будущем. В случае досрочного выхода инвестора из общей собственности наша компания предлагает помощь в поиске контрагента для переуступки права инвестора.</p>
               </ul>
 
             </div>
@@ -126,23 +122,22 @@
                   <span>ДОМ ОТДЫХА</span>
                 </div>
                 <div class="desc-uniq-item show-uniq-text">
-                  <span class="text-justify">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                  <span class="text-center">
+                    Стоимость апартамента - от ХХХХХХ рублей.<br>
+                    Срок окупаемости - ХХХХХХ лет.<br>
+                    Доходность - ХХХХХ %.<br>
+                    Ежегодная капитализация.
                   </span>
                 </div>
                 <div class="arrow-un-item">
                   <img src="img/icon/sort-down.svg" alt="arrow-btn">
                 </div>
-                <div class="desc-hidden-uniq text-justify">
+                <div class="desc-hidden-uniq text-center">
                   <span>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Объекты инвестиций - апартаменты в загородном отеле с развитой инфраструктурой, расположенном в уникальном по красоте месте Можайского района, недалеко от Бородинского поля.
+                    Многофункциональный комплекс «Платов» - это инновационный высокодоходный инвестиционный продукт, где объекты недвижимости будут принадлежать своим инвесторам.
+                    Мы предлагаем инвестирование в строительство комплекса отдыха, который будет на вас работать после завершения строительства и обеспечивать ваш доход на уровне, кратно большем, чем банковский вклад или покупка жилья для последующей сдачи в аренду.
+                    Влияние инфляции на ваш доход будет минимальным, а капитализация будет расти ежегодно!
                   <span>
                 </div>
               </div>
@@ -151,23 +146,22 @@
                   <span>ЛЕВАШОВО</span>
                 </div>
                 <div class="desc-uniq-item show-uniq-text">
-                  <span class="text-justify">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                  <span class="text-center">
+                    Всего в инвестиционной программе - 40 участков.<br>
+                    Восемь пулов по 5 участков.<br>
+                    Инвестиционная стоимость одного пула - <b>ХХХХХХХ</b> рублей, что соответсвует скидке в размере 50% от рыночной цены участка.
                   </span>
                 </div>
                 <div class="arrow-un-item">
                   <img src="img/icon/sort-down.svg" alt="arrow-btn">
                 </div>
-                <div class="desc-hidden-uniq text-justify">
+                <div class="desc-hidden-uniq text-center">
                   <span>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                      Полученные от инвесторов средства направляются исключительно на создание инфраструктуры поселка - дорог,
+                      освещения, охраны периметра поселка, энергоснабжения, обустройство общественных зон и прогулочных,
+                      детских площадок, стоянок, организацию работы технических служб в поселке. Работы выполняются в срок 2-3 года.
+                      После завершения работ рыночная стоимость участков, принадлежащих инвесторам, возрастает, как минимум, на 100%,
+                      что соответствует доходу инвестора в размере 33% годовых.
                   </span>
                 </div>
               </div>
@@ -176,23 +170,21 @@
                   <span>ОСТРОВ</span>
                 </div>
                 <div class="desc-uniq-item show-uniq-text">
-                  <span class="text-justify">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                  <span class="text-center">
+                    Всего в инвестиционной программе - <b>ХХХХХ</b> участков.
+                    Инвестиционная стоимость одного одного участка - <b>200.000</b> рублей за <b>1 сотку земли</b>, что соответсвует скидке в размере <b>50%</b> от рыночной цены участка.
                   </span>
                 </div>
                 <div class="arrow-un-item">
                   <img src="img/icon/sort-down.svg" alt="arrow-btn">
                 </div>
-                <div class="desc-hidden-uniq text-justify">
+                <div class="desc-hidden-uniq text-center">
                   <span>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Полученные от инвесторов средства направляются исключительно на создание инфраструктуры поселка -
+                    дорог, освещения, охраны периметра поселка, энергоснабжения, обустройство общественных зон и прогулочных,
+                    детских площадок, стоянок, организацию работы технических служб в поселке. Работы выполняются в срок 2-3 года. После
+                    завершения работ рыночная стоимость участков, принадлежащих инвесторам, возрастает, как минимум, на 100%, что соответствует
+                    доходу инвестора в размере 33% годовых.
                   </span>
                 </div>
               </div>
@@ -201,23 +193,22 @@
                   <span>СЕРГОВО</span>
                 </div>
                 <div class="desc-uniq-item show-uniq-text">
-                  <span class="text-justify">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                  <span class="text-center">
+                    Всего в инвестиционной программе - <b>ХХХХХ</b> участков.<br>
+                    Восемь пулов по <b>ХХХХ</b> участков.<br>
+                    Инвестиционная стоимость одного пула - <b>ХХХХХХХ</b> рублей, что соответсвует скидке в размере 50% от рыночной цены участка.
                   </span>
                 </div>
                 <div class="arrow-un-item">
                   <img src="img/icon/sort-down.svg" alt="arrow-btn">
                 </div>
-                <div class="desc-hidden-uniq text-justify">
+                <div class="desc-hidden-uniq text-center">
                   <span>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Полученные от инвесторов средства направляются исключительно на создание
+                    инфраструктуры поселка - дорог, освещения, охраны периметра поселка, энергоснабжения,
+                    обустройство общественных зон и прогулочных, детских площадок, стоянок, организацию работы
+                    технических служб в поселке. Работы выполняются в срок 2-3 года. После завершения работ рыночная стоимость участков,
+                    принадлежащих инвесторам, возрастает, как минимум, на 100%, что соответствует доходу инвестора в размере 33% годовых.
                   </span>
                 </div>
               </div>
@@ -560,7 +551,7 @@
               <span>ОСТРОВ</span>
             </div>
             <div data-menupayback="troiza" class="d-flex justify-content-center align-items-center memu-payback-item col-xl-3">
-              <span>ТРОИЦА</span>
+              <span>СЕРГОВО</span>
             </div>
           </div>
           <div class="proj-payback d-flex justify-content-center align-items-center">
@@ -574,7 +565,7 @@
               <span>ISLAND</span>
             </div>
             <div class="projects-payback-item" data-prpayback="troiza">
-              <span>TROIZA</span>
+              <span>SERGOVO</span>
             </div>
           </div>
         </div>
