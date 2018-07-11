@@ -219,6 +219,60 @@
   font-size: 22px;
   color: #05426d;
   line-height: 1.5; }
+  .investment-conditions p {
+    font-size: 22px;
+    color: #05426d;
+    line-height: 1.5;
+    text-indent: 40px; }
+    .investment-conditions p strong {
+      font-size: 22px;
+      color: #05426d;
+      line-height: 1.2; }
+  .investment-conditions ul li {
+    font-size: 22px;
+    color: #05426d;
+    line-height: 1.5;
+    list-style-type: none; }
+
+.item-uniq-projects {
+  overflow: hidden;
+  cursor: pointer; }
+  .item-uniq-projects:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px; }
+
+.title-uniq-item span {
+  font-size: 32px;
+  color: #05426d;
+  line-height: 1.5;
+  font-weight: bold;
+  font-family: BebasNeueRegular;
+  margin: 20px 0 20px 0; }
+
+.desc-uniq-item {
+  padding: 7px; }
+  .desc-uniq-item span {
+    font-size: 16px;
+    color: #05426d;
+    line-height: 1;
+    display: block; }
+
+.desc-hidden-uniq {
+  padding: 7px;
+  display: none; }
+  .desc-hidden-uniq span {
+    font-size: 16px;
+    color: #05426d;
+    line-height: 1;
+    display: block; }
+
+.arrow-un-item {
+  text-align: center;
+  width: 100%;
+  display: none; }
+  .arrow-un-item img {
+    width: 50px;
+    text-align: center; }
 
 /*=====================projects===================== */
 #projects {
@@ -229,7 +283,8 @@
   cursor: pointer;
   color: #05426d;
   position: relative;
-  padding: 0 !important; }
+  padding: 0 !important;
+  border: 1.2px solid white; }
 
 .projects-item:hover {
   box-shadow: 0 0 20px #05426d; }
@@ -405,7 +460,32 @@
   line-height: 1.6;
   font-weight: bold; }
 
+.close-btn {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  z-index: 123123;
+  right: 30px;
+  top: 30px;
+  display: none;
+  cursor: pointer; }
+  .close-btn img {
+    width: 30px;
+    height: 30px; }
+
 /*=====================payback===================== */
+.title-yield {
+  display: flex;
+  color: #05426d;
+  font-size: 54px;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: start;
+  font-family: BebasNeueRegular;
+  letter-spacing: 1.5px; }
+
 #projects-payback {
   margin-top: 100px; }
 

@@ -100,9 +100,127 @@
               <span>УСЛОВИЯ ИНВЕСТИРОВАНИЯ</span>
             </div>
             <div class="investment-conditions">
-              1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita debitis illo facilis nobis, cupiditate saepe, corporis numquam dolores. Soluta autem consequuntur, adipisci, sunt odit vel voluptate nostrum id temporibus tempora!<br>
-              2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita debitis illo facilis nobis, cupiditate saepe, corporis numquam dolores. Soluta autem consequuntur, adipisci, sunt odit vel voluptate nostrum id temporibus tempora!<br>
-              3. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita debitis illo facilis nobis, cupiditate saepe, corporis numquam dolores. Soluta autem consequuntur, adipisci, sunt odit vel voluptate nostrum id temporibus tempora!<br>
+              <p class="text-justify">В настоящее время необходимым условием продажи земельных участков является наличие развитой инфраструктуры - дорог, освещения,
+              охраны периметра поселка, достаточной присоединенной электрической мощности, общественных зон, магазинов, детских площадок, стоянок,
+              технических служб в поселке. Просто красивой природы и удобного подъезда на участок уже недостаточно.<p>
+
+              <p class="text-justify">Наш опыт показывает, что при наличии развитой инфраструктуры поселки продаются в 3-5 раз быстрее.<p>
+              <p class="text-justify"><strong>Мы предлагаем два способа инвестирования:</strong></p>
+              <ul>
+                <li>1. Участие в инвестиционном пуле.</li>
+                <p class="text-justify">Инвестиционный пул - группа участков, каждый из которых выкупается одним инвестором; инвестор может прибрести как один, так и несколько участков в пуле. Местоположение участков - фиксированное, утверждается нашей компанией и изменению не подлежит.
+                При данном способе с инвестором заключается договор купли-продажи земельного участка по цене со скидкой в размере 50% от его рыночной цены.<p>
+                <li>2.Синдицированное инвестирование.</li>
+                <p class="text-justify">Предложение для инвесторов, желающих вложить средства в покупку части (доли) в инвестиционной стоимости участка.
+                  При данном способе с инвестором заключается договор купли-продажи доли в праве общей собственности на земельный участок по цене доли со скидкой в размере 50% от её рыночной цены.
+                  С инвесторами заключается договор купли-продажи доли в общей собственности на земельный участок с определением минимальной стоимости продажи доли в будущем. В случае досрочного выхода инвестора из общей собственности
+                  наша компания предлагает помощь в поиске контрагента для переуступки права инвестора.</p>
+              </ul>
+
+            </div>
+          </div>
+          <div class="row" style="width: 100%">
+            <div class="unique-offer-projects d-flex flex-row" style="width: 100%">
+              <div class="item-uniq-projects col-xl-3 col-md-6 col-12" data-opened="false">
+                <div class="title-uniq-item d-flex justify-content-center">
+                  <span>ДОМ ОТДЫХА</span>
+                </div>
+                <div class="desc-uniq-item show-uniq-text">
+                  <span class="text-justify">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                  </span>
+                </div>
+                <div class="arrow-un-item">
+                  <img src="img/icon/sort-down.svg" alt="arrow-btn">
+                </div>
+                <div class="desc-hidden-uniq text-justify">
+                  <span>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                  <span>
+                </div>
+              </div>
+              <div class="item-uniq-projects col-xl-3 col-md-6 col-12" data-opened="false">
+                <div class="title-uniq-item d-flex justify-content-center">
+                  <span>ЛЕВАШОВО</span>
+                </div>
+                <div class="desc-uniq-item show-uniq-text">
+                  <span class="text-justify">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                  </span>
+                </div>
+                <div class="arrow-un-item">
+                  <img src="img/icon/sort-down.svg" alt="arrow-btn">
+                </div>
+                <div class="desc-hidden-uniq text-justify">
+                  <span>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                  </span>
+                </div>
+              </div>
+              <div class="item-uniq-projects col-xl-3 col-md-6 col-12" data-opened="false">
+                <div class="title-uniq-item d-flex justify-content-center">
+                  <span>ОСТРОВ</span>
+                </div>
+                <div class="desc-uniq-item show-uniq-text">
+                  <span class="text-justify">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                  </span>
+                </div>
+                <div class="arrow-un-item">
+                  <img src="img/icon/sort-down.svg" alt="arrow-btn">
+                </div>
+                <div class="desc-hidden-uniq text-justify">
+                  <span>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                  </span>
+                </div>
+              </div>
+              <div class="item-uniq-projects col-xl-3 col-md-6 col-12" data-opened="false">
+                <div class="title-uniq-item d-flex justify-content-center">
+                  <span>СЕРГОВО</span>
+                </div>
+                <div class="desc-uniq-item show-uniq-text">
+                  <span class="text-justify">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                  </span>
+                </div>
+                <div class="arrow-un-item">
+                  <img src="img/icon/sort-down.svg" alt="arrow-btn">
+                </div>
+                <div class="desc-hidden-uniq text-justify">
+                  <span>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, et!
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -117,7 +235,10 @@
           </div>
         </div>
         <div class="row d-flex justify-content-center" style="position:relative">
-          <div class="description-project d-flex flex-column" data-prnum="1">
+          <div class="close-btn">
+            <img src="img/cancel.svg" alt="" style="width: 30px; height: 30px;">
+          </div>
+          <div class="description-project d-flex flex-column" data-prnum="1" style="position:relative">
             <div class="item-desc-projects desc-prijects-description">
               <div class="title-desc">
                 <span>ОПИСАНИЕ</span>
@@ -131,7 +252,7 @@
                   <div class="d-flex justify-content-between">
                     <div class="img-desc-houholi col-xl-6">
                       <div>
-                        <img src="img/desc/houholi.jpg" alt="" class="img-thumbnail">
+                        <img src="img/desc/houseHiliday.JPG" alt="" class="img-thumbnail">
                       </div>
                     </div>
                     <div class="col-xl-6">
@@ -143,7 +264,7 @@
                             <li class="">дороги с твердым покрытием (щебень);</li>
                             <li class="">детские площадки;</li>
                             <li class="">КПП на въезде;</li>
-                            <li class="">площадка для стоянки гостевых автомобилей;</li>
+                            <li class="">площадка для стоянки гостевых автомобилей.</li>
                           </ul>
                     </div>
                   </div>
@@ -158,7 +279,6 @@
                 <span>ПРЕИМУЩЕСТВА ПРОЕКТА</span>
               </div>
               <div id="text-advan-houholi" class="content-desc-pr">
-                  <p class="text-justify">В раздел «Преимущества» Дом отдыха:</p>
                   <ul>
                     <li>великолепная природа;</li>
                     <li>экологическая чистота;</li>
@@ -170,8 +290,7 @@
                     <li>система «все включено»;</li>
                     <li>круглосуточная охрана территории комплекса;</li>
                     <li>1,5 часа езды от МКАД;</li>
-                    <li>магистральный газ;</li>
-                    <li>демократичные цены.</li>
+                    <li>магистральный газ.</li>
                   </ul>
 
                   <p class="text-justify">Инвестировать в комплекс на начальном этапе со скидкой 50% — значит совершить выгодное вложение в недвижимость и инфраструктуру отдыха,
@@ -189,7 +308,7 @@
               </div>
             </div>
             <div class="hide d-flex justify-content-center"><button class="btn-presentation" type="button" name="button">ПОСМОТРЕТЬ ПРЕЗЕНТАЦИЮ</button></div>
-            <button class="btn-close-desc">Close</button>
+            <!-- <button class="btn-close-desc">Close</button> -->
             <!-- <button class="hide" type="button" name="button">ПОСМОТРЕТЬ ПРЕЗЕНТАЦИЮ</button> -->
           </div><!--description-project-one-->
 
@@ -214,7 +333,7 @@
                       <li>дороги с твердым покрытием (щебень);</li>
                       <li>детские площадки;</li>
                       <li>КПП на въезде;</li>
-                      <li>площадка для стоянки гостевых автомобилей </li>
+                      <li>площадка для стоянки гостевых автомобилей.</li>
                     </ul>
                   </div>
                 </div>
@@ -277,7 +396,7 @@
                   <div>
                     <p>Создаваемая инфраструктура:</p>
                     <ul>
-                      <li>внешнее ограждение по периметру - ах, да, этого не нужно - Остров же!;</li>
+                      <li><span style="text-decoration: line-through;">внешнее ограждение по периметру</span> - ах, да, этого не нужно - Остров же!;</li>
                       <li>дороги с твердым покрытием (щебень);</li>
                       <li>детские площадки;</li>
                       <li>КПП на въезде;</li>
@@ -311,8 +430,7 @@
                 <li>со всех сторон - Волга!</li>
                 <li>Большая Волга!</li>
               </ul>
-              <p>Инвестировать в  Остров на начальном этапе — значит совершить выгодное вложение в недвижимость,
-                 которая со временем будет только расти в цене, ведь все больше людей хотят найти свое место для уединения. Что может быть лучше чем остров, вокруг которго течет река Волга?!!!</p>
+              <p>Инвестировать в  Остров на начальном этапе — значит совершить выгодное вложение в недвижимость, которая со временем будет только расти в цене!!!</p>
             </div>
             <div class="item-desc-projects gen-plan">
               <div class="title-desc">
@@ -335,7 +453,7 @@
                 <span>ОПИСАНИЕ</span>
               </div>
               <span>
-                <p>Устроить сплав по извилистой реке, насладиться великолепными пейзажами во время лесной прогулки, отправиться на тихую охоту или охоту на уток, удить рыбу на утренней зорьке, собирать ягоды, купаться и загорать на обустроенном пляже всей семьей. Санаторий, курорт, думаете вы. Настоящий отдых ближе, чем вам кажется. Ярким и насыщенным каждый ваш день сделает коттеджный поселок Сергово.
+                <p>Устроить сплав по извилистой реке, насладиться великолепными пейзажами во время лесной прогулки, отправиться на охоту, удить рыбу на утренней зорьке, собирать ягоды, купаться и загорать на обустроенном пляже всей семьей. Санаторий, курорт, думаете вы. Настоящий отдых ближе, чем вам кажется. Ярким и насыщенным каждый ваш день сделает коттеджный поселок Сергово.
                   В 100 километрах от МКАД, на берегу чистейшей реки Искона, в окружении густого и красивого леса, вдали от городской суеты раскинулся строящийся КП «Сергово».Это поистине идеальный уголок Подмосковья для комфортной и легкой загородной жизни.
                 </p>
               </span>
@@ -369,7 +487,7 @@
               </div>
               <ul>
                 <li>магистральное газоснабжение;</li>
-                <li>электроснабжение 15 КВт;</li>
+                <li>электроснабжение 15 КВт на участок;</li>
                 <li>внутрипоселковые дороги с твердым покрытием на территории поселка;</li>
                 <li>круглосуточная охрана территории;</li>
                 <li>круглосуточная охрана территории;</li>
@@ -378,8 +496,6 @@
                 <li>транспортная доступность;</li>
                 <li>не более двух часов езды от Москвы.</li>
               </ul>
-              <p>Инвестировать в  Остров на начальном этапе — значит совершить выгодное вложение в недвижимость,
-                 которая со временем будет только расти в цене, ведь все больше людей хотят найти свое место для уединения. Что может быть лучше чем остров, вокруг которго течет река Волга?!!!</p>
             </div>
             <div class="item-desc-projects gen-plan">
               <div class="title-desc">
@@ -429,6 +545,9 @@
 
     <section id="projects-payback">
       <div class="container">
+        <div class="row">
+          <div class="title-yield">ДОХОДНОСТЬ</div>
+        </div>
         <div class="row">
           <div class="menu-payback d-flex justify-content-between" style="width:100%">
             <div data-menupayback="holidayhome" class="d-flex justify-content-center align-items-center memu-payback-item col-xl-3 active-memu-payback-item">
