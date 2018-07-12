@@ -775,14 +775,18 @@
             <div class="contacts">
               <div class="layout-contacts"></div>
               <div class="content-contacts">
-                <span class="content-contacts-item Adress">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, labore!</span>
-                <span class="content-contacts-item name-organization">ЛУЧШЕЕ МЕСТО</span>
-                <span class="content-contacts-item email">info@bestmesto.ru</span>
+                <span class="content-contacts-item adress-organization">Адрес: Россия г. Москва, ул. Алабяна, д. 12, корп. 3</span>
+                <div class="d-flex flex-column justify-contetn-around">
+                  <span class="content-contacts-item name-organization">ООО "ЛУЧШЕЕ МЕСТО"</span>
+                  <span class="content-contacts-item email-organization">info@bestmesto.ru</span>
+                </div>
+
                 <span class="content-contacts-item lel-phone">+7(495)-999-5533</span>
               </div>
             </div>
-            <div class="location" style="height: 460px;">
-              <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab2367ca38be169733757e4326500fcd1702a20e0c7696aff48c2f5ad8963bdeb&amp;source=constructor" width="100%" height="460" frameborder="0"></iframe>
+            <div class="location" style="height: 426px;">
+              <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab2367ca38be169733757e4326500fcd1702a20e0c7696aff48c2f5ad8963bdeb&amp;source=constructor" width="100%" height="426" frameborder="0"></iframe>
+              <!-- <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab2367ca38be169733757e4326500fcd1702a20e0c7696aff48c2f5ad8963bdeb&amp;source=constructor" width="100%" height="460" frameborder="0"></iframe> -->
           </div>
         </div>
       </div>
