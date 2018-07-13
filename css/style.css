@@ -495,11 +495,6 @@
 .projects-payback-item {
   display: none; }
 
-.projects-payback-item span {
-  font-size: 34px;
-  color: #05426d;
-  font-weight: bold; }
-
 .memu-payback-item {
   cursor: pointer;
   background-color: #d9efff;
@@ -540,6 +535,33 @@
   padding: 25px 0 0 0;
   height: 90px;
   z-index: 102; }
+
+#lev-chart {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  position: relative; }
+  #lev-chart img {
+    width: 90%; }
+  #lev-chart .mus {
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    z-index: 102; }
+  #lev-chart .year {
+    display: block;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 102; }
+
+.ct-label {
+  font-size: 12px; }
+
+g {
+  width: 100%;
+  height: 100%; }
 
 /*=====================calculator===================== */
 .calculator {
@@ -952,7 +974,6 @@
 .soc-media {
   height: 80px;
   width: 100%;
-  background-color: #05426d;
   display: flex;
   justify-content: space-around;
   align-items: center; }
@@ -964,6 +985,33 @@
 .icon-soc-media img {
   width: 40px;
   height: 40px; }
+
+.footer-slogan {
+  width: 100%;
+  display: flex; }
+  .footer-slogan span {
+    font-size: 32px;
+    font-family: BebasNeueRegular;
+    color: white;
+    text-align: center;
+    display: block;
+    width: 100%; }
+
+.footer .container {
+  height: 100%;
+  background-color: #05426d; }
+.footer .row {
+  height: 100%;
+  display: flex;
+  align-items: center; }
+
+.lev-chart {
+  width: 100%;
+  height: 100%; }
+
+.active-projects-payback-item {
+  width: 100%;
+  height: 100%; }
 
 /*=====================animate===================== */
 @-webkit-keyframes fadeInSlogan {

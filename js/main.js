@@ -7,7 +7,30 @@ $(document).ready(function(){
     BackGround.css({"height":heightBackGround});
   };
   bodylay();
-
+//   let series = [[
+//   {x: 0, y: 0},
+//   {x:1, y: 20000},
+//   {x:1.5, y: 25000},
+//   {x:2, y: 30000},
+//   {x:2.5, y:35000},
+//   {x:3, y: 40000},
+//   {x:4, y: 45000},
+//   {x:5, y: 48000},
+//   {x:6, y: 50000},
+//   {x:7, y: 51000}
+// ]];
+//   new Chartist.Line('#lev-chart', {
+//     series
+//   }, {
+//     axisX: {
+//       type: Chartist.AutoScaleAxis,
+//       onlyInteger: true
+//     },
+//     axisY: {
+//       type: Chartist.AutoScaleAxis,
+//       onlyInteger: true
+//     }
+//   });
   // function bodylayOff(){
   //   let BackGround = $('.body-layout');
   //   let heightBackGround = $('footer').offset().top + $('footer').outerHeight();
@@ -131,4 +154,7 @@ $(document).ready(function(){
       }
     });
   });
+
+
+
 });
