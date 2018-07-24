@@ -244,7 +244,7 @@
                   <div class="d-flex justify-content-between">
                     <div class="img-desc-houholi col-xl-6">
                       <div>
-                        <img src="img/desc/houseHiliday.JPG" alt="" class="img-thumbnail">
+                        <img src="img/desc/houseHiliday-new-min.JPG" alt="" class="img-thumbnail">
                       </div>
                     </div>
                     <div class="col-xl-6">
@@ -295,7 +295,7 @@
               </div>
               <div class="hide img-gen-plan d-flex justify-content-center">
                 <div style="width: 50%">
-                  <img src="img/gen-plan/houHolGenPlan.jpg" class="img-thumbnail" alt="" style="width: 100%">
+                  <img src="img/gen-plan/houHolGenPlan-min.jpg" class="img-thumbnail" alt="" style="width: 100%">
                 </div>
               </div>
             </div>
@@ -315,7 +315,7 @@
                 Сам поселок отделен от береговой линии искусственным лесопарком, в котором можно гулять в любое время года.</p></span>
               <div class="d-flex flex-wrap">
                 <div class="col-xl-6">
-                  <img src="img/desc/levash-desc.jpg" alt="" class="img-thumbnail">
+                  <img src="img/desc/levash-desc-new-min.jpg" alt="" class="img-thumbnail">
                 </div>
                 <div class="col-xl-6 desc-lev-part2 d-flex align-items-center">
                   <div>
@@ -359,7 +359,7 @@
               </div>
               <div class="hide img-gen-plan d-flex justify-content-center">
                 <div style="width: 50%">
-                  <img src="img/gen-plan/levashGenPlan.jpg" class="img-thumbnail" alt="" style="width: 100%">
+                  <img src="img/gen-plan/levashGenPlan-minmin.jpg" class="img-thumbnail" alt="" style="width: 100%">
                 </div>
               </div>
             </div>
@@ -382,7 +382,7 @@
               </span>
               <div class="d-flex flex-wrap">
                 <div class="col-xl-6">
-                  <img src="img/desc/island-desc.jpg" alt="" class="img-thumbnail">
+                  <img src="img/desc/island-desc-new-min.jpg" alt="" class="img-thumbnail">
                 </div>
                 <div class="col-xl-6 desc-lev-part2 d-flex align-items-center">
                   <div>
@@ -430,7 +430,7 @@
               </div>
               <div class="hide img-gen-plan d-flex justify-content-center">
                 <div style="width: 50%">
-                  <img src="img/gen-plan/islandGenPlan-1.jpg" class="img-thumbnail" alt="" style="width: 100%">
+                  <img src="img/gen-plan/islandGenPlan-1min.jpg" class="img-thumbnail" alt="" style="width: 100%">
                 </div>
               </div>
             </div>
@@ -451,7 +451,7 @@
               </span>
               <div class="d-flex flex-wrap">
                 <div class="col-xl-6">
-                  <img src="img/desc/serg-desc.jpg" alt="" class="img-thumbnail">
+                  <img src="img/desc/serg-desc-new-min.jpg" alt="" class="img-thumbnail">
                 </div>
                 <div class="col-xl-6 desc-lev-part2 d-flex align-items-center">
                   <div>
