@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>INSVESTMENT</title>
+    <!-- asd -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -87,7 +88,7 @@
                 <li class="li-nav"><a href="#adv-of-us">Преимущества</a></li>
                 <li class="li-nav"><a href="#about-us">О НАС</a></li>
               </ul>
-              
+
             </div>
             <div class="col-xl-4 head-contacts">
               <div class="tel d-flex justify-content-center"><img src="img/telephone.svg" alt="phone" style="width: 22px; height: 22px; margin: 0 10px 0 0; cursor: pointer"><span style="font-size: 22px; font-weight: bold; font-family:BebasNeueRegular; letter-spacing: 2px;">+7(495)-369-3235</span></div>
