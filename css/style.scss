@@ -1830,6 +1830,34 @@ g {
 }
 
 @media screen and(max-width: 700px){
+  .feedback-form {
+    .inp-feedback-form {
+      div{
+        input {
+          width: 300px;
+        }
+        textarea {
+          width: 300px;
+        }
+      }
+      }
+      #form-select {
+        .choose-projects-bot {
+          width: 300px;
+        }
+
+        .inv-amount-bot {
+          width: 300px;
+        }
+    }
+
+    button {
+      // margin-top: 25px;
+      width: 250px;
+    }
+
+  }
+
   .navigation-header {
     padding: 25px 0 25px 0;
   }
@@ -1889,6 +1917,48 @@ g {
   }
 }
 
+
+@media screen and(max-width: 500px) {
+  p {
+    font-size: 12px !important;
+  }
+
+  span {
+    font-size: 12px !important;
+  }
+  
+  li {
+    font-size: 12px !important;
+  }
+  .feedback-form {
+    .inp-feedback-form {
+      div {
+        input {
+          width: 270px;
+        }
+        textarea {
+          margin-top: 25px;
+          width: 270px;
+          height: 100px;
+        }
+      }
+    }
+    #form-select {
+      .choose-projects-bot {
+        width: 270px;
+      }
+
+      .inv-amount-bot {
+        width: 270px;
+      }
+    }
+
+    button {
+      // margin-top: 25px;
+      width: 170px !important;
+    }
+  }
+}
 /*=====================animate===================== */
 
 @-webkit-keyframes fadeInSlogan {

@@ -280,5 +280,48 @@ $(document).ready(function(){
     $('.choose-projects').animate({opacity: 1}, 1000, function(){
 
     })
-  })
+  });
+
+  // common
+  $('.choose-projects').change(function(){
+    if ($(this).val() == 'Левашово'){
+      console.log($(this).val());
+      $('.inv-amount').addClass('hide');
+      $('#levashovoo').removeClass('hide');
+    } else if ($(this).val() == 'Дом отдыха'){
+      console.log($(this).val());
+      $('.inv-amount').addClass('hide');
+      $('#househol').removeClass('hide');
+    } else if ($(this).val() == 'Сергово'){
+      console.log($(this).val());
+      $('.inv-amount').addClass('hide');
+      $('#segrovo').removeClass('hide');
+    } else if ($(this).val() == 'Остров'){
+      console.log($(this).val());
+      $('.inv-amount').addClass('hide');
+      $('#ostrov').removeClass('hide');
+    }
+
+  });
+
+  $('.choose-projects-bot').change(function(){
+    if ($(this).val() == 'Левашово'){
+      console.log($(this).val());
+      $('.inv-amount-bot').addClass('hide');
+      $('#levashovoo-bot').removeClass('hide');
+    } else if ($(this).val() == 'Дом отдыха'){
+      console.log($(this).val());
+      $('.inv-amount-bot').addClass('hide');
+      $('#househol-bot').removeClass('hide');
+    } else if ($(this).val() == 'Сергово'){
+      console.log($(this).val());
+      $('.inv-amount-bot').addClass('hide');
+      $('#segrovo-bot').removeClass('hide');
+    } else if ($(this).val() == 'Остров'){
+      console.log($(this).val());
+      $('.inv-amount-bot').addClass('hide');
+      $('#ostrov-bot').removeClass('hide');
+    }
+
+  });
 });

@@ -27,7 +27,7 @@
               <span>Напишите нам, если Вы уже выбрали интересующий Вас проект для инвестирования или если у Вас появились вопросы!</span>
               <input placeholder="Ваше имя" class="feedback-item" type="text" name="name" value="">
               <input placeholder="Ваш email" class="feedback-item" type="email" name="email" value="">
-              <span class="choose-pr">Уже выбрали проект?</span>
+              <span class="choose-pr">Уже выбрали проект?<br>Тогда выберите его!</span>
               <select class="choose-projects" name="proojects-name" style="opacity: 0; display: none">
                 <option value="Выберите проект" selected>Выберите проект</option>
                 <option value="Дом отдыха">Дом отдыха</option>
@@ -35,7 +35,7 @@
                 <option value="Остров">Остров</option>
                 <option value="Сергово">Сергово</option>
               </select>
-              <select class="inv-amount" name="inv-amount">
+              <select id="common" class="inv-amount" name="inv-amount">
                 <option value="none" selected>Сумма инвестиций</option>
                 <option value="150000">260 000 рублей</option>
                 <option value="300000">520 000 рублей</option>
@@ -48,6 +48,62 @@
                 <option value="1350000">1350000</option>
                 <option value="1500000">1500000</option> -->
                 <option value="more">Более 2 000 000 рублей</option>
+              </select>
+              <select id="househol" class="hide inv-amount" name="inv-amount">
+                <option value="none" selected>Сумма инвестиций</option>
+                <option value="150000">180 000 рублей</option>
+                <option value="300000">360 000 рублей</option>
+                <option value="450000">540 000 рублей</option>
+                <option value="600000">720 000 рублей</option>
+                <option value="750000">900 000 рублей</option>
+                <option value="900000">1 080 000 рублей</option>
+                <option value="1050000">1 260 000 рублей</option>
+                <!-- <option value="1200000">1200000</option>
+                <option value="1350000">1350000</option>
+                <option value="1500000">1500000</option> -->
+                <option value="more">Более 1 500 000 рублей</option>
+              </select>
+              <select id="segrovo" class="hide inv-amount" name="inv-amount">
+                <option value="none" selected>Сумма инвестиций</option>
+                <option value="150000">100 000 рублей</option>
+                <option value="300000">200 000 рублей</option>
+                <option value="450000">300 000 рублей</option>
+                <option value="600000">400 000 рублей</option>
+                <option value="750000">500 000 рублей</option>
+                <option value="900000">600 000 рублей</option>
+                <option value="1050000">700 000 рублей</option>
+                <!-- <option value="1200000">1200000</option>
+                <option value="1350000">1350000</option>
+                <option value="1500000">1500000</option> -->
+                <option value="more">Более 1 000 000 рублей</option>
+              </select>
+              <select id="ostrov" class="hide inv-amount" name="inv-amount">
+                <option value="none" selected>Сумма инвестиций</option>
+                <option value="150000">200 000 рублей</option>
+                <option value="300000">400 000 рублей</option>
+                <option value="450000">600 000 рублей</option>
+                <option value="600000">800 000 рублей</option>
+                <option value="750000">1 000 000 рублей</option>
+                <option value="900000">1 200 000 рублей</option>
+                <option value="1050000">1 400 000 рублей</option>
+                <!-- <option value="1200000">1200000</option>
+                <option value="1350000">1350000</option>
+                <option value="1500000">1500000</option> -->
+                <option value="more">Более 1 500 000 рублей</option>
+              </select>
+              <select id="levashovoo" class="hide inv-amount" name="inv-amount">
+                <option value="none" selected>Сумма инвестиций</option>
+                <option value="150000">400 000 рублей</option>
+                <option value="300000">800 000 рублей</option>
+                <option value="450000">1 200 000 рублей</option>
+                <option value="600000">1 600 000 рублей</option>
+                <option value="750000">2 000 000 рублей</option>
+                <option value="900000">2 400 000 рублей</option>
+                <option value="1050000">2 800 000 рублей</option>
+                <!-- <option value="1200000">1200000</option>
+                <option value="1350000">1350000</option>
+                <option value="1500000">1500000</option> -->
+                <option value="more">Более 3 000 000 рублей</option>
               </select>
               <input placeholder="Ваш телефон" class="feedback-item" type="tel" name="tel" value="">
               <textarea placeholder="введите сообщение" class="feedback" name="name" rows="8" cols="15"></textarea>
@@ -103,7 +159,7 @@
            <button class="animate-pulse" type="button" name="button">Напишите нам</button>
       </div>
     </div>
-    <div class="form-reques-fix">
+    <!-- <div class="form-reques-fix">
       <form class="form-request-form" action="">
         <span>ПОЛУЧИТЬ ПРЕЗЕНТАЦИЮ</span>
         <input placeholder="Ваше имя" class="" type="text" name="name" value="">
@@ -111,7 +167,7 @@
         <input placeholder="Ваш телефон" class="" type="tel" name="tel" value="">
         <input class="btn-first-form" type="submit" name="" value="ОТПРАВИТЬ" disabled="true">
       </form>
-    </div>
+    </div> -->
     <section id="banner">
       <div class="container">
         <div class="row">
@@ -200,7 +256,7 @@
     <section id="unique-offer">
       <div class="container">
         <div class="row">
-          <div class="unique-offer d-flex flex-column">
+          <div class="unique-offer d-flex flex-column col-12">
             <div class="unique-title">
               <span style="color: #007282">ЧТО МЫ ПРЕДЛАГАЕМ</span>
             </div>
@@ -220,7 +276,7 @@
                 <strong style="font-size: 26px">Мы предлагаем два способа инвестирования:</strong>
               </p>
               <ul>
-                <div class="col-xl-12 d-flex flex-wrap">
+                <div class="col-xl-12 d-flex flex-wrap justify-content-center">
                   <div class="col-xl-6 d-flex flex-column animation-fadeinleft" style="padding-right:7px;">
                     <div class="item-desc-cond-inv">
                       <li>ПРИОБРЕТЕНИЕ ИНВЕСТИЦИОННОГО ЛОТА</li>
@@ -386,8 +442,8 @@
               <div id="desc-holhouse" class="text-desc">
                 <div id="" class="content-desc-pr">
                   <p class="text-justify">Загородный комплекс <b>«Платов»</b> включает 33 гектара земли в одном из самых чистых районов Подмосковья, всего в полутора часах от МКАД.</p>
-                  <p class="text-justify">Здесь удалось сохранить нетронутую природу и охраняемые места миграции диких животных. Отличная экология, прозрачный воздух, благодаря близости соснового бора, и чистейшее Можайское водохранилище, протянувшееся на <b><em>40 километров!</em></b>Эти места прочно связаны со славной историей России. Бородинское поле и монастыри Можайска, расположенные неподалеку от комплекса, делают его действительно уникальным!</p>
-                    <p class="text-justify">«Платов» будет представлять собой многофункциональный комплекс, состоящий из больших корпусов (всего около 250 номеров) и коттеджей. Концепция адаптируется в соответствии с историей Бородинского поля. Инфраструктура будет включать в себя открытый и закрытый бассейны, спа-центр, и другие виды развлечений .  Комплекс предложит отдыхающим высокий уровень сервиса, в том числе питание по системе «все включено».  Все это позволит обеспечить заполнение комплекса и будет приносить прибыль для инвестора в размере <b>25%-30% годовых.</b></p>
+                  <p class="text-justify">Здесь удалось сохранить нетронутую природу и охраняемые места миграции диких животных. Отличная экология, прозрачный воздух, благодаря близости соснового бора, и чистейшее Можайское водохранилище, протянувшееся на <em><b>40 километров!</em></b> Эти места прочно связаны со славной историей России. Бородинское поле и монастыри Можайска, расположенные неподалеку от комплекса, делают его действительно уникальным!</p>
+                    <p class="text-justify">«Платов» будет представлять собой многофункциональный комплекс, состоящий из больших корпусов (всего около 250 номеров) и коттеджей. Концепция адаптируется в соответствии с историей Бородинского поля. Инфраструктура будет включать в себя открытый и закрытый бассейны, спа-центр, и другие виды развлечений . Комплекс предложит отдыхающим высокий уровень сервиса, в том числе питание по системе «все включено». Все это позволит обеспечить заполнение комплекса и будет приносить стабильную прибыль инвестору.</p>
                   <div class="d-flex justify-content-between">
                     <div class="img-desc-houholi col-xl-6">
                       <div>
@@ -920,7 +976,21 @@
                   </select>
                 </div>
                 <div class="col-xl-6 d-flex flex-column align-items-center justify-content-between">
-                  <select class="inv-amount-bot" name="inv-amount">
+                  <!-- <select class="inv-amount-bot" name="inv-amount">
+                    <option value="none" selected>Сумма инвестиций</option>
+                    <option value="150000">260 000 рублей</option>
+                    <option value="300000">520 000 рублей</option>
+                    <option value="450000">780 000 рублей</option>
+                    <option value="600000">1 040 000 рублей</option>
+                    <option value="750000">1 300 000 рублей</option>
+                    <option value="900000">1 560 000 рублей</option>
+                    <option value="1050000">1 820 000 рублей</option>
+                    <!-- <option value="1200000">1200000</option>
+                    <option value="1350000">1350000</option>
+                    <option value="1500000">1500000</option> -->
+                    <!-- <option value="more">Более 2 000 000 рублей</option> -->
+                  <!-- </select> -->
+                  <select id="common-bot" class="inv-amount-bot" name="inv-amount">
                     <option value="none" selected>Сумма инвестиций</option>
                     <option value="150000">260 000 рублей</option>
                     <option value="300000">520 000 рублей</option>
@@ -933,6 +1003,62 @@
                     <option value="1350000">1350000</option>
                     <option value="1500000">1500000</option> -->
                     <option value="more">Более 2 000 000 рублей</option>
+                  </select>
+                  <select id="househol-bot" class="hide inv-amount-bot" name="inv-amount">
+                    <option value="none" selected>Сумма инвестиций</option>
+                    <option value="150000">180 000 рублей</option>
+                    <option value="300000">360 000 рублей</option>
+                    <option value="450000">540 000 рублей</option>
+                    <option value="600000">720 000 рублей</option>
+                    <option value="750000">900 000 рублей</option>
+                    <option value="900000">1 080 000 рублей</option>
+                    <option value="1050000">1 260 000 рублей</option>
+                    <!-- <option value="1200000">1200000</option>
+                    <option value="1350000">1350000</option>
+                    <option value="1500000">1500000</option> -->
+                    <option value="more">Более 1 500 000 рублей</option>
+                  </select>
+                  <select id="segrovo-bot" class="hide inv-amount-bot" name="inv-amount">
+                    <option value="none" selected>Сумма инвестиций</option>
+                    <option value="150000">100 000 рублей</option>
+                    <option value="300000">200 000 рублей</option>
+                    <option value="450000">300 000 рублей</option>
+                    <option value="600000">400 000 рублей</option>
+                    <option value="750000">500 000 рублей</option>
+                    <option value="900000">600 000 рублей</option>
+                    <option value="1050000">700 000 рублей</option>
+                    <!-- <option value="1200000">1200000</option>
+                    <option value="1350000">1350000</option>
+                    <option value="1500000">1500000</option> -->
+                    <option value="more">Более 1 000 000 рублей</option>
+                  </select>
+                  <select id="ostrov-bot" class="hide inv-amount-bot" name="inv-amount">
+                    <option value="none" selected>Сумма инвестиций</option>
+                    <option value="150000">200 000 рублей</option>
+                    <option value="300000">400 000 рублей</option>
+                    <option value="450000">600 000 рублей</option>
+                    <option value="600000">800 000 рублей</option>
+                    <option value="750000">1 000 000 рублей</option>
+                    <option value="900000">1 200 000 рублей</option>
+                    <option value="1050000">1 400 000 рублей</option>
+                    <!-- <option value="1200000">1200000</option>
+                    <option value="1350000">1350000</option>
+                    <option value="1500000">1500000</option> -->
+                    <option value="more">Более 1 500 000 рублей</option>
+                  </select>
+                  <select id="levashovoo-bot" class="hide inv-amount-bot" name="inv-amount">
+                    <option value="none" selected>Сумма инвестиций</option>
+                    <option value="150000">400 000 рублей</option>
+                    <option value="300000">800 000 рублей</option>
+                    <option value="450000">1 200 000 рублей</option>
+                    <option value="600000">1 600 000 рублей</option>
+                    <option value="750000">2 000 000 рублей</option>
+                    <option value="900000">2 400 000 рублей</option>
+                    <option value="1050000">2 800 000 рублей</option>
+                    <!-- <option value="1200000">1200000</option>
+                    <option value="1350000">1350000</option>
+                    <option value="1500000">1500000</option> -->
+                    <option value="more">Более 3 000 000 рублей</option>
                   </select>
                 </div>
               </div>
@@ -979,16 +1105,16 @@
 
           <div class="col-xl-7 d-flex justify-content-around align-items-center" style="margin-top: 30px;">
             <div class="">
-              <img class="img-thumbnail hidden animation-fadeinleft" src="img/partner/logo-sb.png" alt="logo-sb.png" style="width:160px">
+              <img class="img-thumbnail hidden animation-fadeinleft" src="img/partner/logo-sb.png" alt="logo-sb.png" style="height:160px">
             </div>
             <div class="">
-              <img class="img-thumbnail hidden animation-fadeinleft delay-2s" src="img/partner/logo-miel.png" alt="" style="width:160px">
+              <img class="img-thumbnail hidden animation-fadeinleft delay-2s" src="img/partner/kim.webp" alt="" style="height:160px">
             </div>
             <!-- <div class="">
               <img class="img-thumbnail" src="img/partner/logo-miel.png" alt="" style="width:160px">
             </div> -->
           </div>
-          <div class="col-xl-5 text-partnet-about-us animation-fadeinright delay-3s" style="margin-top: 30px;"><span>Среди партнеров «Лучшего Места» – ведущие финансовые и риелторские компании, включая ОАО «Сбербанк России», агентство недвижимости «Миэль» и другие.</span></div>
+          <div class="col-xl-5 text-partnet-about-us animation-fadeinright delay-3s" style="margin-top: 30px;"><span>Среди партнеров «Лучшего Места» – ведущие финансовые и риелторские компании, включая ОАО «Сбербанк России», cтроительный, технологический и ценовой аудит ЗАО "Ким и Партнеры" и другие.</span></div>
           <div class="col-xl-5 text-land animation-fadeinleft delay-4s">
             <span>Собственный земельный банк компании «Лучшее Место» составляет 184 га земли для ИЖС и дачного строительства, включая 6 коттеджных поселков: Лукоморье, Семиречье, Левашово, Речной, Царские берега и Сергово. Степень готовности коммуникаций в этих поселках – от 30 до 100 %, степень реализации участков – от 15 до 90 %. Общий объем реализации на данный момент – свыше 68 га.</span>
           </div>
