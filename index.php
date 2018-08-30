@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php
+  $var = "asd";
+?>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -17,7 +20,6 @@
     <div class="layout-mod-web"></div>
     <div class="mod-web">
       <div class="">
-
         <div class="real-mod-web">
           <div class="close-btn-mod-web">
             <div class="btn-close"></div>
@@ -93,17 +95,17 @@
               </select>
               <select id="levashovoo" class="hide inv-amount" name="inv-amount">
                 <option value="none" selected>Сумма инвестиций</option>
-                <option value="150000">400 000 рублей</option>
-                <option value="300000">800 000 рублей</option>
-                <option value="450000">1 200 000 рублей</option>
-                <option value="600000">1 600 000 рублей</option>
-                <option value="750000">2 000 000 рублей</option>
-                <option value="900000">2 400 000 рублей</option>
-                <option value="1050000">2 800 000 рублей</option>
+                <option value="240000"><?php  echo (1200000/5*1).' рублей';?></option>
+                <option value="300000"><?php  echo (1200000/5*2).' рублей';?></option>
+                <option value="450000"><?php  echo (1200000/5*3).' рублей';?></option>
+                <option value="600000"><?php  echo (1200000/5*4).' рублей';?></option>
+                <option value="750000"><?php  echo (1200000/5*5).' рублей';?></option>
+                <option value="900000"><?php  echo (1200000/5*6).' рублей';?></option>
+                <option value="1050000"><?php  echo (1200000/5*7).' рублей';?></option>
                 <!-- <option value="1200000">1200000</option>
                 <option value="1350000">1350000</option>
                 <option value="1500000">1500000</option> -->
-                <option value="more">Более 3 000 000 рублей</option>
+                <option value="more"><?php  echo 'Более '.(1200000/5*10).' рублей';?></option>
               </select>
               <input placeholder="Ваш телефон" class="feedback-item" type="tel" name="tel" value="">
               <textarea placeholder="введите сообщение" class="feedback" name="name" rows="8" cols="15"></textarea>
@@ -265,11 +267,11 @@
 
               <p class="text-justify hidden animation-fafeTop">Вы приобретаете лот из нескольких земельных участков (или участок в этом лоте) с дисконтом 50% от розничной цены. Мы строим дороги в поселке, устанавливаем ТП и подводим электричество, строим ограждение периметра, входную группу и помещение охраны, оборудуем места для отдыха и прогулок. После этого мы продаем Вашу землю конечным покупателям.</p>
               <p class="text-justify hidden animation-fafeTop">
-                Стоимость приобретенного Вами участка после создания инфраструктуры вырастет как минимум в два раза. Максимальный срок реализации земельных участков составляет, в среднем, три года. Таким образом, Ваши вложения, обеспеченные Вашей собственностью, принесут Вам, как минимум, 33% годовых.
+                Стоимость приобретенного Вами участка после создания инфраструктуры могут принести вам как минимум 30% годовых. Максимальный срок реализации земельных участков составляет, в среднем, три года. Таким образом, Ваши вложения, обеспеченные Вашей собственностью, принесут Вам, как минимум, 33% годовых.
               </p>
               <p class="text-justify hidden animation-fafeTop">
                 Ускоренной продаже участков после постройки инфраструктуры будет способствовать отсутствие дополнительных платежей при продаже участков (отсутствие взносов в ДНП или других скрытых платежей).
-                Минимальный размер инвестиций – 260 000 рублей. Для инвестиционного предложения предназначено не более, чем 20% участков в каждом проекте.
+                Минимальный размер инвестиций зависит от проекта. Для инвестиционного предложения предназначено не более, чем 20% участков в каждом проекте.
               </p>
               <p class="text-center hidden animation-fafeTop">Особый тип инвестиционного лота -  апартаменты в уникальном историко-архитектурном  многофункциональном комплексе «Платов», расположенном на берегу Можайского водохранилища.  <strong>Инвестиционное предложение ограничено по объему и срокам.</strong> </p>
               <p class="text-center hidden animation-fafeTop" style="width: 100%; font-size: 26px">
@@ -421,8 +423,6 @@
       </div>
     </section>
 
-
-
     <section id="projects">
       <div class="container">
         <div class="row">
@@ -567,6 +567,75 @@
               </div>
             </div>
             <button class="btn-close-desc">Close</button>
+            <table class="tablelevash-table">
+              <thead>
+                <tr>
+                  <th scope="col">Лот №</th>
+                  <th scope="col">Стоимость лота</th>
+                  <th scope="col">Количество участков</th>
+                  <th scope="col">Инвестиционная стоимость участка</th>
+                  <th scope="col">Рыночная стоимость участка(справочная)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">№1</th>
+                  <td>1 200 000</td>
+                  <td>5</td>
+                  <td><?php  echo 1200000/5;?></td>
+                  <td><?php  echo 1200000/5*2;?></td>
+                </tr>
+                <tr>
+                  <th scope="row">№2</th>
+                  <td>1 300 000</td>
+                  <td>5</td>
+                  <td><?php  echo 1300000/5?></td>
+                  <td><?php  echo 1300000/5*2;?></td>
+                </tr>
+                <tr>
+                  <th scope="row">№3</th>
+                  <td>1 500 000</td>
+                  <td>5</td>
+                  <td><?php  echo 1500000/5;?></td>
+                  <td><?php  echo 1500000/5*2;?></td>
+                </tr>
+                <tr>
+                  <th scope="row">№4</th>
+                  <td>1 300 000</td>
+                  <td>5</td>
+                  <td><?php  echo 1300000/5;?></td>
+                  <td><?php  echo 1300000/5*2;?></td>
+                </tr>
+                <tr>
+                  <th scope="row">№5</th>
+                  <td>1 450 000</td>
+                  <td>5</td>
+                  <td><?php  echo 1450000/5;?></td>
+                  <td><?php  echo 1450000/5*2;?></td>
+                </tr>
+                <tr>
+                  <th scope="row">№6</th>
+                  <td>1 500 000</td>
+                  <td>5</td>
+                  <td><?php  echo 1500000/5;?></td>
+                  <td><?php  echo 1500000/5*2;?></td>
+                </tr>
+                <tr>
+                  <th scope="row">№7</th>
+                  <td>1 470 000</td>
+                  <td>5</td>
+                  <td><?php  echo 1470000/5;?></td>
+                  <td><?php  echo 1470000/5*2;?></td>
+                </tr>
+                <tr>
+                  <th scope="row">№8</th>
+                  <td>1 300 000</td>
+                  <td>5</td>
+                  <td><?php  echo 1300000/5;?></td>
+                  <td><?php  echo 1300000/5*2;?></td>
+                </tr>
+              </tbody>
+            </table>
             <!-- <div class="hide d-flex justify-content-center"><button class="btn-presentation" type="button" name="button">ПОСМОТРЕТЬ ПРЕЗЕНТАЦИЮ</button></div> -->
           </div><!--description-project-two-->
 
@@ -1048,17 +1117,17 @@
                   </select>
                   <select id="levashovoo-bot" class="hide inv-amount-bot" name="inv-amount">
                     <option value="none" selected>Сумма инвестиций</option>
-                    <option value="150000">400 000 рублей</option>
-                    <option value="300000">800 000 рублей</option>
-                    <option value="450000">1 200 000 рублей</option>
-                    <option value="600000">1 600 000 рублей</option>
-                    <option value="750000">2 000 000 рублей</option>
-                    <option value="900000">2 400 000 рублей</option>
-                    <option value="1050000">2 800 000 рублей</option>
+                    <option value="240000"><?php  echo (1200000/5*1).' рублей';?></option>
+                    <option value="300000"><?php  echo (1200000/5*2).' рублей';?></option>
+                    <option value="450000"><?php  echo (1200000/5*3).' рублей';?></option>
+                    <option value="600000"><?php  echo (1200000/5*4).' рублей';?></option>
+                    <option value="750000"><?php  echo (1200000/5*5).' рублей';?></option>
+                    <option value="900000"><?php  echo (1200000/5*6).' рублей';?></option>
+                    <option value="1050000"><?php  echo (1200000/5*7).' рублей';?></option>
                     <!-- <option value="1200000">1200000</option>
                     <option value="1350000">1350000</option>
                     <option value="1500000">1500000</option> -->
-                    <option value="more">Более 3 000 000 рублей</option>
+                    <option value="more"><?php  echo 'Более '.(1200000/5*10).' рублей';?></option>
                   </select>
                 </div>
               </div>
@@ -1108,13 +1177,13 @@
               <img class="img-thumbnail hidden animation-fadeinleft" src="img/partner/logo-sb.png" alt="logo-sb.png" style="height:160px">
             </div>
             <div class="">
-              <img class="img-thumbnail hidden animation-fadeinleft delay-2s" src="img/partner/kim.webp" alt="" style="height:160px">
+              <img class="img-thumbnail hidden animation-fadeinleft delay-2s" src="img/partner/kim.png" alt="" style="height:160px">
             </div>
             <!-- <div class="">
               <img class="img-thumbnail" src="img/partner/logo-miel.png" alt="" style="width:160px">
             </div> -->
           </div>
-          <div class="col-xl-5 text-partnet-about-us animation-fadeinright delay-3s" style="margin-top: 30px;"><span>Среди партнеров «Лучшего Места» – ведущие финансовые и риелторские компании, включая ОАО «Сбербанк России», cтроительный, технологический и ценовой аудит ЗАО "Ким и Партнеры" и другие.</span></div>
+          <div class="col-xl-5 text-partnet-about-us animation-fadeinright delay-3s" style="margin-top: 30px;"><span>Среди партнеров «Лучшего Места» – ведущие финансовые и риелторские компании, включая ОАО «Сбербанк России», ЗАО "Ким и Партнеры"(cтроительный, технологический и ценовой аудит) и другие.</span></div>
           <div class="col-xl-5 text-land animation-fadeinleft delay-4s">
             <span>Собственный земельный банк компании «Лучшее Место» составляет 184 га земли для ИЖС и дачного строительства, включая 6 коттеджных поселков: Лукоморье, Семиречье, Левашово, Речной, Царские берега и Сергово. Степень готовности коммуникаций в этих поселках – от 30 до 100 %, степень реализации участков – от 15 до 90 %. Общий объем реализации на данный момент – свыше 68 га.</span>
           </div>
