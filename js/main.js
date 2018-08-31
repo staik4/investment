@@ -38,7 +38,25 @@ $(document).ready(function(){
   //   BackGround.css({"height":heightBackGround});
   // };
   // bodylay();
-
+  let dObDescPr = {
+    1:'desc-holhouses',
+    2:'desc-levashovos',
+    3: 'desc-islands',
+    4: 'desc-sergovos'
+  }
+  $(".close-btn-pr").click(function(){
+    // console.log('asd');
+    // console.log($(".projects-item").scrollTop());
+    // console.log('asd');
+    // console.log($(".description-project[data-prnum='"+$(that).data("project")+"']").scrollTop(), $(that).data("project"),  $(".description-project[data-prnum='"+$(that).data("project")+"']"));
+    $(".close-btn-pr").css({"display":"none"});
+    $(".description-project[data-prnum='"+$('.projects-item').data("project")+"']").fadeOut('slow', function(){
+      $(this).addClass('hide');
+      $('.description-project').children().addClass('hide');
+      $('.img-gen-plan').addClass('hide');
+      // console.log('hrem',$(this));
+    });
+  });
   $('.projects-item').each(function(){
     let that = $(this);
     $(that).mouseover(function(){
@@ -51,6 +69,11 @@ $(document).ready(function(){
     });
 
     $(that).on('click', function(){
+      // console.log($(that).data("project"));
+      let idDesc = dObDescPr[$(that).data("project")];
+
+      // console.log(scrollDesc);
+
       let numOfPr = $(that).data("project");
       let descHeight = $(window).height() -150;
       $('.description-project').css({"height":descHeight});
@@ -65,39 +88,31 @@ $(document).ready(function(){
         g = -g;
         // console.log(g);
         $(".description-project[data-prnum='"+$(that).data("project")+"']").css({"top":g});
-        $(".close-btn").css({"top":g+20});
+        $(".close-btn-pr").css({"top":g+20});
       }else if(scrollTopWindow > $('#project-content').offset().top) {
         g = (scrollTopWindow - $('#project-content').offset().top) + 50;
         // console.log("+",g);
         $(".description-project[data-prnum='"+$(that).data("project")+"']").css({"top":g});
-        $(".close-btn").css({"top":g+20});
+        $(".close-btn-pr").css({"top":g+20});
       }
 
       $('.img-gen-plan').removeClass('hide');
       $('.description-project').children().removeClass('hide');
       $(".description-project[data-prnum='"+$(that).data("project")+"']").removeClass('hide');
       $(".description-project[data-prnum='"+$(that).data("project")+"']").fadeIn('slow', function(){
+        $("#"+idDesc).scrollTop(0);
 
-        $(".description-project[data-prnum='"+$(that).data("project")+"']").css({"position":"absolute", "width":"100%","border":"3px solid #05426d","display":"flex","padding":"50px","z-index":"1000", "top":g});
+        $(".description-project[data-prnum='"+$(that).data("project")+"']").css({"position":"relative", "width":"100%","border":"3px solid #05426d","display":"flex","padding":"50px","z-index":"1000", "top":g});
         $(".description-project[data-prnum='"+$(that).data("project")+"'] span").fadeIn('slow');
         $(".description-project[data-prnum='"+$(that).data("project")+"'] span").css({"font-size":"16px"});
 
         $(".description-project[data-prnum='"+$(that).data("project")+"'] .gen-plan .img-gen-plan").css({"display":"block"});
 
-        $(".close-btn").css({"display":"block"});
+        $(".close-btn-pr").css({"display":"block"});
         $(".description-project[data-prnum='"+$(that).data("project")+"'] > .btn-presentation").css({"display":"block"});
-        $(".close-btn").on('click',function(){
-          $(".close-btn").css({"display":"none"});
-          $(".description-project[data-prnum='"+$(that).data("project")+"']").fadeOut('slow', function(){
-            $(this).addClass('hide');
-            $('.description-project').children().addClass('hide');
-            $('.img-gen-plan').addClass('hide');
-
-            // console.log('hrem',$(this));
-          });
-        });
       });
     });
+
   });//projects
 
   $('.memu-payback-item').each(function(){
@@ -125,7 +140,7 @@ $(document).ready(function(){
       $('.description-project').children().addClass('hide');
       $('.description-project').addClass('hide');
       $('.img-gen-plan').addClass('hide');
-      $(".close-btn").css({"display":"none"});
+      $(".close-btn-pr").css({"display":"none"});
     };
     if(!$(e.target).closest(modWeb).length) {
       $('.mod-web').css({"display":"none"});
@@ -324,4 +339,6 @@ $(document).ready(function(){
     }
 
   });
+
+  console.log($('#desc-levashovo').scrollTop())
 });

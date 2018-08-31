@@ -929,7 +929,22 @@ $fontTitleSize: 40px;
     }
   }
 }
+.close-btn-pr {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  z-index: 123123;
+  right: 30px;
+  top: 30px;
+  display: none;
+  cursor: pointer;
 
+  img {
+    width: 30px;
+    height: 30px;
+
+  }
+}
 .close-btn {
   width: 30px;
   height: 30px;
@@ -949,7 +964,48 @@ $fontTitleSize: 40px;
 
 
 /*=====================table for dec_projects=========================*/
+.tablelevash-table {
+  margin-top: 50px;
+  box-shadow: 0 0 10px #5bb5b1;
+  th {
+    height: 40px;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 16px;
+    background-color: $primary-color;
+    color: white;
 
+  }
+  tr,td {
+    text-align: center;
+    border: 2px solid $primary-color;
+    height: 33px;
+    color: $primary-color;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  thead {
+    tr {
+      text-align: center;
+    }
+  }
+}
+
+.inside-table {
+  tr,td {
+    border-bottom: 2px solid $primary-color;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+  tr {
+
+  }
+}
 
 /*=====================payback===================== */
 

@@ -649,6 +649,19 @@
   line-height: 1.6;
   font-weight: bold; }
 
+.close-btn-pr {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  z-index: 123123;
+  right: 30px;
+  top: 30px;
+  display: none;
+  cursor: pointer; }
+  .close-btn-pr img {
+    width: 30px;
+    height: 30px; }
+
 .close-btn {
   width: 30px;
   height: 30px;
@@ -663,6 +676,34 @@
     height: 30px; }
 
 /*=====================table for dec_projects=========================*/
+.tablelevash-table {
+  margin-top: 50px;
+  box-shadow: 0 0 10px #5bb5b1; }
+  .tablelevash-table th {
+    height: 40px;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #05426d;
+    color: white; }
+  .tablelevash-table tr, .tablelevash-table td {
+    text-align: center;
+    border: 2px solid #05426d;
+    height: 33px;
+    color: #05426d;
+    font-size: 16px;
+    font-weight: bold; }
+  .tablelevash-table thead tr {
+    text-align: center; }
+
+.inside-table tr, .inside-table td {
+  border-bottom: 2px solid #05426d;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0; }
+  .inside-table tr:last-child, .inside-table td:last-child {
+    border-bottom: 0; }
+
 /*=====================payback===================== */
 .title-yield {
   display: flex;

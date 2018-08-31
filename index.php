@@ -9,8 +9,8 @@
     <!-- asd -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="js/chartist/dist/chartist.min.css">
+    <link rel="stylesheet" href="css/style.css?123123123">
+    <!-- <link rel="stylesheet" href="js/chartist/dist/chartist.min.css"> -->
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="js\OwlCarousel\dist\assets\owl.carousel.min.css">
   </head>
@@ -53,59 +53,52 @@
               </select>
               <select id="househol" class="hide inv-amount" name="inv-amount">
                 <option value="none" selected>Сумма инвестиций</option>
-                <option value="150000">180 000 рублей</option>
-                <option value="300000">360 000 рублей</option>
-                <option value="450000">540 000 рублей</option>
-                <option value="600000">720 000 рублей</option>
-                <option value="750000">900 000 рублей</option>
-                <option value="900000">1 080 000 рублей</option>
-                <option value="1050000">1 260 000 рублей</option>
-                <!-- <option value="1200000">1200000</option>
-                <option value="1350000">1350000</option>
-                <option value="1500000">1500000</option> -->
-                <option value="more">Более 1 500 000 рублей</option>
+                <option value="150000">5 000 000 рублей</option>
+                <option value="300000">10 000 000 рублей</option>
+                <option value="450000">15 000 000 рублей</option>
+                <option value="more">Более 15 000 000 рублей</option>
               </select>
               <select id="segrovo" class="hide inv-amount" name="inv-amount">
                 <option value="none" selected>Сумма инвестиций</option>
-                <option value="150000">100 000 рублей</option>
-                <option value="300000">200 000 рублей</option>
-                <option value="450000">300 000 рублей</option>
-                <option value="600000">400 000 рублей</option>
-                <option value="750000">500 000 рублей</option>
-                <option value="900000">600 000 рублей</option>
-                <option value="1050000">700 000 рублей</option>
+                <option value="150000">241 750 рублей</option>
+                <option value="300000">485 500 рублей</option>
+                <option value="450000">741 250 рублей</option>
+                <option value="600000">988 500 рублей</option>
+                <option value="750000">1 264 750 рублей</option>
+                <option value="900000">1 512 250 рублей</option>
                 <!-- <option value="1200000">1200000</option>
                 <option value="1350000">1350000</option>
                 <option value="1500000">1500000</option> -->
-                <option value="more">Более 1 000 000 рублей</option>
+                <option value="more">Более 1 512 250 рублей</option>
               </select>
               <select id="ostrov" class="hide inv-amount" name="inv-amount">
                 <option value="none" selected>Сумма инвестиций</option>
-                <option value="150000">200 000 рублей</option>
-                <option value="300000">400 000 рублей</option>
-                <option value="450000">600 000 рублей</option>
-                <option value="600000">800 000 рублей</option>
+                <option value="150000">2 082 000 рублей</option>
+                <option value="300000">4 260 000 рублей</option>
+                <option value="450000">7 292 000 рублей</option>
+                <!-- <option value="600000">800 000 рублей</option>
                 <option value="750000">1 000 000 рублей</option>
                 <option value="900000">1 200 000 рублей</option>
-                <option value="1050000">1 400 000 рублей</option>
+                <option value="1050000">1 400 000 рублей</option> -->
                 <!-- <option value="1200000">1200000</option>
                 <option value="1350000">1350000</option>
                 <option value="1500000">1500000</option> -->
-                <option value="more">Более 1 500 000 рублей</option>
+                <option value="more">Более 7 292 000 рублей</option>
               </select>
               <select id="levashovoo" class="hide inv-amount" name="inv-amount">
                 <option value="none" selected>Сумма инвестиций</option>
-                <option value="240000"><?php  echo (1200000/5*1).' рублей';?></option>
-                <option value="300000"><?php  echo (1200000/5*2).' рублей';?></option>
-                <option value="450000"><?php  echo (1200000/5*3).' рублей';?></option>
-                <option value="600000"><?php  echo (1200000/5*4).' рублей';?></option>
-                <option value="750000"><?php  echo (1200000/5*5).' рублей';?></option>
-                <option value="900000"><?php  echo (1200000/5*6).' рублей';?></option>
-                <option value="1050000"><?php  echo (1200000/5*7).' рублей';?></option>
+                <option value="1200000">240 000 рублей </option>
+                <option value="1300000">480 000 рублей </option>
+                <option value="1500000">720 000 рублей </option>
+                <option value="1300000">960 000 рублей </option>
+                <option value="1450000">1 200 000 рублей </option>
+                <option value="1500000">Более 1 200 000 рублей </option>
+                <!-- <option value="1470000">240 000 рублей </option>
+                <option value="1300000">240 000 рублей </option> -->
                 <!-- <option value="1200000">1200000</option>
                 <option value="1350000">1350000</option>
                 <option value="1500000">1500000</option> -->
-                <option value="more"><?php  echo 'Более '.(1200000/5*10).' рублей';?></option>
+
               </select>
               <input placeholder="Ваш телефон" class="feedback-item" type="tel" name="tel" value="">
               <textarea placeholder="введите сообщение" class="feedback" name="name" rows="8" cols="15"></textarea>
@@ -283,7 +276,7 @@
                     <div class="item-desc-cond-inv">
                       <li>ПРИОБРЕТЕНИЕ ИНВЕСТИЦИОННОГО ЛОТА</li>
                       <p class="text-justify">
-	                       Инвестиционный лот представляет собой пакет из 5 участков, выкупаемых одним инвестором. С инвестором заключается договор купли-продажи земельных участков по цене со скидкой в размере 50% от их минимальной рыночной стоимости (при наличии построенной инфраструктуры).
+	                       Инвестиционный лот представляет собой пакет из от 3 до 6 участков, выкупаемых одним инвестором. С инвестором заключается договор купли-продажи земельных участков по цене со скидкой в размере 50% от их минимальной рыночной стоимости (при наличии построенной инфраструктуры).
                       </p>
                     </div>
                   </div>
@@ -431,13 +424,13 @@
           </div>
         </div>
         <div id="project-content" class="row d-flex justify-content-center" style="position:relative">
-          <div class="close-btn">
+          <div class="close-btn-pr">
             <img src="img/cancel.svg" alt="" style="width: 30px; height: 30px;">
           </div>
-          <div class="description-project d-flex flex-column" data-prnum="1" style="position:relative">
+          <div id="desc-holhouses" class="description-project d-flex flex-column" data-prnum="1" style="position:relative">
             <div class="item-desc-projects desc-prijects-description">
               <div class="title-desc">
-                <span>ОПИСАНИЕ</span>
+                <span class="text-center">Загородный комплекс Платов сможет приносить инвестору <br>до 25-30% годовых</span>
               </div>
               <div id="desc-holhouse" class="text-desc">
                 <div id="" class="content-desc-pr">
@@ -499,16 +492,17 @@
                   <img src="img/gen-plan/house-holi-gen-plan-new.jpg" class="img-thumbnail" alt="" style="width: 100%">
                 </div>
               </div>
+
             </div>
             <!-- <div class="hide d-flex justify-content-center"><button class="btn-presentation" type="button" name="button">ПОСМОТРЕТЬ ПРЕЗЕНТАЦИЮ</button></div> -->
             <!-- <button class="btn-close-desc">Close</button> -->
             <!-- <button class="hide" type="button" name="button">ПОСМОТРЕТЬ ПРЕЗЕНТАЦИЮ</button> -->
           </div><!--description-project-one-->
 
-          <div class="description-project d-flex flex-column" data-prnum="2">
+          <div id="desc-levashovos" class="description-project d-flex flex-column" data-prnum="2">
             <div id="desc-levashovo" class="content-desc-pr">
               <div class="title-desc">
-                <span>ОПИСАНИЕ</span>
+                <span>Проект Левашово - до 32-33% годовых!</span>
               </div>
               <span><p>Дачный поселок «Левашово» – это 29,2 гектара земли, на которой
                 уже началось строительство загородных домов. Находится в Можайском районе, в уникальном месте – в первую очередь
@@ -570,69 +564,69 @@
             <table class="tablelevash-table">
               <thead>
                 <tr>
-                  <th scope="col">Лот №</th>
+                  <th scope="col">Номер лота</th>
                   <th scope="col">Стоимость лота</th>
                   <th scope="col">Количество участков</th>
-                  <th scope="col">Инвестиционная стоимость участка</th>
-                  <th scope="col">Рыночная стоимость участка(справочная)</th>
+                  <th scope="col">Минимальная инвестиционная стоимость участка</th>
+                  <th scope="col">Рыночная стоимость участка (справочно)</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row">№1</th>
-                  <td>1 200 000</td>
+                  <th scope="row">1</th>
+                  <td>1 200 000 &#8381;</td>
                   <td>5</td>
-                  <td><?php  echo 1200000/5;?></td>
-                  <td><?php  echo 1200000/5*2;?></td>
+                  <td><?php  echo 1200000/5;?> &#8381;</td>
+                  <td><?php  echo 1200000/5*2;?> &#8381;</td>
                 </tr>
                 <tr>
-                  <th scope="row">№2</th>
-                  <td>1 300 000</td>
+                  <th scope="row">2</th>
+                  <td>1 300 000 &#8381;</td>
                   <td>5</td>
-                  <td><?php  echo 1300000/5?></td>
-                  <td><?php  echo 1300000/5*2;?></td>
+                  <td><?php  echo 1300000/5?> &#8381;</td>
+                  <td><?php  echo 1300000/5*2;?> &#8381;</td>
                 </tr>
                 <tr>
-                  <th scope="row">№3</th>
-                  <td>1 500 000</td>
+                  <th scope="row">3</th>
+                  <td>1 500 000 &#8381;</td>
                   <td>5</td>
-                  <td><?php  echo 1500000/5;?></td>
-                  <td><?php  echo 1500000/5*2;?></td>
+                  <td><?php  echo 1500000/5;?> &#8381;</td>
+                  <td><?php  echo 1500000/5*2;?> &#8381;</td>
                 </tr>
                 <tr>
-                  <th scope="row">№4</th>
-                  <td>1 300 000</td>
+                  <th scope="row">4</th>
+                  <td>1 300 000 &#8381;</td>
                   <td>5</td>
-                  <td><?php  echo 1300000/5;?></td>
-                  <td><?php  echo 1300000/5*2;?></td>
+                  <td><?php  echo 1300000/5;?> &#8381;</td>
+                  <td><?php  echo 1300000/5*2;?> &#8381;</td>
                 </tr>
                 <tr>
-                  <th scope="row">№5</th>
-                  <td>1 450 000</td>
+                  <th scope="row">5</th>
+                  <td>1 450 000 &#8381;</td>
                   <td>5</td>
-                  <td><?php  echo 1450000/5;?></td>
-                  <td><?php  echo 1450000/5*2;?></td>
+                  <td><?php  echo 1450000/5;?> &#8381;</td>
+                  <td><?php  echo 1450000/5*2;?> &#8381;</td>
                 </tr>
                 <tr>
-                  <th scope="row">№6</th>
-                  <td>1 500 000</td>
+                  <th scope="row">6</th>
+                  <td>1 500 000 &#8381;</td>
                   <td>5</td>
-                  <td><?php  echo 1500000/5;?></td>
-                  <td><?php  echo 1500000/5*2;?></td>
+                  <td><?php  echo 1500000/5;?> &#8381;</td>
+                  <td><?php  echo 1500000/5*2;?> &#8381;</td>
                 </tr>
                 <tr>
-                  <th scope="row">№7</th>
-                  <td>1 470 000</td>
+                  <th scope="row">7</th>
+                  <td>1 470 000 &#8381;</td>
                   <td>5</td>
-                  <td><?php  echo 1470000/5;?></td>
-                  <td><?php  echo 1470000/5*2;?></td>
+                  <td><?php  echo 1470000/5;?> &#8381;</td>
+                  <td><?php  echo 1470000/5*2;?> &#8381;</td>
                 </tr>
                 <tr>
-                  <th scope="row">№8</th>
-                  <td>1 300 000</td>
+                  <th scope="row">8</th>
+                  <td>1 300 000 &#8381;</td>
                   <td>5</td>
-                  <td><?php  echo 1300000/5;?></td>
-                  <td><?php  echo 1300000/5*2;?></td>
+                  <td><?php  echo 1300000/5;?> &#8381;</td>
+                  <td><?php  echo 1300000/5*2;?> &#8381;</td>
                 </tr>
               </tbody>
             </table>
@@ -641,10 +635,10 @@
 
 
 
-          <div class="description-project  d-flex flex-column" data-prnum="3">
+          <div id="desc-islands" class="description-project  d-flex flex-column" data-prnum="3">
             <div id="desc-island" class="content-desc-pr">
               <div class="title-desc">
-                <span>ОПИСАНИЕ</span>
+                <span>Проект остров инвестору до 25-30% годовых!</span>
               </div>
               <span>
                 <p>Проект «Остров» – это действительно остров на Большой Волге, причем всего в 130 км от МКАД! Это место находится в получасе езды от г. Дубна Московской области, но уже сейчас в районе Особой экономической зоны «Дубна» строится новый мостовой переход, который сделает «Остров» еще ближе. 42 гектара земли с естественным ограждением – береговой линией, растянувшейся на 5,5 км, представляющей собой идеальное место для прогулок. Ширина Волги в этом месте составляет 600 метров, а мимо «Острова» скользят белоснежные круизные теплоходы!
@@ -699,14 +693,76 @@
               </div>
             </div>
             <button class="btn-close-desc">Close</button>
+            <table id="table_island" class="tablelevash-table">
+              <thead>
+                <tr>
+                  <th scope="col">Номер лота</th>
+                  <th scope="col">Стоимость лота</th>
+                  <th scope="col">Количество участков</th>
+                  <th scope="col">Минимальная инвестиционная стоимость участка</th>
+                  <th scope="col">Рыночная стоимость участка (справочно)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>12 557 000 &#8381;</td>
+                  <td>5</td>
+                  <td>2 234 000 &#8381;</td>
+                  <td>4 468 000 &#8381;</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>9 482 000 &#8381;</td>
+                  <td>5</td>
+                  <td>2 094 000 &#8381;</td>
+                  <td>4 188 000 &#8381;</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>7 292 000 &#8381;</td>
+                  <td>5</td>
+                  <td>2 082 000 &#8381;</td>
+                  <td>4 164 000 &#8381;</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>7 466 000 &#8381;</td>
+                  <td>5</td>
+                  <td>2 094 000 &#8381;</td>
+                  <td>4 188 000 &#8381;</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>7 760 500 &#8381;</td>
+                  <td>5</td>
+                  <td>2 092 500 &#8381;</td>
+                  <td>4 185 000 &#8381;</td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>9 020 500 &#8381;</td>
+                  <td>5</td>
+                  <td>2 202 000 &#8381;</td>
+                  <td>4 404 000 &#8381;</td>
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                  <td>9 491 500 &#8381;</td>
+                  <td>5</td>
+                  <td>2 146 500 &#8381;</td>
+                  <td>4 393 000 &#8381;</td>
+                </tr>
+              </tbody>
+            </table>
             <!-- <div class="hide d-flex justify-content-center"><button class="btn-presentation" type="button" name="button">ПОСМОТРЕТЬ ПРЕЗЕНТАЦИЮ</button></div> -->
           </div><!--description-project-three-->
 
 
-          <div class="description-project d-flex flex-column" data-prnum="4">
-            <div id="desc-island" class="content-desc-pr">
+          <div id="desc-sergovos" class="description-project d-flex flex-column" data-prnum="4">
+            <div id="desc-sergovo" class="content-desc-pr">
               <div class="title-desc">
-                <span>ОПИСАНИЕ</span>
+                <span>Поселок «Сергово» - до 32-33% годовых!</span>
               </div>
               <span>
                 <p>
@@ -727,7 +783,7 @@
                       <li>КПП на въезде;</li>
                       <li>площадка для стоянки гостевых автомобилей </li>
                       <li>причальная инфраструктура;</li>
-                      <li>газоснабжение поселка;</li>
+                      <!-- <li>газоснабжение поселка;</li> -->
                       <li>уличное освещение.</li>
                     </ul>
                   </div>
@@ -736,7 +792,7 @@
               <br><br>
               <p>Коттеджный поселок на берегу реки Искона будет тихим и уютным местом отдыха для всей семьи. 140 участков в излучине красивейшей реки станут уникальным предложением и существенно вырастут в цене после проведения всех коммуникаций.</p>
             </div>
-            <div id="adv-island" class="content-desc-pr">
+            <div id="adv-serg" class="content-desc-pr">
               <div class="title-desc">
                 <span>ПРЕИМУЩЕСТВА ПРОЕКТА</span>
               </div>
@@ -759,19 +815,152 @@
               </div>
             </div>
             <button class="btn-close-desc">Close</button>
+            <table id="table_serg" class="tablelevash-table">
+              <thead>
+                <tr>
+                  <th scope="col">Номер лота</th>
+                  <th scope="col">Стоимость лота</th>
+                  <th scope="col">Количество участков</th>
+                  <th scope="col">Минимальная инвестиционная стоимость участка</th>
+                  <th scope="col">Рыночная стоимость участка (справочно)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>1 512 250 &#8381;</td>
+                  <td>5</td>
+                  <td>241 750 &#8381;</td>
+                  <td>483 500 &#8381;</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>1 523 250 &#8381;</td>
+                  <td>5</td>
+                  <td>243 500 &#8381;</td>
+                  <td>487 000 &#8381;</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>1 522 750 &#8381;</td>
+                  <td>5</td>
+                  <td>243 250 &#8381;</td>
+                  <td>486 500 &#8381;</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>1 522 500 &#8381;</td>
+                  <td>5</td>
+                  <td>243 000 &#8381;</td>
+                  <td>486 000 &#8381;</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>1 522 750 &#8381;</td>
+                  <td>5</td>
+                  <td>243 000 &#8381;</td>
+                  <td>486 000 &#8381;</td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>1 522 750 &#8381;</td>
+                  <td>5</td>
+                  <td>242 750 &#8381;</td>
+                  <td>485 500 &#8381;</td>
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                  <td>1 523 000 &#8381;</td>
+                  <td>5</td>
+                  <td>242 750 &#8381;</td>
+                  <td>485 500 &#8381;</td>
+                </tr>
+                <tr>
+                  <th scope="row">8</th>
+                  <td>1 523 000 &#8381;</td>
+                  <td>5</td>
+                  <td>242 250 &#8381;</td>
+                  <td>484 500 &#8381;</td>
+                </tr>
+                <tr>
+                  <th scope="row">9</th>
+                  <td>1 523 250 &#8381;</td>
+                  <td>5</td>
+                  <td>242 250 &#8381;</td>
+                  <td>484 500 &#8381;</td>
+                </tr>
+                <tr>
+                  <th scope="row">10</th>
+                  <td>1 522 750 &#8381;</td>
+                  <td>5</td>
+                  <td>242 000 &#8381;</td>
+                  <td>484 000 &#8381;</td>
+                </tr>
+                <tr>
+                  <th scope="row">11</th>
+                  <td>1 523 000 &#8381;</td>
+                  <td>5</td>
+                  <td>242 000 &#8381;</td>
+                  <td>484 000 &#8381;</td>
+                </tr>
+                <tr>
+                  <th scope="row">12</th>
+                  <td>1 555 750 &#8381;</td>
+                  <td>5</td>
+                  <td>224 250 &#8381;</td>
+                  <td>448 500 &#8381;</td>
+                </tr>
+                <tr>
+                  <th scope="row">13</th>
+                  <td>1 512 750 &#8381;</td>
+                  <td>5</td>
+                  <td>241 750 &#8381;</td>
+                  <td>483 500 &#8381;</td>
+                </tr>
+                <tr>
+                  <th scope="row">14</th>
+                  <td>1 523 000 &#8381;</td>
+                  <td>5</td>
+                  <td>244 000 &#8381;</td>
+                  <td>488 000 &#8381;</td>
+                </tr>
+                <tr>
+                  <th scope="row">15</th>
+                  <td>1 522 750 &#8381;</td>
+                  <td>5</td>
+                  <td>244 250 &#8381;</td>
+                  <td>488 500 &#8381;</td>
+                </tr>
+                <tr>
+                  <th scope="row">16</th>
+                  <td>1 522 250 &#8381;</td>
+                  <td>5</td>
+                  <td>244 250 &#8381;</td>
+                  <td>488 500 &#8381;</td>
+                </tr>
+                <tr>
+                  <th scope="row">17</th>
+                  <td>1 522 750 &#8381;</td>
+                  <td>5</td>
+                  <td>243 500 &#8381;</td>
+                  <td>487 000 &#8381;</td>
+                </tr>
+
+              </tbody>
+            </table>
             <!-- <div class="hide d-flex justify-content-center"><button class="btn-presentation" type="button" name="button">ПОСМОТРЕТЬ ПРЕЗЕНТАЦИЮ</button></div> -->
           </div><!--description-project-four-->
 
           <div id="holiday-house" class="col-xl-6 projects-item hidden animation-fadeinleft" data-project="1">
             <div class="title-projects">
-              <span class="title-mane-projects">ДОМ ОТДЫХА<br>28%</span><br>
+              <span class="title-mane-projects">ДОМ ОТДЫХА<br>ДО 30% ГОДОВЫХ!</span><br>
               <!-- <span class="proz">18%</span> -->
             </div>
 
           </div>
           <div id="levashovo" class="col-xl-6 projects-item hidden animation-fadeinright" data-project="2">
             <div class="title-projects">
-              <span class="title-mane-projects">ЛЕВАШОВО<br>32%</span><br>
+              <span class="title-mane-projects">ЛЕВАШОВО<br>ДО 33% ГОДОВЫХ!</span><br>
               <!-- <span class="proz">24%</span> -->
             </div>
 
@@ -785,7 +974,7 @@
           </div>
           <div id="troiza" class="col-xl-6 projects-item hidden animation-fadeinright" data-project="4">
             <div class="title-projects" >
-              <span class="title-mane-projects">СЕРГОВО<br>32%</span><br>
+              <span class="title-mane-projects">СЕРГОВО<br>ДО 33% ГОДОВЫХ!</span><br>
               <!-- <span class="proz">28%</span> -->
             </div>
 
@@ -1068,66 +1257,40 @@
                     <option value="750000">1 300 000 рублей</option>
                     <option value="900000">1 560 000 рублей</option>
                     <option value="1050000">1 820 000 рублей</option>
-                    <!-- <option value="1200000">1200000</option>
-                    <option value="1350000">1350000</option>
-                    <option value="1500000">1500000</option> -->
                     <option value="more">Более 2 000 000 рублей</option>
                   </select>
                   <select id="househol-bot" class="hide inv-amount-bot" name="inv-amount">
                     <option value="none" selected>Сумма инвестиций</option>
-                    <option value="150000">180 000 рублей</option>
-                    <option value="300000">360 000 рублей</option>
-                    <option value="450000">540 000 рублей</option>
-                    <option value="600000">720 000 рублей</option>
-                    <option value="750000">900 000 рублей</option>
-                    <option value="900000">1 080 000 рублей</option>
-                    <option value="1050000">1 260 000 рублей</option>
-                    <!-- <option value="1200000">1200000</option>
-                    <option value="1350000">1350000</option>
-                    <option value="1500000">1500000</option> -->
-                    <option value="more">Более 1 500 000 рублей</option>
+                    <option value="150000">5 000 000 рублей</option>
+                    <option value="300000">10 000 000 рублей</option>
+                    <option value="450000">15 000 000 рублей</option>
+                    <option value="more">Более 15 000 000 рублей</option>
                   </select>
                   <select id="segrovo-bot" class="hide inv-amount-bot" name="inv-amount">
                     <option value="none" selected>Сумма инвестиций</option>
-                    <option value="150000">100 000 рублей</option>
-                    <option value="300000">200 000 рублей</option>
-                    <option value="450000">300 000 рублей</option>
-                    <option value="600000">400 000 рублей</option>
-                    <option value="750000">500 000 рублей</option>
-                    <option value="900000">600 000 рублей</option>
-                    <option value="1050000">700 000 рублей</option>
-                    <!-- <option value="1200000">1200000</option>
-                    <option value="1350000">1350000</option>
-                    <option value="1500000">1500000</option> -->
-                    <option value="more">Более 1 000 000 рублей</option>
+                    <option value="150000">241 750 рублей</option>
+                    <option value="300000">485 500 рублей</option>
+                    <option value="450000">741 250 рублей</option>
+                    <option value="600000">988 500 рублей</option>
+                    <option value="750000">1 264 750 рублей</option>
+                    <option value="900000">1 512 250 рублей</option>
+                    <option value="more">Более 1 512 250 рублей</option>
                   </select>
                   <select id="ostrov-bot" class="hide inv-amount-bot" name="inv-amount">
                     <option value="none" selected>Сумма инвестиций</option>
-                    <option value="150000">200 000 рублей</option>
-                    <option value="300000">400 000 рублей</option>
-                    <option value="450000">600 000 рублей</option>
-                    <option value="600000">800 000 рублей</option>
-                    <option value="750000">1 000 000 рублей</option>
-                    <option value="900000">1 200 000 рублей</option>
-                    <option value="1050000">1 400 000 рублей</option>
-                    <!-- <option value="1200000">1200000</option>
-                    <option value="1350000">1350000</option>
-                    <option value="1500000">1500000</option> -->
-                    <option value="more">Более 1 500 000 рублей</option>
+                    <option value="150000">2 082 000 рублей</option>
+                    <option value="300000">4 260 000 рублей</option>
+                    <option value="450000">7 292 000 рублей</option>
+                    <option value="more">Более 7 292 000 рублей</option>
                   </select>
                   <select id="levashovoo-bot" class="hide inv-amount-bot" name="inv-amount">
                     <option value="none" selected>Сумма инвестиций</option>
-                    <option value="240000"><?php  echo (1200000/5*1).' рублей';?></option>
-                    <option value="300000"><?php  echo (1200000/5*2).' рублей';?></option>
-                    <option value="450000"><?php  echo (1200000/5*3).' рублей';?></option>
-                    <option value="600000"><?php  echo (1200000/5*4).' рублей';?></option>
-                    <option value="750000"><?php  echo (1200000/5*5).' рублей';?></option>
-                    <option value="900000"><?php  echo (1200000/5*6).' рублей';?></option>
-                    <option value="1050000"><?php  echo (1200000/5*7).' рублей';?></option>
-                    <!-- <option value="1200000">1200000</option>
-                    <option value="1350000">1350000</option>
-                    <option value="1500000">1500000</option> -->
-                    <option value="more"><?php  echo 'Более '.(1200000/5*10).' рублей';?></option>
+                    <option value="1200000">240 000 рублей </option>
+                    <option value="1300000">480 000 рублей </option>
+                    <option value="1500000">720 000 рублей </option>
+                    <option value="1300000">960 000 рублей </option>
+                    <option value="1450000">1 200 000 рублей </option>
+                    <option value="1500000">Более 1 200 000 рублей </option>
                   </select>
                 </div>
               </div>
@@ -1258,10 +1421,10 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/calculator.js"></script>
-    <script src="js/scroll.js"></script>
-    <script src="js/slider.js"></script>
+    <script src="js/main.js?213122554"></script>
+    <script src="js/calculator.js?213122554"></script>
+    <script src="js/scroll.js?213122554"></script>
+    <script src="js/slider.js?213122554"></script>
     <script src="js/chartist/dist/chartist.min.js"></script>
     <script src="js/OwlCarousel/dist/owl.carousel.min.js"></script>
     <script src="js/jquery.viewportchecker.js"></script>
