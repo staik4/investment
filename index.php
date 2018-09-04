@@ -53,10 +53,10 @@
               </select>
               <select id="househol" class="hide inv-amount" name="inv-amount">
                 <option value="none" selected>Сумма инвестиций</option>
-                <option value="150000">5 000 000 рублей</option>
-                <option value="300000">10 000 000 рублей</option>
-                <option value="450000">15 000 000 рублей</option>
-                <option value="more">Более 15 000 000 рублей</option>
+                <option value="3000000">3 000 000 рублей</option>
+                <option value="6000000">6 000 000 рублей</option>
+                <option value="9000000">9 000 000 рублей</option>
+                <option value="more">Более 9 000 000 рублей</option>
               </select>
               <select id="segrovo" class="hide inv-amount" name="inv-amount">
                 <option value="none" selected>Сумма инвестиций</option>
@@ -124,12 +124,12 @@
         <div class="row">
           <div class="nav navigation-header d-flex align-items-center justify-conten-around" style="width: 100%">
             <div class="burger"><img src="img/menu-button.svg" alt=""></div>
-            <div class="logo-tip col-xl-1 col-md-2 col-2 hide">
+            <div class="logo-tip col-xl-1 col-md-1 col-sm-1 col-2 hide">
               <div class="logo-img">
                 <img src="img/logotip-white.svg" alt="Лучшее место">
               </div>
             </div>
-            <div class="navv col-xl-8 col-12">
+            <div class="navv col-xl-8 col-md-11  col-sm-11 col-12">
               <ul class="ul-nav">
                 <!-- <li class="li-nav" style="margin-left: 30px"><a href="#inv">лучшее место</a></li> -->
                 <li class="li-nav"><a style="margin-left: 30px" href="#inv">Условия инвестирования</a></li>
@@ -252,7 +252,7 @@
       <div class="container">
         <div class="row">
           <div class="unique-offer d-flex flex-column col-12">
-            <div class="unique-title">
+            <div class="unique-title title">
               <span style="color: #007282">ЧТО МЫ ПРЕДЛАГАЕМ</span>
             </div>
             <div class="investment-conditions">
@@ -271,8 +271,8 @@
                 <strong style="font-size: 26px">Мы предлагаем два способа инвестирования:</strong>
               </p>
               <ul>
-                <div class="col-xl-12 d-flex flex-wrap justify-content-center">
-                  <div class="col-xl-6 d-flex flex-column animation-fadeinleft" style="padding-right:7px;">
+                <div class="col-12 d-flex flex-wrap justify-content-center">
+                  <div id="invest-lot" class="col-xl-6 col-lg-6 col-md-6 col-12 d-flex flex-column animation-fadeinleft" style="padding-right:7px;">
                     <div class="item-desc-cond-inv">
                       <li>ПРИОБРЕТЕНИЕ ИНВЕСТИЦИОННОГО ЛОТА</li>
                       <p class="text-justify">
@@ -280,7 +280,7 @@
                       </p>
                     </div>
                   </div>
-                  <div class="col-xl-6 d-flex flex-column animation-fadeinright" style="padding-left:7px;">
+                  <div id="invest-pool" class="col-xl-6 col-lg-6 col-md-6 col-12 d-flex flex-column animation-fadeinright" style="padding-left:7px;">
                     <div class="item-desc-cond-inv">
                       <li>УЧАСТИЕ В ИНВЕСТИЦИОННОМ ПУЛЕ</li>
                       <p class="text-justify">Предложение для инвесторов, предполагающих вложить средства одного или нескольких участков инвестиционного лота. Желающие участвовать в пуле оставляют заявку с указанием суммы инвестиций, и компания подбирает партнеров для совместных инвестиций до целого лота. После формирования пула с каждым со-инвестором заключается договор купли-продажи земельного участка по цене доли со скидкой в размере 50% от ее рыночной стоимости при наличии построенной инфраструктуры.</p>
@@ -305,6 +305,7 @@
                         <p class="text-justify" style="">Как мы видим, инвестиции, которые принято считать надежными, не приносят высокого дохода и, как правило, способны лишь сохранить средства.</p>
                         <p class="text-justify" style="">На рынке существует множество предложений, обещающих высокую доходность, но всегда это связано с высоким риском (например, покупка акций, игра на курсах валют, криптовалюты и т. д.). В большинстве случаев такие инвестиции не имеют никакого реального обеспечения, а значит Вы в любой момент можете лишиться всех вложенных средств.</p>
                         <p class="text-justify" style="">Лучшее место для инвестиций - там, где обеспечивается высокий доход в сочетании с безопасностью вложений.</p>
+                        <p class="text-center" style="font-weight:bold; width: 100%; font-size: 26px">Для обеспечения Вашей уверенности мы предлагаем (в случае необходимости)  обратный выкуп земельных участков по инвестиционным проектам «Левашово» и «Сергово».</p>
                       </ul>
                     </span>
                   </div>
@@ -419,7 +420,7 @@
     <section id="projects">
       <div class="container">
         <div class="row">
-          <div class="projecs-title col-xl-12 hidden animation-fafeTop">
+          <div class="projecs-title title col-xl-12 hidden animation-fafeTop">
             <span>ИНВЕСТИЦИОННЫЕ ПРОЕКТЫ ЛУЧШЕГО МЕСТА</span>
           </div>
         </div>
@@ -430,20 +431,20 @@
           <div id="desc-holhouses" class="description-project d-flex flex-column" data-prnum="1" style="position:relative">
             <div class="item-desc-projects desc-prijects-description">
               <div class="title-desc">
-                <span class="text-center">Загородный комплекс Платов сможет приносить инвестору <br>до 25-30% годовых</span>
+                <span class="text-center">Загородный комплекс «Платов» сможет приносить инвестору <br>до 25-30% годовых</span>
               </div>
               <div id="desc-holhouse" class="text-desc">
                 <div id="" class="content-desc-pr">
                   <p class="text-justify">Загородный комплекс <b>«Платов»</b> включает 33 гектара земли в одном из самых чистых районов Подмосковья, всего в полутора часах от МКАД.</p>
                   <p class="text-justify">Здесь удалось сохранить нетронутую природу и охраняемые места миграции диких животных. Отличная экология, прозрачный воздух, благодаря близости соснового бора, и чистейшее Можайское водохранилище, протянувшееся на <em><b>40 километров!</em></b> Эти места прочно связаны со славной историей России. Бородинское поле и монастыри Можайска, расположенные неподалеку от комплекса, делают его действительно уникальным!</p>
                     <p class="text-justify">«Платов» будет представлять собой многофункциональный комплекс, состоящий из больших корпусов (всего около 250 номеров) и коттеджей. Концепция адаптируется в соответствии с историей Бородинского поля. Инфраструктура будет включать в себя открытый и закрытый бассейны, спа-центр, и другие виды развлечений . Комплекс предложит отдыхающим высокий уровень сервиса, в том числе питание по системе «все включено». Все это позволит обеспечить заполнение комплекса и будет приносить стабильную прибыль инвестору.</p>
-                  <div class="d-flex justify-content-between">
-                    <div class="img-desc-houholi col-xl-6">
+                  <div class="d-flex justify-content-between flex-wrap">
+                    <div class="img-desc-houholi col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                       <div>
                         <img src="img/desc/houseHiliday-new-min.jpg" alt="" class="img-thumbnail">
                       </div>
                     </div>
-                    <div class="col-xl-6 d-flex align-items-center">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center">
                       <span style="display:block"><p class="text-justify"><b>«Платов»</b> станет прекрасным местом для спокойного семейного времяпрепровождения с детьми или активного отдыха с друзьями, а также для проведения корпоративных мероприятий.</p></span>
                       <!-- <p style="line-height: 1.6; font-size: 18px">Создаваемая инфраструктура:
                         <ul class="">
@@ -467,7 +468,7 @@
                 <span>ПРЕИМУЩЕСТВА ПРОЕКТА</span>
               </div>
               <div id="text-advan-houholi" class="content-desc-pr">
-                  <ul>
+                  <ul class="adv-ul">
                     <li>великолепная природа;</li>
                     <li>экологическая чистота;</li>
                     <li>развитая инфраструктура;</li>
@@ -502,11 +503,11 @@
           <div id="desc-levashovos" class="description-project d-flex flex-column" data-prnum="2">
             <div id="desc-levashovo" class="content-desc-pr">
               <div class="title-desc">
-                <span>Проект Левашово - до 32-33% годовых!</span>
+                <span>Проект «Левашово» - до 32-33% годовых!</span>
               </div>
               <span><p>Дачный поселок «Левашово» – это 29,2 гектара земли, на которой
                 уже началось строительство загородных домов. Находится в Можайском районе, в уникальном месте – в первую очередь
-                благодаря Можайскому морю, расположенному всего в 400 метрах от Левашово. Жители поселка смогут наслаждаться девственной
+                благодаря Можайскому морю, расположенному всего в 400 метрах от «Левашово». Жители поселка смогут наслаждаться девственной
                  природой, дышать чистейшим воздухом и по достоинству оценить прекрасную экологию. Поселок отделен от береговой линии
                  искусственным лесопарком, в котором можно гулять в любое время года.</p></span>
               <div class="d-flex flex-wrap">
@@ -516,7 +517,7 @@
                 <div class="col-xl-6 desc-lev-part2 d-flex align-items-center">
                   <div>
                     <p>Создаваемая инфраструктура:</p>
-                    <ul>
+                    <ul class="adv-ul">
                       <li>внешнее ограждение по периметру;</li>
                       <li>дороги с твердым покрытием (щебень);</li>
                       <li>детские площадки;</li>
@@ -529,13 +530,13 @@
               <br><br>
               <p>Дачный поселок вблизи Можайского моря – идеальное место для тихого семейного отдыха вдали от
                 шумного мегаполиса с его ежедневной суетой, пробками и пылью.
-                Левашово – доступное и качественное загородное жилье в одном из лучших районов Подмосковья.</p>
+                «Левашово» – доступное и качественное загородное жилье в одном из лучших районов Подмосковья.</p>
             </div>
             <div id="adv-levashovo" class="content-desc-pr">
               <div class="title-desc">
                 <span>ПРЕИМУЩЕСТВА ПРОЕКТА</span>
               </div>
-              <ul>
+              <ul class="adv-ul">
                 <li>великолепная природа;</li>
                 <li>экологически чистое место;</li>
                 <li>близость Можайского моря;</li>
@@ -545,7 +546,7 @@
                 <li>круглосуточная охрана территории поселка;</li>
                 <li>демократичные цены.</li>
               </ul>
-              <p>Земля в Левашово – отличный вариант инвестиций в недвижимость, стоимость
+              <p>Земля в «Левашово» – отличный вариант инвестиций в недвижимость, стоимость
                 которой в ближайшие годы должна удвоиться благодаря инфраструктуре.
                 Также стоит учитывать, что Можайское направление – одно из самых популярных в Подмосковье,
                 поэтому стоимость недвижимости здесь растет быстрее, чем в целом по региону.</p>
@@ -638,7 +639,7 @@
           <div id="desc-islands" class="description-project  d-flex flex-column" data-prnum="3">
             <div id="desc-island" class="content-desc-pr">
               <div class="title-desc">
-                <span>Проект остров инвестору до 25-30% годовых!</span>
+                <span>Проект «Остров» инвестору до 25-30% годовых!</span>
               </div>
               <span>
                 <p>Проект «Остров» – это действительно остров на Большой Волге, причем всего в 130 км от МКАД! Это место находится в получасе езды от г. Дубна Московской области, но уже сейчас в районе Особой экономической зоны «Дубна» строится новый мостовой переход, который сделает «Остров» еще ближе. 42 гектара земли с естественным ограждением – береговой линией, растянувшейся на 5,5 км, представляющей собой идеальное место для прогулок. Ширина Волги в этом месте составляет 600 метров, а мимо «Острова» скользят белоснежные круизные теплоходы!
@@ -651,7 +652,7 @@
                 <div class="col-xl-6 desc-lev-part2 d-flex align-items-center">
                   <div>
                     <p>Создаваемая инфраструктура:</p>
-                    <ul>
+                    <ul class="adv-ul">
                       <!-- <li><span style="text-decoration: line-through;">внешнее ограждение по периметру</span> - ах, да, этого не нужно - Остров же!;</li> -->
                       <li>дороги с твердым покрытием (щебень);</li>
                       <li>детские площадки;</li>
@@ -707,49 +708,49 @@
                 <tr>
                   <th scope="row">1</th>
                   <td>12 557 000 &#8381;</td>
-                  <td>5</td>
+                  <td>3</td>
                   <td>2 234 000 &#8381;</td>
                   <td>4 468 000 &#8381;</td>
                 </tr>
                 <tr>
                   <th scope="row">2</th>
                   <td>9 482 000 &#8381;</td>
-                  <td>5</td>
+                  <td>3</td>
                   <td>2 094 000 &#8381;</td>
                   <td>4 188 000 &#8381;</td>
                 </tr>
                 <tr>
                   <th scope="row">3</th>
                   <td>7 292 000 &#8381;</td>
-                  <td>5</td>
+                  <td>3</td>
                   <td>2 082 000 &#8381;</td>
                   <td>4 164 000 &#8381;</td>
                 </tr>
                 <tr>
                   <th scope="row">4</th>
                   <td>7 466 000 &#8381;</td>
-                  <td>5</td>
+                  <td>3</td>
                   <td>2 094 000 &#8381;</td>
                   <td>4 188 000 &#8381;</td>
                 </tr>
                 <tr>
                   <th scope="row">5</th>
                   <td>7 760 500 &#8381;</td>
-                  <td>5</td>
+                  <td>3</td>
                   <td>2 092 500 &#8381;</td>
                   <td>4 185 000 &#8381;</td>
                 </tr>
                 <tr>
                   <th scope="row">6</th>
                   <td>9 020 500 &#8381;</td>
-                  <td>5</td>
+                  <td>3</td>
                   <td>2 202 000 &#8381;</td>
                   <td>4 404 000 &#8381;</td>
                 </tr>
                 <tr>
                   <th scope="row">7</th>
                   <td>9 491 500 &#8381;</td>
-                  <td>5</td>
+                  <td>3</td>
                   <td>2 146 500 &#8381;</td>
                   <td>4 393 000 &#8381;</td>
                 </tr>
@@ -776,7 +777,7 @@
                 <div class="col-xl-6 desc-lev-part2 d-flex align-items-center">
                   <div>
                     <p>Создаваемая инфраструктура:</p>
-                    <ul>
+                    <ul class="adv-ul">
                       <li>внешнее ограждение по периметру;</li>
                       <li>дороги с твердым покрытием;</li>
                       <li>детские площадки;</li>
@@ -796,7 +797,7 @@
               <div class="title-desc">
                 <span>ПРЕИМУЩЕСТВА ПРОЕКТА</span>
               </div>
-              <ul>
+              <ul class="adv-ul">
                 <li>магистральное газоснабжение;</li>
                 <li>электроснабжение 15 КВт на участок;</li>
                 <li>внутрипоселковые дороги с твердым покрытием на территории поселка;</li>
@@ -829,119 +830,119 @@
                 <tr>
                   <th scope="row">1</th>
                   <td>1 512 250 &#8381;</td>
-                  <td>5</td>
+                  <td>6</td>
                   <td>241 750 &#8381;</td>
                   <td>483 500 &#8381;</td>
                 </tr>
                 <tr>
                   <th scope="row">2</th>
                   <td>1 523 250 &#8381;</td>
-                  <td>5</td>
+                  <td>6</td>
                   <td>243 500 &#8381;</td>
                   <td>487 000 &#8381;</td>
                 </tr>
                 <tr>
                   <th scope="row">3</th>
                   <td>1 522 750 &#8381;</td>
-                  <td>5</td>
+                  <td>6</td>
                   <td>243 250 &#8381;</td>
                   <td>486 500 &#8381;</td>
                 </tr>
                 <tr>
                   <th scope="row">4</th>
                   <td>1 522 500 &#8381;</td>
-                  <td>5</td>
+                  <td>6</td>
                   <td>243 000 &#8381;</td>
                   <td>486 000 &#8381;</td>
                 </tr>
                 <tr>
                   <th scope="row">5</th>
                   <td>1 522 750 &#8381;</td>
-                  <td>5</td>
+                  <td>6</td>
                   <td>243 000 &#8381;</td>
                   <td>486 000 &#8381;</td>
                 </tr>
                 <tr>
                   <th scope="row">6</th>
                   <td>1 522 750 &#8381;</td>
-                  <td>5</td>
+                  <td>6</td>
                   <td>242 750 &#8381;</td>
                   <td>485 500 &#8381;</td>
                 </tr>
                 <tr>
                   <th scope="row">7</th>
                   <td>1 523 000 &#8381;</td>
-                  <td>5</td>
+                  <td>6</td>
                   <td>242 750 &#8381;</td>
                   <td>485 500 &#8381;</td>
                 </tr>
                 <tr>
                   <th scope="row">8</th>
                   <td>1 523 000 &#8381;</td>
-                  <td>5</td>
+                  <td>6</td>
                   <td>242 250 &#8381;</td>
                   <td>484 500 &#8381;</td>
                 </tr>
                 <tr>
                   <th scope="row">9</th>
                   <td>1 523 250 &#8381;</td>
-                  <td>5</td>
+                  <td>6</td>
                   <td>242 250 &#8381;</td>
                   <td>484 500 &#8381;</td>
                 </tr>
                 <tr>
                   <th scope="row">10</th>
                   <td>1 522 750 &#8381;</td>
-                  <td>5</td>
+                  <td>6</td>
                   <td>242 000 &#8381;</td>
                   <td>484 000 &#8381;</td>
                 </tr>
                 <tr>
                   <th scope="row">11</th>
                   <td>1 523 000 &#8381;</td>
-                  <td>5</td>
+                  <td>6</td>
                   <td>242 000 &#8381;</td>
                   <td>484 000 &#8381;</td>
                 </tr>
                 <tr>
                   <th scope="row">12</th>
                   <td>1 555 750 &#8381;</td>
-                  <td>5</td>
+                  <td>6</td>
                   <td>224 250 &#8381;</td>
                   <td>448 500 &#8381;</td>
                 </tr>
                 <tr>
                   <th scope="row">13</th>
                   <td>1 512 750 &#8381;</td>
-                  <td>5</td>
+                  <td>6</td>
                   <td>241 750 &#8381;</td>
                   <td>483 500 &#8381;</td>
                 </tr>
                 <tr>
                   <th scope="row">14</th>
                   <td>1 523 000 &#8381;</td>
-                  <td>5</td>
+                  <td>6</td>
                   <td>244 000 &#8381;</td>
                   <td>488 000 &#8381;</td>
                 </tr>
                 <tr>
                   <th scope="row">15</th>
                   <td>1 522 750 &#8381;</td>
-                  <td>5</td>
+                  <td>6</td>
                   <td>244 250 &#8381;</td>
                   <td>488 500 &#8381;</td>
                 </tr>
                 <tr>
                   <th scope="row">16</th>
                   <td>1 522 250 &#8381;</td>
-                  <td>5</td>
+                  <td>6</td>
                   <td>244 250 &#8381;</td>
                   <td>488 500 &#8381;</td>
                 </tr>
                 <tr>
                   <th scope="row">17</th>
                   <td>1 522 750 &#8381;</td>
-                  <td>5</td>
+                  <td>6</td>
                   <td>243 500 &#8381;</td>
                   <td>487 000 &#8381;</td>
                 </tr>
@@ -1261,10 +1262,10 @@
                   </select>
                   <select id="househol-bot" class="hide inv-amount-bot" name="inv-amount">
                     <option value="none" selected>Сумма инвестиций</option>
-                    <option value="150000">5 000 000 рублей</option>
-                    <option value="300000">10 000 000 рублей</option>
-                    <option value="450000">15 000 000 рублей</option>
-                    <option value="more">Более 15 000 000 рублей</option>
+                    <option value="30000000">3 000 000 рублей</option>
+                    <option value="60000000">6 000 000 рублей</option>
+                    <option value="90000000">9 000 000 рублей</option>
+                    <option value="more">Более 9 000 000 рублей</option>
                   </select>
                   <select id="segrovo-bot" class="hide inv-amount-bot" name="inv-amount">
                     <option value="none" selected>Сумма инвестиций</option>
@@ -1307,8 +1308,8 @@
           <div class="adv-of-us hidden animation-fadeinUp">
             <h1>Ключевые преимущества нашего предложения:</h1>
             <div class="col-12">
-              <ul>
-                <li><strong>Реальное обеспечение инвестиций</strong> – Вы приобретаете участок земли (апартамент), который сразу оформляется в Вашу собственность.</li>
+              <ul class="col-12">
+                <li><strong>Реальное обеспечение инвестиций</strong> – Вы приобретаете участок земли (апартамент),> который сразу оформляется в Вашу собственность.</li>
                 <li><strong>Защита от инфляции</strong> – в отличие от бумажных денег, предложение земли ограничено и, как правило, земля только растет в цене.</li>
                 <li><strong>Высокая доходность</strong> – создание инфраструктуры в поселках значительно повысит стоимость Вашей земли.</li>
                 <li><strong>Надежный партнер</strong> – компания «Лучшее место» работает с 2010 года, обладает значительным реальным опытом и имеет успешно реализованные проекты коттеджных поселков.</li>
@@ -1322,7 +1323,7 @@
     <section id="about-us">
       <div class="container">
         <div class="row">
-          <div class="title-about-us col-xl-12">
+          <div class="title-about-us col-xl-12 title">
             <span>О НАС</span>
           </div>
           <div class="text-about-us col-xl-12 animation-fadeinleft">
@@ -1347,14 +1348,14 @@
             </div> -->
           </div>
           <div class="col-xl-5 text-partnet-about-us animation-fadeinright delay-3s" style="margin-top: 30px;"><span>Среди партнеров «Лучшего Места» – ведущие финансовые и риелторские компании, включая ОАО «Сбербанк России», ЗАО "Ким и Партнеры"(cтроительный, технологический и ценовой аудит) и другие.</span></div>
-          <div class="col-xl-5 text-land animation-fadeinleft delay-4s">
+          <div class="col-xl-5 text-land animation-fadeinleft delay-3s">
             <span>Собственный земельный банк компании «Лучшее Место» составляет 184 га земли для ИЖС и дачного строительства, включая 6 коттеджных поселков: Лукоморье, Семиречье, Левашово, Речной, Царские берега и Сергово. Степень готовности коммуникаций в этих поселках – от 30 до 100 %, степень реализации участков – от 15 до 90 %. Общий объем реализации на данный момент – свыше 68 га.</span>
           </div>
           <div class="col-xl-7" style="margin-top: 30px;">
-            <img class="img-thumbnail animation-fadeinright delay-5s" src="img/aboutus/land.jpg" alt="" style="width: 100%;">
+            <img class="img-thumbnail animation-fadeinright delay-4s" src="img/aboutus/land.jpg" alt="" style="width: 100%;">
           </div>
 
-          <div class="col-xl-12 end-about-us animation-bounceInDown delay-6s">
+          <div class="col-xl-12 end-about-us animation-bounceInDown delay-4s">
             <span>
               Штат компании составляют квалифицированные сотрудники, обладающие значительным опытом в девелопменте, включая строительство, маркетинг и продажи. Благодаря долгосрочным партнерским отношениям с производителями оборудования и стройматериалов, а также наличию собственной строительной техники компания реализует поставленные задачи в установленные сроки в рамках стратегии и запланированного бюджета. <a class="a-mod-web" href="">Оставьте заявку</a> на получение дополнительной информации о наших проектах и условиях инвестирования прямо сейчас! Количество инвестиционных лотов ограничено!
             </span>
@@ -1415,7 +1416,11 @@
               </div>
             </div>
           </div> -->
-          <div class="footer-slogan"><span>Лучшее место для Ваших инвестиций!</span></div>
+          <div class="footer-slogan">
+            <span>Лучшее место для Ваших инвестиций!</span>
+
+          </div>
+          <span class="copyright">&copy; 2018 Не является публичной офертой.</span>
         </div>
       </div>
     </footer>

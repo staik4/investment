@@ -1436,8 +1436,83 @@ g {
     width: 25px; }
 
   .feedback-form button {
-    width: 300px !important; } }
+    width: 300px !important; }
+
+  .title-desc span {
+    font-size: 20px !important; } }
+@media screen and (max-width: 1100px) {
+  .logo-img {
+    text-align: center; }
+    .logo-img img {
+      width: 60px; }
+
+  .ul-nav {
+    display: flex;
+    justify-content: space-around; }
+
+  .head-contacts {
+    display: none; } }
+@media screen and (max-width: 990px) {
+  .slogan_1 {
+    background-image: url(../img/house-slider.jpg);
+    background-size: cover; }
+
+  .slogan_2 {
+    background-image: url(../img/levashovo-min.jpg);
+    background-size: cover; }
+
+  .slogan_3 {
+    background-image: url(../img/earth-min.jpg);
+    background-size: cover; }
+
+  .slogan_4 {
+    background-image: url(../img/earth-2-min.jpg);
+    background-size: cover; }
+
+  .slide-item {
+    height: 300px; }
+
+  .item-desc-cond-inv p {
+    font-size: 14px; } }
+@media screen and (max-width: 770px) {
+  .adv-ul li {
+    font-size: 14px !important; }
+
+  .ul-nav {
+    display: flex;
+    justify-content: space-between; }
+    .ul-nav .li-nav a {
+      font-size: 14px;
+      margin: 0 !important; }
+
+  th, td {
+    font-size: 10px !important; }
+
+  .logo-img {
+    margin: 0 !important; }
+    .logo-img img {
+      width: 35px; }
+
+  #invest-pool {
+    padding-left: 15px !important;
+    margin-top: 14px; }
+
+  #invest-lot {
+    padding-right: 15px !important; }
+
+  .feedback-form div input:last-child {
+    margin-bottom: 25px !important; } }
 @media screen and (max-width: 500px) {
+  .slogan {
+    width: 100px !important;
+    height: 100px; }
+
+  .description-project {
+    padding: 10px !important; }
+
+  th, td {
+    font-size: 8px !important; }
+
   p {
     font-size: 12px !important; }
 
@@ -1445,12 +1520,11 @@ g {
     font-size: 12px !important; }
 
   li {
-    font-size: 12px !important; }
+    font-size: 18px !important; }
 
   .feedback-form .inp-feedback-form div input {
     width: 270px; }
   .feedback-form .inp-feedback-form div textarea {
-    margin-top: 25px;
     width: 270px;
     height: 100px; }
   .feedback-form #form-select .choose-projects-bot {
@@ -1459,6 +1533,58 @@ g {
     width: 270px; }
   .feedback-form button {
     width: 170px !important; } }
+@media screen and (max-width: 500px) {
+  .form-popup {
+    display: flex;
+    justify-content: center; }
+    .form-popup .feedback-form-popup {
+      width: 90%; }
+      .form-popup .feedback-form-popup input, .form-popup .feedback-form-popup select, .form-popup .feedback-form-popup textarea {
+        width: 95%; }
+      .form-popup .feedback-form-popup select option {
+        width: 95% !important; }
+      .form-popup .feedback-form-popup button {
+        width: 70%; }
+
+  .real-mod-web .close-btn-mod-web {
+    right: 25px !important; }
+
+  .investment-conditions p {
+    text-indent: 0; }
+
+  .additional-description-cond-invest span h2 {
+    font-size: 20px; }
+  .additional-description-cond-invest span ul li {
+    font-size: 14px !important; }
+
+  .title {
+    height: 50px; }
+    .title span {
+      font-size: 20px !important;
+      align-items: center !important;
+      height: 40px; }
+
+  #projects {
+    margin: 0; }
+
+  .title-desc-investment span {
+    font-size: 20px !important; }
+
+  .investment-conditions p strong {
+    font-size: 20px !important; }
+
+  .adv-of-us h1 {
+    font-size: 20px !important; }
+  .adv-of-us div ul li {
+    font-size: 14px !important; }
+    .adv-of-us div ul li strong {
+      font-size: 14px !important; }
+
+  .end-about-us span {
+    font-size: 14px !important; }
+
+  .title-about-us {
+    margin: 15px 0 0 0; } }
 /*=====================animate===================== */
 @-webkit-keyframes fadeInSlogan {
   0% {
@@ -1549,5 +1675,13 @@ g {
   background-color: #3498db;
   transition: all 200ms ease-out 0s;
   box-sizing: border-box; }
+
+.copyright {
+  position: absolute;
+  color: white;
+  font-size: 14px !important;
+  right: 30px;
+  bottom: 10px;
+  display: block; }
 
 /*# sourceMappingURL=style.css.map */
