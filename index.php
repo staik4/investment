@@ -13,6 +13,33 @@
     <!-- <link rel="stylesheet" href="js/chartist/dist/chartist.min.css"> -->
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="js\OwlCarousel\dist\assets\owl.carousel.min.css">
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" tppabs="https://new.bestmesto.ru/port7/favicons/favicon-32x32.png" sizes="32x32">
+    <script type="text/javascript" >
+	    (function (d, w, c) {
+	        (w[c] = w[c] || []).push(function() {
+	            try {
+	                w.yaCounter50329801 = new Ya.Metrika2({
+	                    id:50329801,
+	                    clickmap:true,
+	                    trackLinks:true,
+	                    accurateTrackBounce:true,
+	                    webvisor:true
+	                });
+	            } catch(e) { }
+	        });
+
+	        var n = d.getElementsByTagName("script")[0],
+	            s = d.createElement("script"),
+	            f = function () { n.parentNode.insertBefore(s, n); };
+	        s.type = "text/javascript";
+	        s.async = true;
+	        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+	        if (w.opera == "[object Opera]") {
+	            d.addEventListener("DOMContentLoaded", f, false);
+	        } else { f(); }
+	    })(document, window, "yandex_metrika_callbacks2");
+	</script>
   </head>
   <body>
     <div class="arrow-top hide"><img src="img/arrow-up.svg" alt=""></div>
@@ -37,7 +64,7 @@
                 <option value="Остров">Остров</option>
                 <option value="Сергово">Сергово</option>
               </select>
-              <select id="common" class="inv-amount" name="inv-amount">
+              <select id="common" class="inv-amount" name="inv-amount-сommon">
                 <option value="none" selected>Сумма инвестиций</option>
                 <option value="150000">260 000 рублей</option>
                 <option value="300000">520 000 рублей</option>
@@ -51,14 +78,14 @@
                 <option value="1500000">1500000</option> -->
                 <option value="more">Более 2 000 000 рублей</option>
               </select>
-              <select id="househol" class="hide inv-amount" name="inv-amount">
+              <select id="househol" class="hide inv-amount" name="inv-amount-househol">
                 <option value="none" selected>Сумма инвестиций</option>
                 <option value="3000000">3 000 000 рублей</option>
                 <option value="6000000">6 000 000 рублей</option>
                 <option value="9000000">9 000 000 рублей</option>
                 <option value="more">Более 9 000 000 рублей</option>
               </select>
-              <select id="segrovo" class="hide inv-amount" name="inv-amount">
+              <select id="segrovo" class="hide inv-amount" name="inv-amount-sergovo">
                 <option value="none" selected>Сумма инвестиций</option>
                 <option value="150000">241 750 рублей</option>
                 <option value="300000">485 500 рублей</option>
@@ -71,7 +98,7 @@
                 <option value="1500000">1500000</option> -->
                 <option value="more">Более 1 512 250 рублей</option>
               </select>
-              <select id="ostrov" class="hide inv-amount" name="inv-amount">
+              <select id="ostrov" class="hide inv-amount" name="inv-amount-istrov">
                 <option value="none" selected>Сумма инвестиций</option>
                 <option value="150000">2 082 000 рублей</option>
                 <option value="300000">4 260 000 рублей</option>
@@ -85,7 +112,7 @@
                 <option value="1500000">1500000</option> -->
                 <option value="more">Более 7 292 000 рублей</option>
               </select>
-              <select id="levashovoo" class="hide inv-amount" name="inv-amount">
+              <select id="levashovoo" class="hide inv-amount" name="inv-amount-levasovo">
                 <option value="none" selected>Сумма инвестиций</option>
                 <option value="1200000">240 000 рублей </option>
                 <option value="1300000">480 000 рублей </option>
@@ -100,9 +127,9 @@
                 <option value="1500000">1500000</option> -->
 
               </select>
-              <input placeholder="Ваш телефон" class="feedback-item" type="tel" name="tel" value="">
-              <textarea placeholder="введите сообщение" class="feedback" name="name" rows="8" cols="15"></textarea>
-              <button class="feedback-item" type="submit" name="submit" value="" disabled="true">ОТПРАВИТЬ</button>
+              <input placeholder="Ваш телефон" class="feedback-item tel-form" type="tel" name="tel" value="">
+              <textarea placeholder="введите сообщение" class="feedback" name="message" rows="8" cols="15"></textarea>
+              <button class="feedback-item" type="submit" name="submit" value="">ОТПРАВИТЬ</button>
             </form>
           </div>
         </div>
@@ -142,7 +169,7 @@
 
             </div>
             <div class="col-xl-4 head-contacts">
-              <div class="tel d-flex justify-content-center"><img src="img/telephone.svg" alt="phone" style="width: 22px; height: 22px; margin: 0 10px 0 0; cursor: pointer"><span style="font-size: 22px; font-weight: bold; font-family:BebasNeueRegular; letter-spacing: 2px;">+7(495)-369-3235</span></div>
+              <div class="tel d-flex justify-content-center"><img src="img/telephone.svg" alt="phone" style="width: 22px; height: 22px; margin: 0 10px 0 0; cursor: pointer"><span style="font-size: 22px; font-weight: bold; font-family:BebasNeueRegular; letter-spacing: 2px;">+7(495)-741-1429</span></div>
             </div>
           </div>
         </div>
@@ -198,7 +225,7 @@
                   <div class="layout-slogan"></div>
                   <span>Ваши вложения =<br>
                         Ваша собственность =<br>
-                        Ваш доход до 40% годовых!
+                        Ваш доход до 35% годовых!
                   </span>
                 </div>
               </div>
@@ -256,7 +283,7 @@
               <span style="color: #007282">ЧТО МЫ ПРЕДЛАГАЕМ</span>
             </div>
             <div class="investment-conditions">
-              <p class="text-justify hidden animation-fafeTop">Компания «Лучшее Место» предлагает различные варианты инвестирования в недвижимость Подмосковья (уникальные участки в Можайском районе, на берегах рек и Можайского водохранилища, а также на границе Московской области, на берегу р.Волга) с доходностью до 40% годовых.<p>
+              <p class="text-justify hidden animation-fafeTop">Компания «Лучшее Место» предлагает различные варианты инвестирования в недвижимость Подмосковья (уникальные участки в Можайском районе, на берегах рек и Можайского водохранилища, а также на границе Московской области, на берегу р.Волга) с доходностью до 35% годовых.<p>
 
               <p class="text-justify hidden animation-fafeTop">Вы приобретаете лот из нескольких земельных участков (или участок в этом лоте) с дисконтом 50% от розничной цены. Мы строим дороги в поселке, устанавливаем ТП и подводим электричество, строим ограждение периметра, входную группу и помещение охраны, оборудуем места для отдыха и прогулок. После этого мы продаем Вашу землю конечным покупателям.</p>
               <p class="text-justify hidden animation-fafeTop">
@@ -1212,16 +1239,16 @@
         <div class="row d-flex justify-content-center align-items-center">
           <div class="form hidden animation-bounceInDown">
 
-            <form class="d-flex flex-column feedback-form" action="">
+            <form id="feedback-form" class="d-flex flex-column feedback-form" action="" method="post">
               <span>Напишите нам, если Вы уже выбрали интересующий Вас проект для инвестирования или если у Вас появились вопросы</span>
               <div class="inp-feedback-form d-flex align-items-around justify-content-center flex-wrap ">
                 <div class="col-xl-6 d-flex flex-column align-items-center justify-content-between">
-                  <input placeholder="Ваше имя" class="feedback-item" type="text" name="name" value="">
-                  <input placeholder="Ваш email" class="feedback-item" type="email" name="email" value="">
-                  <input placeholder="Ваш телефон" class="feedback-item" type="tel" name="tel" value="" style="margin-bottom: 0;">
+                  <input placeholder="Ваше имя" class="feedback-item" type="text" name="name" required>
+                  <input placeholder="Ваш email" class="feedback-item" type="email" name="email" required>
+                  <input placeholder="Ваш телефон" class="feedback-item tel-form" type="tel" name="tel" style="margin-bottom: 0;" required>
                 </div>
                 <div class="col-xl-6 d-flex justify-content-center">
-                  <textarea placeholder="Введите текст" name="name" rows="8" cols="13"></textarea>
+                  <textarea placeholder="Введите текст" name="message" rows="8" cols="13"></textarea>
                 </div>
               </div>
               <div id="form-select" class="d-flex flex-wrap" style="width: 100%">
@@ -1249,7 +1276,7 @@
                     <option value="1500000">1500000</option> -->
                     <!-- <option value="more">Более 2 000 000 рублей</option> -->
                   <!-- </select> -->
-                  <select id="common-bot" class="inv-amount-bot" name="inv-amount">
+                  <select id="common-bot" class="inv-amount-bot" name="inv-amount-common">
                     <option value="none" selected>Сумма инвестиций</option>
                     <option value="150000">260 000 рублей</option>
                     <option value="300000">520 000 рублей</option>
@@ -1260,14 +1287,14 @@
                     <option value="1050000">1 820 000 рублей</option>
                     <option value="more">Более 2 000 000 рублей</option>
                   </select>
-                  <select id="househol-bot" class="hide inv-amount-bot" name="inv-amount">
+                  <select id="househol-bot" class="hide inv-amount-bot" name="inv-amount-househol">
                     <option value="none" selected>Сумма инвестиций</option>
                     <option value="30000000">3 000 000 рублей</option>
                     <option value="60000000">6 000 000 рублей</option>
                     <option value="90000000">9 000 000 рублей</option>
                     <option value="more">Более 9 000 000 рублей</option>
                   </select>
-                  <select id="segrovo-bot" class="hide inv-amount-bot" name="inv-amount">
+                  <select id="segrovo-bot" class="hide inv-amount-bot" name="inv-amount-sergovo">
                     <option value="none" selected>Сумма инвестиций</option>
                     <option value="150000">241 750 рублей</option>
                     <option value="300000">485 500 рублей</option>
@@ -1277,14 +1304,14 @@
                     <option value="900000">1 512 250 рублей</option>
                     <option value="more">Более 1 512 250 рублей</option>
                   </select>
-                  <select id="ostrov-bot" class="hide inv-amount-bot" name="inv-amount">
+                  <select id="ostrov-bot" class="hide inv-amount-bot" name="inv-amount-istrov">
                     <option value="none" selected>Сумма инвестиций</option>
                     <option value="150000">2 082 000 рублей</option>
                     <option value="300000">4 260 000 рублей</option>
                     <option value="450000">7 292 000 рублей</option>
                     <option value="more">Более 7 292 000 рублей</option>
                   </select>
-                  <select id="levashovoo-bot" class="hide inv-amount-bot" name="inv-amount">
+                  <select id="levashovoo-bot" class="hide inv-amount-bot" name="inv-amount-levasovo">
                     <option value="none" selected>Сумма инвестиций</option>
                     <option value="1200000">240 000 рублей </option>
                     <option value="1300000">480 000 рублей </option>
@@ -1295,7 +1322,7 @@
                   </select>
                 </div>
               </div>
-                <button class="feedback-item" type="submit" name="submit" value="" disabled="true">ОТПРАВИТЬ</button>
+                <button class="feedback-item" type="submit" name="submit" value="">ОТПРАВИТЬ</button>
 
             </form>
           </div>
@@ -1375,12 +1402,12 @@
               <div class="layout-contacts"></div>
               <div class="content-contacts d-flex flex-wrap">
                 <span class="content-contacts-item adress-organization">Адрес: Россия г. Москва, ул. Алабяна, д. 12, корп. 3</span>
-                <div class="d-flex flex-column justify-contetn-around">
+                <div class="d-flex flex-column justify-contetn-around flex-wrap">
                   <span class="content-contacts-item name-organization">ООО "ЛУЧШЕЕ МЕСТО"</span>
-                  <span class="content-contacts-item email-organization">info@bestmesto.ru</span>
+                  <span class="content-contacts-item email-organization">inv-bestmesto@gmail.com</span>
                 </div>
 
-                <span class="content-contacts-item lel-phone">+7(495)-999-5533</span>
+                <span class="content-contacts-item lel-phone">+7(495)-741-1429</span>
               </div>
             </div>
             <div class="location" style="height: 426px;">
@@ -1433,5 +1460,8 @@
     <script src="js/chartist/dist/chartist.min.js"></script>
     <script src="js/OwlCarousel/dist/owl.carousel.min.js"></script>
     <script src="js/jquery.viewportchecker.js"></script>
+    <script src="js/mail.js"></script>
+    <script src="js/inputmask/dist/jquery.inputmask.bundle.js"></script>
+
   </body>
 </html>

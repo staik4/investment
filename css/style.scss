@@ -1851,6 +1851,7 @@ g {
 .footer-slogan {
   width: 100%;
   display: flex;
+  margin-bottom: 10px;
   span {
     font-size: 32px;
     font-family: $title-font;
@@ -1886,6 +1887,111 @@ g {
 }
 .burger {
   display: none;
+}
+
+@media screen and(max-width: 1200px){
+  .content-contacts-item {
+    display: block;
+    font-size: 18px !important;
+  }
+}
+@media screen and(max-width: 1100px) {
+  .logo-img {
+    text-align: center;
+    img {
+      width: 60px;
+    }
+  }
+
+  .ul-nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .head-contacts {
+    display: none;
+  }
+}
+
+
+@media screen and(max-width: 1000px){
+  .content-contacts-item {
+    display: block;
+    font-size: 18px !important;
+    // flex-basis: 400px
+  }
+
+  .content-contacts-item {
+    &:before {
+      width: 20px;
+      height: 20px;
+      background-size: 20px 20px;
+      margin-left: -30px;
+      top: calc(50% - 10px);
+    }
+  }
+
+  .adress-organization {
+    width: 250px;
+  }
+}
+
+@media screen and(max-width: 990px) {
+  .slogan_1 {
+    background-image: url(../img/house-slider.jpg);
+    background-size: cover;
+    // background-color: red;
+
+  }
+
+  .slogan_2 {
+    background-image: url(../img/levashovo-min.jpg);
+    background-size: cover;
+    // background-color: green;
+
+  }
+
+  .slogan_3 {
+    background-image: url(../img/earth-min.jpg);
+    background-size: cover;
+    // background-color: orange;
+
+  }
+
+  .slogan_4 {
+    background-image: url(../img/earth-2-min.jpg);
+    background-size: cover;
+    // background-color: brown;
+
+  }
+
+  .slide-item {
+    height: 300px;
+  }
+
+  .item-desc-cond-inv {
+    p {
+      font-size: 14px;
+    }
+  }
+}
+
+@media screen and(max-width: 800px){
+  .content-contacts-item {
+    font-size: 14px !important;
+    // flex-basis: 400px
+  }
+
+  .adress-organization {
+    width: 160px;
+  }
+
+  .adress-organization {
+    padding-left: 5px;
+    &:before {
+      margin-left: -20px;
+    }
+  }
 }
 
 @media screen and(max-width: 700px){
@@ -1978,64 +2084,6 @@ g {
   .title-desc {
     span {
       font-size: 20px !important;
-    }
-  }
-}
-
-@media screen and(max-width: 1100px) {
-  .logo-img {
-    text-align: center;
-    img {
-      width: 60px;
-    }
-  }
-
-  .ul-nav {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .head-contacts {
-    display: none;
-  }
-}
-
-@media screen and(max-width: 990px) {
-  .slogan_1 {
-    background-image: url(../img/house-slider.jpg);
-    background-size: cover;
-    // background-color: red;
-
-  }
-
-  .slogan_2 {
-    background-image: url(../img/levashovo-min.jpg);
-    background-size: cover;
-    // background-color: green;
-
-  }
-
-  .slogan_3 {
-    background-image: url(../img/earth-min.jpg);
-    background-size: cover;
-    // background-color: orange;
-
-  }
-
-  .slogan_4 {
-    background-image: url(../img/earth-2-min.jpg);
-    background-size: cover;
-    // background-color: brown;
-
-  }
-
-  .slide-item {
-    height: 300px;
-  }
-
-  .item-desc-cond-inv {
-    p {
-      font-size: 14px;
     }
   }
 }
@@ -2147,6 +2195,44 @@ g {
 }
 
 @media screen and(max-width: 500px) {
+
+  .content-contacts-item {
+    font-size: 14px !important;
+    // margin-left: 20px;
+    padding: 0 5px 0 5px;
+  }
+
+  .contacts {
+    height: 30%;
+    flex-direction: column;
+  }
+
+  .content-contacts {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0 10px 0;
+  }
+
+  .content-contacts-item {
+    margin-left: 50px;
+  }
+
+  .adress-organization:before {
+    margin-left: -30px;
+  }
+
+  .lel-phone {
+    margin-top: 3px;
+
+    &:before {
+      width: 15px;
+      height: 15px;
+      background-size: 15px 15px;
+      margin-left: -26px;
+      top: calc(50% - 7.5px);
+    }
+  }
+
   .form-popup {
     display: flex;
     justify-content: center;
