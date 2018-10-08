@@ -45,6 +45,7 @@ $(document).ready(function(){
     4: 'desc-sergovos'
   }
   $(".close-btn-pr").click(function(){
+    $('body').css({'overflow':'auto'});
     // console.log('asd');
     // console.log($(".projects-item").scrollTop());
     // console.log('asd');
@@ -71,7 +72,7 @@ $(document).ready(function(){
     $(that).on('click', function(){
       // console.log($(that).data("project"));
       let idDesc = dObDescPr[$(that).data("project")];
-
+      $('body').css({'overflow':'hidden'});
       // console.log(scrollDesc);
 
       let numOfPr = $(that).data("project");
@@ -94,7 +95,7 @@ $(document).ready(function(){
         // console.log("+",g);
         $(".description-project[data-prnum='"+$(that).data("project")+"']").css({"top":g});
         $(".close-btn-pr").css({"top":g+20});
-      }
+      };
 
       $('.img-gen-plan').removeClass('hide');
       $('.description-project').children().removeClass('hide');
@@ -141,6 +142,7 @@ $(document).ready(function(){
       $('.description-project').addClass('hide');
       $('.img-gen-plan').addClass('hide');
       $(".close-btn-pr").css({"display":"none"});
+      $('body').css({"overflow":"auto"});
     };
     if(!$(e.target).closest(modWeb).length) {
       $('.mod-web').css({"display":"none"});
@@ -202,13 +204,13 @@ $(document).ready(function(){
     // console.log("asd",$('footer').offset().top);
     BackGround.css({"display":"block"});
     // console.log('a-click');
-    $('.mod-web').css({"display":"flex"})
+    $('.mod-web').css({"display":"flex"});
     $('.real-mod-web').css({"display":"flex", "top": OffsetModWeb});
-    $('.close-btn-mod-web').css({"display":"flex"})
+    $('.close-btn-mod-web').css({"display":"flex"});
   });
 
   $('.close-btn-mod-web').click(function(){
-    $("span.choose-pr").css({"display": "block"})
+    $("span.choose-pr").css({"display": "block"});
     $('.choose-projects').css({"display":"none","opacity":'0'});
 
     $('.mod-web').fadeOut('slow', function(){
