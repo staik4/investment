@@ -9,6 +9,7 @@ $(document).ready(function(){
     "10":"7",
     "15":"8 ",
   };
+  
   let series = [[
   ],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]];
   let valueOfInsvest =3000000;
